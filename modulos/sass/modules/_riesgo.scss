@@ -1,0 +1,9 @@
+.Restricciones, .QuestionList {
+  &-item {
+    i {
+      @extend .hide-text;
+      display: inline-block;
+
+    }
+  }
+}

@@ -1,0 +1,15 @@
+// Before Styles
+@import "before/materialize.min";
+/*@import "before/style";
+@import "before/styleGlosario";
+@import "before/styleModulos*/
+// Config
+@import "config/fonts";
+@import "config/variables";
+@import "config/typography";
+@import "config/sprites";
+@import "config/utils";
+
+//Modulos
+@import "modules/riesgo";
+

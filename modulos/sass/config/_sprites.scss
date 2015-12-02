@@ -1,0 +1,7 @@
+@import "sprites/restricciones/*.png";
+$restricciones-sprite-dimensions: true;
+@include all-restricciones-sprites;
+
+@import "sprites/neon/*.png";
+$neon-sprite-dimensions: true;
+@include all-neon-sprites;
