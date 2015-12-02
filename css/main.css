@@ -12167,16 +12167,21 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-family: 'OpenSans-Regular';
   src: url("../fonts/OpenSans-Regular.eot?") format("eot"), url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular.svg#OpenSans-Regular") format("svg");
 }
-/* line 1, ../modulos/sass/config/_typography.scss */
+/* line 4, ../modulos/sass/config/_typography.scss */
 nav ul a {
   font-family: 'BebasNeue', arial;
   font-size: 2em;
   font-size: 1.7em;
 }
 
-/* line 7, ../modulos/sass/config/_typography.scss */
+/* line 10, ../modulos/sass/config/_typography.scss */
 a {
   display: inline-block;
+}
+
+/* line 14, ../modulos/sass/config/_typography.scss */
+p {
+  font-family: OpenSans-Regular, sans-serif;
 }
 
 /* line 72, sprites/restricciones/*.png */
@@ -12275,7 +12280,86 @@ a {
   overflow: hidden;
 }
 
+/* line 6, ../modulos/sass/config/_utils.scss */
+.fix-height {
+  overflow: hidden;
+}
+
+/* line 9, ../modulos/sass/config/_utils.scss */
+.nomrg-vert, .TextHead, .QuestionList {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+/* BACKGROUNDS */
+/* line 14, ../modulos/sass/config/_utils.scss */
+.bgcyan-light {
+  background: #7FB9D3;
+  color: #FFFFFF;
+}
+
+/* line 18, ../modulos/sass/config/_utils.scss */
+.bgcyan-strong {
+  background: #589999;
+  color: #FFFFFF;
+}
+
 /* line 3, ../modulos/sass/modules/_riesgo.scss */
 .Restricciones-item i, .QuestionList-item i {
   display: inline-block;
+}
+
+/* line 12, ../modulos/sass/modules/_riesgo.scss */
+.TextHead {
+  font-size: 17px;
+  min-height: 150px;
+  position: relative;
+}
+/* line 18, ../modulos/sass/modules/_riesgo.scss */
+.TextHead-md {
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.2em;
+  position: absolute;
+  bottom: 10%;
+}
+/* line 24, ../modulos/sass/modules/_riesgo.scss */
+.TextHead-md strong {
+  font-size: 1.133333333em;
+  font-weight: inherit;
+}
+
+/* line 33, ../modulos/sass/modules/_riesgo.scss */
+.QuestionList div {
+  margin: 40px 0px;
+}
+/* line 36, ../modulos/sass/modules/_riesgo.scss */
+.QuestionList > div:first-child {
+  border-right: 3px dashed #FFFFFF;
+}
+/* line 39, ../modulos/sass/modules/_riesgo.scss */
+.QuestionList > div:last-child {
+  margin-top: 105px;
+}
+/* line 42, ../modulos/sass/modules/_riesgo.scss */
+.QuestionList-item {
+  padding: 0px 8px;
+  margin-top: 40px;
+  margin-bottom: 12px;
+}
+/* line 47, ../modulos/sass/modules/_riesgo.scss */
+.QuestionList-item:first-child {
+  margin-top: 0px;
+}
+/* line 51, ../modulos/sass/modules/_riesgo.scss */
+.QuestionList i {
+  float: left;
+}
+/* line 54, ../modulos/sass/modules/_riesgo.scss */
+.QuestionList h3 {
+  float: right;
+}
+/* line 56, ../modulos/sass/modules/_riesgo.scss */
+.QuestionList h3 span {
+  display: block;
 }

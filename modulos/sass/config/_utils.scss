@@ -3,3 +3,19 @@
   white-space: nowrap;
   overflow: hidden;
 }
+.fix-height {
+  overflow: hidden;
+}
+.nomrg-vert {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+/* BACKGROUNDS */
+.bgcyan-light {
+  background: $bgcyan-light;
+  color: $white;
+}
+.bgcyan-strong {
+  background: $bgcyan-strong;
+  color: $white;
+}

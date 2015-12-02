@@ -7,3 +7,54 @@
     }
   }
 }
+
+
+.TextHead {
+  @extend .nomrg-vert;
+  font-size: 17px;
+  min-height: 150px;
+  //padding-bottom: 45px;
+  position: relative;
+  &-md {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.2em;
+    position: absolute;
+    bottom: 10%;
+    strong {
+      font-size: 1.133333333em;
+      font-weight: inherit;
+    }
+  }
+}
+
+.QuestionList {
+  @extend .nomrg-vert;
+  div {
+    margin: 40px 0px;
+  }
+  & > div:first-child {
+    border-right : 3px dashed $white;
+  }
+  & > div:last-child {
+    margin-top: 105px;
+  }
+  &-item {
+    //box-sizing: border-box;
+    padding: 0px 8px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    &:first-child {
+      margin-top: 0px;
+    }
+  }
+  i {
+    float : left;
+  }
+  h3 {
+    float: right;
+    span {
+      display: block;
+    }
+  }
+}
