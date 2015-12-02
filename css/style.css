@@ -1,0 +1,321 @@
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+/** Generated @ www.fontreactor.com **/
+@font-face {
+	font-family: 'BebasNeue';
+    src: url('../font/original_BebasNeue.eot?#iefix') format('embedded-opentype'), 
+         url('../font/original_BebasNeue.woff') format('woff'),
+         url('../font/original_BebasNeue.ttf') format('truetype'),
+         url('../font/original_BebasNeue.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+ 		 font-family: 'Benvan';
+ 		 src: url('../font/Benvan.ttf') format ('truetype'),
+
+ 		 font-weight: normal;
+ 		 font-style: normal;
+	}
+
+body{}
+figcaption{
+	color: grey;
+	font-family: 'BebasNeue';
+	font-size: 1.3em;
+	line-height: 2em;
+	padding-top: .8em;
+}
+figure{
+	margin: 8px;
+
+	-webkit-transform: scale(1,1);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 250ms;
+	-moz-transform: scale(1,1);
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 250ms;
+}
+figure:hover{
+	-webkit-transform: scale(1.12,1.12);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 100ms;
+	-moz-transform: scale(1.12,1.12);
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 100ms;
+	/*outline: 1px solid red;*/
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'BebasNeue', arial;
+}
+nav ul a{
+	font-family: 'BebasNeue', arial;
+	font-size: 2em;
+	font-size: 1.7em;
+}
+/*nav a:focus{background: #0c4091;}*/
+p{ 
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.8em; 
+}
+span{font-size: 17px;}
+strong {font-weight: bold; font-size: 1.5em;}
+#Contacto{height: 750px; display: block;} /*height: 83vh;*/
+#Contacto p { 
+	letter-spacing: 2px;
+	line-height: 0; 
+	font-size: 1.5em;
+}
+#Inicio{
+	background: url(../img/home.jpg) center center no-repeat;
+	background-size: cover;
+}
+/*#Modulos,*/ #Inicio, #Nosotros,#Nosotros2{
+	height: 100vh;
+	position: relative;
+	display: block;
+}
+#Inicio h2{
+	font-size: 8em;
+	margin-bottom: 0;
+	padding-top: 20%;
+}
+#Inicio h1{ 
+	font-size: 10em;
+	font-family: 'BebasNeue', arial;
+	/*font-weight: bold;*/
+	margin-top: -25px;
+	margin-bottom: -20px;
+}
+#Nosotros p{
+	font-size: 30px;
+	margin: 0 auto;
+	width: 80%;
+}
+/*
+#Simulador h1{
+	font-size: 7em;
+	line-height: 5px;
+	padding-top: 12%;
+}
+
+#Simulador input{ 
+	border-radius: 5px;
+	width: 80px;
+	height: 30px;
+	margin: 0.5;
+	opacity: .8;
+	color: #9e9e9e;
+	font-family: 'arial';
+	font-size: 0.6em;
+}
+#Simulador input:hover, #Simulador input:focus{ 
+
+	opacity: 100;
+}
+#Simulador label{ 
+	background-color: #bdbdbd;
+	border: 0.8px solid #e0e0e0;
+	border-radius: 9px;
+	height: 10px ;
+	width: 10px;
+	padding: 0.5em;
+	margin: 10;
+	font-family: 'BebasNeue';
+	font-weight:bold;
+	font-size: 2em;
+	text-shadow: rgba(0,0,0,0.8) 0 0.5px 0px;
+	color: #757575;
+	text-align: center;
+
+}
+
+#Simulador img{
+	padding-left: 0.1em;
+	margin: 0.9;
+	width: 40px;
+
+}
+ #Simulador input{
+ 	padding-left: 3em;
+ 	margin-left: 0.5;
+
+ }*/
+ #Simulador1{
+ 	height: 100vh;
+	position: relative;
+	display: block;
+	}
+#Simulador1 h1{
+	font-size: 7em;
+}
+#Simulador1 ul{
+
+	background-color: #e0e0e0;
+	border-radius: 9px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+#Simulador1 ul a{
+
+ background:#e0e0e0; 
+ border-radius: 10px;
+
+}
+#Simulador1 li{
+	border-color: #e0e0e0;
+	border-radius: 9px;
+	border: 0.8px solid #bdbdbd;
+	padding: 0.1%;
+	margin-top: 1px;
+	font-size: 5em;
+	height: 65px;
+	
+	}
+
+#Simulador1 input{ 
+	border-radius: 5px;
+	width: 110px;
+	height: 30px;
+	color: #9e9e9e;
+	font-family: 'arial';
+	font-size: 0.2em;
+	margin-left: 70%;
+	margin-top: 0.5%;
+}
+
+#Simulador1 h5{
+	font-size: 3em; 
+	padding-top: 0%;
+	margin-top: -45px;
+}
+
+#Simulador1 img{
+	margin-top: -75px;
+}
+
+#modalCalculo div{
+	background-color: #e0e0e0;
+	font-size: 0.7em;
+	padding-top: -1%;
+	margin-top:-3%;
+	margin-bottom: -0.1%;
+}
+#modalCalculo h4{
+	background-color: #f57c00 ;
+	border-radius: 5px;
+	padding: 1%;
+}
+#modalCalculo h6{
+	background-color: #bdbdbd ;
+	border-radius: 8px;
+	padding: 3%;
+	font-family: 'arial';
+	margin-top: 1%;
+	font-weight: 1em;
+}
+#modalCalculo footer{
+	margin-bottom:1%; 
+	padding: 1%;
+	padding-top: -5%;
+	background-size: 1%;
+}
+
+
+.imgForm{
+	/*outline: solid red 1px;*/
+	background: url(../img/BG4.jpg) 100% 100% no-repeat;
+	width: 40%;
+	height: 770px;/*95%; 20px más del contenedor #Contacto*/
+	position: absolute;
+	right: 0;
+	z-index: -1;
+}
+.linksExt{
+	margin-right: 1em;
+	display: inline-block;
+}
+.anavcolor{
+	color: #FFF;
+}
+.anavcolor:focus{
+	color: #ff9800;
+}
+.btnGo{
+	color: #FFF;
+	border: 1px solid;
+	padding: 0.8em;
+	text-transform: uppercase;
+	background: rgba(255, 255, 255, .2);
+	transition: all .3s;
+}
+.btnGo:hover{
+	background: rgb(233, 151, 0);
+	border: 1px solid rgb(233, 151, 0);
+}
+.btnGo:active{
+	transform:scale(.9);
+}
+.descripcion{
+	color: #FFF;
+	font-size: 1.4em;
+	text-align: justify;
+	letter-spacing: 1px;
+}
+.malla, .malla2{
+	background-color: #9e9e9e;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: .3;
+}
+.malla2{ 
+	background-color: #9e9e9e;
+}
+.mt{ padding-top: 0;}
+.mt1{ padding-top: 5%; clear: both; }
+.mb{ margin-bottom: 5%;}
+.op{
+	/*background: rgba(19,74,159, .6);
+	outline: 30px solid rgba(19,74,159, .6);*//*AGREGAR 1*/
+	margin-top: 25%;
+}
+.op2{
+	margin-top: 10%;
+}
+.parallax-container{ height: 100%;}
+.separador{
+	margin-top: 0;
+	height: 10px;
+	width: 36em;
+}
+.simbolo{
+	position: absolute;
+	width: 25%;
+	right: 0;
+	top: 15%;
+}
+/*.slider h2{ margin:0; font-family: 'Slabo 27px', serif; padding-top: 100px;}*/
+.slider p { font-size: 2em; margin-top: 100px;}
+.textForm{padding-top: 11%;}
+.text-shadow{text-shadow:rgba(0,0,0,0.8) 0 1px 2px;}
+
+@media (min-width: 1200px){
+
+}
+@media (max-width: 979px){
+	.op{margin-top: 5%;}
+}
+@media (max-width: 767px){
+	#Contacto{height: 700px;}
+	.op{margin-top: 0;}	
+}
+@media (max-width: 600px) {
+	/*#Contacto{height: 85vh;}*/
+	#Inicio h2{ font-size: 4em; padding-top: 5%;}
+	#Inicio h1{ font-size: 6em; margin-top: -20px; margin-bottom: -15px;}
+	#Simulador{ height: 665px;}
+	/*#Modulos{height: 1375px;}*/
+	/*.op{margin-top: 5%; outline: 3px solid rgba(19,74,159, .8);}*//*AGREGAR 2*/
+	.separador{ width: 22em;}
+}

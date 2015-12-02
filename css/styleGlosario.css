@@ -1,0 +1,148 @@
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+/** Generated @ www.fontreactor.com **/
+@font-face {
+	font-family: 'BebasNeue';
+    src: url('../font/original_BebasNeue.eot?#iefix') format('embedded-opentype'), 
+         url('../font/original_BebasNeue.woff') format('woff'),
+         url('../font/original_BebasNeue.ttf') format('truetype'),
+         url('../font/original_BebasNeue.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/** Generated @ www.fontreactor.com **/
+@font-face {
+	font-family: 'Nymphette';
+    src: url('../font/original_Nymphette.eot?#iefix') format('embedded-opentype'), 
+         url('../font/original_Nymphette.woff') format('woff'),
+         url('../font/original_Nymphette.ttf') format('truetype'),
+         url('../font/original_Nymphette.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+	background: url(../img/bg.jpg) repeat;
+	font-size: 1em;
+	border: 0;margin: 0;padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'BebasNeue', arial;
+	text-align: center;
+}
+input{
+	font-size: 1.2em;
+}
+nav ul a{
+	/*font-family: 'BebasNeue', arial;
+	font-size: 1.5em;*/
+	font-size: 1.1em;
+}
+p{
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.3em; 
+}
+span{
+	font-family: 'Nymphette';
+	font-size: 25px;
+	padding: 10px;
+}
+#Hero{
+	background: url("../img/diccionario.jpg") 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    height: 200px;
+    padding: 1px 0;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+#Hero h1{
+	font-size: 5em;
+	left: 40%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	vertical-align: middle;
+}
+.btn{
+	height: 80%;
+	box-shadow: none;
+}
+.btn:hover{
+	box-shadow: none;
+}
+.btnList{
+	background: none;
+	border: none;
+	padding: 15px;
+}
+.justify{
+	text-align: justify;
+}
+.ulABC{
+	margin-left: 5%;
+}
+.malla{
+	background-color: #3d434a;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: .5;
+	z-index: -1;
+}
+.key{
+	background-color: #0D47A1;
+	border-radius: 3px;
+	border: none;
+	color: #FFF;
+	line-height: 20px;
+	margin: 5px;
+	padding: 18px;
+	display: inline-block;
+}
+.key:hover{
+	opacity: .8;
+	box-shadow: 0 1px 2px grey;
+}
+.simbolo{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.z-depth-1{
+	margin: 50px;
+	background-color: #FFF;
+}
+.cuadro{
+	/*margin-top: 50px;*/
+	/*outline: 1px green solid;*/
+	width: 45%;
+	margin: 2.5%;
+	display: inline-block;
+	vertical-align: top;
+	/*min-height: 250px;*/
+}
+.disabled{
+	opacity: .7;
+	cursor: default;
+	pointer-events: none;
+}
+@media (min-width: 1200px){
+
+}
+@media (max-width: 979px){
+	.cuadro{width: 90%; margin: 5%;}
+}
+@media (max-width: 767px){
+	#Hero{height: 200px;}
+	#Hero h1{left: 25%;}
+	.key{margin: 5px;padding: 12px;}
+	.z-depth-1{margin: 20px;}
+	.cuadro{width: 95%; margin: 2.5%;}
+}

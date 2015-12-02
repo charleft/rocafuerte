@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+/** Generated @ www.fontreactor.com **/
+@font-face {
+	font-family: 'BebasNeue';
+    src: url('../font/original_BebasNeue.eot?#iefix') format('embedded-opentype'), 
+         url('../font/original_BebasNeue.woff') format('woff'),
+         url('../font/original_BebasNeue.ttf') format('truetype'),
+         url('../font/original_BebasNeue.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+	font-size: 1em;
+	border: 0;margin: 0;padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'BebasNeue', arial;
+}
+nav ul a{
+	/*font-family: 'BebasNeue', arial;
+	font-size: 1.5em;*/
+	font-size: 1.1em;
+}
+p{
+	/*font-family: 'Slabo 27px', serif;*/
+	font-size: 1em;
+}
+#Evaluacion label, #Evaluacion p {
+	color: #0277bd;
+}
+#Hero{
+	background: url("../img/BG1.jpg") 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    height: 400px;
+    padding: 1px 0;
+    position: relative;
+    z-index: 1;
+}
+#Hero h1{
+	font-size: 5em;
+	padding-top: 125px;
+}
+#Paginador{
+	/*position: fixed;
+	clear: both;
+	background: red;
+	bottom: 1%;
+	z-index: 999;*/
+}
+#Resultado h1{ font-size: 10em; line-height: 35px;}
+#Resultado h5{ font-size: 3em; line-height: 50px;}
+#Resultado h6{ font-size: 2em; line-height: 50px;}
+#Simbolo{
+	position: relative;
+	z-index: -1;
+}
+#Slider{
+	/*outline: 1px red solid;*/
+	overflow: hidden;
+	width: 70%;
+}
+.capitalLetter:first-letter{
+   color:#ff9800;
+   font-size:200%;
+   line-height: 5px;
+   margin-right: 3px;
+}
+.descarga{
+	width: 250px;
+}
+.justify{
+	text-align: justify;
+}
+.malla{
+	background-color: #3d434a;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: .5;
+	z-index: -1;
+}
+.ml{
+	margin-left: 10%;
+	text-align: left;
+	/*outline: 1px solid red;*/
+}
+.mt{ margin: 20px 5px;}
+.pagination{
+	margin-left: 40%;
+}
+.parallax-container{
+	height: 300px;
+}
+.separador{
+	clear: both;
+	border-top: 1px grey solid;
+	width: 90%;
+	margin: 0 auto;
+}
+.simbolo{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.slider-inner{
+	display: table;
+	position: relative;
+	transition: all .3s;
+	left: 0;
+}
+.contenido{
+	/*background-color: rgba(0,0,0, .1);*/
+	float: left;
+	/*width: 33.33%;*/
+}
+@media (min-width: 1200px){
+
+}
+@media (max-width: 979px){
+	#Slider{width: 85%; overflow: hidden;}
+}
+@media (max-width: 767px){
+	#Slider{width: 90%; overflow: hidden;}
+	.ml{margin-left: 2%;}
+	.pagination{margin-left: 25%;}
+}
