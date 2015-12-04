@@ -14,3 +14,64 @@ a {
 p {
   font-family: OpenSans-Regular, sans-serif;
 }
+
+.TitleVW {
+  font-size: 18px;
+  line-height: 1.5em;
+  &-12 {
+    font-size: .666666667em;
+    line-height: 1.2em;
+  }
+  &-13 {
+    font-size: .722222222em;
+    line-height: 1.2em;
+  }
+  &-14 {
+    font-size: .777777778em;
+    line-height: 1.2em;
+  }
+  &-15 {
+    font-size: .833333333em;
+    line-height: 1.2em;
+  }
+  &-16 {
+    font-size: .888888889em;
+    line-height: 1.2em;
+  }
+  &-18 {
+    font-size: 1em;
+    line-height: 1em;
+  }
+  &-21 {
+    font-size: 1.166666667em;
+    line-height: 1em;
+  }
+  &-25 {
+    font-size: 1.388888889em;
+    line-height: 1em;
+  }
+  &-29 {
+    font-size: 1.611111111em;
+  }
+  &-35 {
+    font-size: 1.944444444em;
+  }
+}
+.TitleMain {
+  //@include span-columns(7);
+  font-size: 50px;
+  span {
+    display: block;
+  }
+  &-up {
+    font-size: 1em;
+  }
+  &-down {
+    font-size: .94em;
+  }
+}
+
+.TextPara {
+  font-size: 13px;
+  font-weight: bold;
+}

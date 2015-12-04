@@ -1,0 +1,176 @@
+.Layout {
+  @include span-columns(12);
+  @include susy-grid-background;
+  margin-right: 0px; 
+  &-int {
+    @include span-columns(12);
+  }
+  &-half {
+    @include span-columns(6);
+    &:last-child {
+      @include omega();
+    }
+  }
+}
+
+.Layout-HeadPara {
+  @include span-columns(8);
+  @include prefix(1);
+  //@include isolate(2);
+
+}
+
+.Dialog {
+  @include span-columns(10);
+  background: url(../img/dialogo.png) no-repeat center top;
+  box-sizing: border-box;
+  height: image-height("../img/dialogo.png");
+  padding-top: 30px;
+  //background-size: cover;
+  &-text {
+    @include prefix(5);
+    color: $bgblue-low;
+  }
+}
+
+.Loud {
+  @include span-columns(12);
+  background: url(../img/megafono.png) no-repeat left bottom;
+  height: image-height("../img/megafono.png");
+  margin-top: -60px;
+  &-text {
+    @include span-columns(6 omega);
+    @include suffix(1);
+    padding-top: 60px;
+  }
+}
+.Classroom {
+  padding: 70px 0px 65px;
+  .Teacher {
+    @include span-columns(5);
+    @include push(4);
+    //@include pull(5);
+    //@include prefix(5);
+    position: relative;
+    background: url(../img/canvas.png) no-repeat 70% top;
+    height: image-height("../img/canvas.png");
+    font-size: 9px;
+    z-index: 10;
+    &-pic {
+      position: absolute;
+      bottom: 0%;
+      margin-left: -40px;
+    }
+
+  }
+  .Canvas-text {
+    @include span-columns(6);
+    @include push(4);
+    padding-top: 30px;  
+    font-weight: bold;
+    font-size: 1em;
+    color: $black-blue;
+  }
+}
+/* Media Queries */
+@media screen and (min-width: 1350px) { 
+  
+}
+@media screen and (min-width: 1250px) { 
+  
+}
+@media screen and (max-width: 1150px) { 
+  .Classroom {
+    .Teacher {
+      &-pic {
+        margin-left: -150px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 975px) {
+  .Classroom {
+    .Teacher {
+      &-pic {
+        margin-left: -120px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 880px) {
+  .Classroom {
+    .Teacher {
+      &-pic {
+        margin-left: -100px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 605px) {
+  .Layout-int {
+    .Layout-half {
+      @include span-columns(12);
+      &:last-child {
+        margin-top: 10px;
+      }
+    }
+  }
+  .Dialog {
+    &-text {
+      @include prefix(4.5);
+    }
+  }
+  .Classroom {
+    .Teacher {
+      @include span-columns(10);
+      @include push(1);
+      &-pic {
+        margin-left: -20px;
+      }
+    }
+    .Canvas-text {
+      @include span-columns(5);
+      @include push(5);
+    }
+  }
+}
+@media screen and (max-width: 470px) {
+  .Dialog {
+    @include span-columns(12);
+    &-text {
+      @include prefix(4);
+    }
+  }
+  .Loud {
+    background: none;
+    &-text {
+      @include span-columns(12);
+      @include prefix(1);
+
+    }
+  }
+  .Classroom {
+    .Teacher {
+      &-pic {
+        margin-left: -60px;
+      }
+    }
+    .Canvas-text {
+      @include span-columns(5);
+      @include push(5);
+    }
+  }
+}
+@media screen and (max-width:380px) {
+  .Classroom {
+    .Teacher {
+      &-pic {
+        margin-left: -125px;
+      }
+    }
+    .Canvas-text {
+      @include span-columns(6);
+      @include push(4);
+    }
+  }
+}

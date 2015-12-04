@@ -1,9 +1,28 @@
 // COLORS
 $white         : #FFFFFF; 
+$black         : #000000;
+$black-blue    : #293347;
 
 // BACKGROUND COLORS
 $bgcyan        : #6DA6BC;
+$bgcyan-bright : #5187C6; 
 $bgcyan-strong : #589999;
 $bgcyan-light  : #7FB9D3;
 $bgblue-low    : #4D5F8A;
-$bg-turquoise  : #589999;
+$bggray        : #EFECDA;
+$bgturquoise   : #589999;
+$bgturquoise-low:#70BA9E;
+$bgred-low     : #C7544A;
+$bgyellow-low  : #D1AF59;
+
+
+// Grid System
+$total-columns  : 12;
+$column-width   : 75px;
+$gutter-width   : 3.75px;
+$grid-padding   : 0;//$gutter-width;
+//$container-width: 945px;
+$container-style: magic;
+$show-grid-backgrounds  : true;
+
+@import 'susyone';

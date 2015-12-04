@@ -11,11 +11,23 @@
   margin-top: 0px;
 }
 /* BACKGROUNDS */
+.bgblue-low {
+  background: $bgblue-low;
+  color: $white;
+}
+.bgcyan {
+  background: $bgcyan;
+  color: $white;
+}
 .bgcyan-light {
   background: $bgcyan-light;
   color: $white;
 }
 .bgcyan-strong {
   background: $bgcyan-strong;
+  color: $white;
+}
+.bgturquoise {
+  background: $bgturquoise;
   color: $white;
 }

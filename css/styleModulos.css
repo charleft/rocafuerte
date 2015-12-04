@@ -60,6 +60,9 @@ p{
 .descarga{
 	width: 250px;
 }
+.descarga a {
+  display: block;
+}
 .justify{
 	text-align: justify;
 }

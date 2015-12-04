@@ -30,14 +30,15 @@
 
 .QuestionList {
   @extend .nomrg-vert;
-  div {
+  padding: 40px 0px;
+  /*div {
     margin: 40px 0px;
-  }
+  }*/
   & > div:first-child {
     border-right : 3px dashed $white;
   }
   & > div:last-child {
-    margin-top: 105px;
+    margin-top: 70px;
   }
   &-item {
     //box-sizing: border-box;
@@ -47,14 +48,139 @@
     &:first-child {
       margin-top: 0px;
     }
+    a {
+      @extend .fix-height;
+      display: block;
+      position: relative;
+      top: 15px;
+    }
+    h3 {
+      color: $white;
+      margin-left: 87px;
+      background: url('../img/neonline-lrg.png') right bottom no-repeat; 
+      height: 78px;
+      text-indent: 10px;
+      span {
+        display: block;
+      }
+    }
   }
   i {
     float : left;
   }
-  h3 {
-    float: right;
-    span {
+}
+.Riesgo {
+  padding: 64px 0px 36px;
+}
+.Restricts {
+  padding: 90px 0px 105px;
+}
+.Restricciones {
+  &-icon {
+    background: $bggray;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    bottom: 20px;
+    text-align: center;
+    margin-top: -20px;
+    i {
+      position: absolute;
+      bottom: 45px;
+      left: 20px;
+    }
+  }
+  &-item {
+    @include span-columns(10);
+    @include push(1);
+    margin-bottom: 35px;
+    position: relative;
+    &:first-child p{
+      background: $bgcyan-bright;
+    }
+    &:nth-child(2) p{
+      background: $bgturquoise-low;
+    }
+    &:nth-child(3) p{
+      background: $bgred-low;
+    }
+    &:last-child p{
+      background: $bgyellow-low;
+    }
+  }
+  &-icon {
+    display: none;
+  }
+  p {
+    @include prefix(1);
+    @include suffix(1);
+    font-weight: bold;
+    min-height: 120px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+/* Media Queries */
+@media screen and (min-width: 1190px) {
+  h3.TitleVW {
+    height: 77px;
+  }
+}
+@media screen and (max-width: 975px) {
+  h3.TitleVW {
+    height: 79px;
+  }
+  .Riesgo {
+    padding: 20px 0px 10px;
+  }
+}
+@media screen and (min-width: 606px) {
+  .Restricciones {
+    &-icon {
+      width: 80px;
+      float: left;
+      display: inline-block;
+    }
+    p {
       display: block;
+      margin-left: 90px;
+    }
+  }
+}
+@media screen and (max-width: 605px) {
+  .QuestionList {
+    padding-top: 0px;
+    & > div:first-child {
+      border: none;
+    }
+    &-item {
+      @include span-columns(10);
+      margin: 10px 0px;
+      &:nth-child(even) {
+        @include omega();
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .TextHead {
+    position: static;
+    height: auto;
+    &-md {
+      @include span-columns(10);
+      @include prefix(1);
+      position: inherit;
+    }
+  }
+}
+@media screen and (max-width: 355px) {
+  .QuestionList {
+    &-item {
+      @include span-columns(12);
     }
   }
 }

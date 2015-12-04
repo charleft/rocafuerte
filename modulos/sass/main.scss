@@ -3,12 +3,16 @@
 /*@import "before/style";
 @import "before/styleGlosario";
 @import "before/styleModulos*/
+
 // Config
 @import "config/fonts";
 @import "config/variables";
 @import "config/typography";
 @import "config/sprites";
 @import "config/utils";
+
+//Layouts
+@import "layout/riesgo";
 
 //Modulos
 @import "modules/riesgo";
