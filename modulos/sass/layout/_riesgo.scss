@@ -185,6 +185,32 @@
   }
 }
 
+.EtapasList {
+  @include span-columns(12);
+  &-item {
+    @include span-columns(12);
+    &:first-child i{
+      color: $bgyellow-low;
+    }
+    &:nth-child(2) i{
+      color: $bgturquoise-low;
+    }
+    &:nth-child(3) i{
+      color: $bgcyan-light;
+    }
+    &:nth-child(4) i{
+      color: $bgcyan;
+    }
+    &:last-child i{
+      color: $bgred-low;
+    }
+  }
+  i {
+    background: $white;
+    padding: 0 15px;
+    line-height: .2em;
+  }
+}
 .Map {
   img {
     max-width: 100%;
@@ -238,6 +264,7 @@
     margin-top: 80px;
   }
   .Resumen {
+    overflow: hidden;
     p {
       @include pad(1.5, 1.5);
     }
