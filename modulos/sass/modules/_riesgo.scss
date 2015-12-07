@@ -95,25 +95,57 @@
     @include push(1);
     margin-bottom: 35px;
     position: relative;
+    font-size: 14px;
     &:first-child p{
       background: $bgcyan-bright;
+      font-size: .785714286em;
+      &::before {
+        background: darken($bgcyan-bright, 20%); 
+      }
     }
     &:nth-child(2) p{
       background: $bgturquoise-low;
+      &::before {
+        background: darken($bgturquoise-low, 20%); 
+      }
     }
     &:nth-child(3) p{
       background: $bgred-low;
+      &::before {
+        background: darken($bgred-low, 20%); 
+      }
     }
     &:last-child p{
       background: $bgyellow-low;
+      font-size: .928571429em;
+      &::before {
+        background: darken($bgyellow-low, 20%); 
+      }
     }
   }
   &-icon {
     display: none;
+    //position: relative;
+    &::before {
+      content: ' ';
+      display: block;
+      width: 7px;
+      height: 14px;
+      border-top: 14px solid transparent;
+      border-right: 7px solid $bggray;
+      border-bottom: 14px solid transparent;
+      border-left: 7px solid transparent;
+      margin-left: -14px;
+      margin-top: 46px;
+      //position: absolute;
+      //top: 0;
+      //bottom: 0;
+    }
   }
   p {
     @include prefix(1);
     @include suffix(1);
+    font-size: 1em;
     font-weight: bold;
     min-height: 120px;
     padding-bottom: 16px;
@@ -121,6 +153,19 @@
     text-align: justify;
     margin-top: 0px;
     margin-bottom: 0px;
+    position: relative;
+    &::before {
+      @include transform( skewY(65deg));
+      @include apply-origin(top left, false);
+      content: " ";
+      display: none;
+      height: auto; 
+      margin-left: -20px;
+      position: absolute;
+      top: -20px;
+      bottom: 20px;
+      left: 10px;
+    }
   }
 }
 
@@ -148,6 +193,10 @@
     p {
       display: block;
       margin-left: 90px;
+      &::before {
+        display: block;
+        width: 10px;    
+      }
     }
   }
 }
@@ -164,6 +213,9 @@
         @include omega();
       }
     }
+  }
+  .Restricts {
+    padding: 30px 0px 10px;
   }
 }
 @media screen and (max-width: 480px) {

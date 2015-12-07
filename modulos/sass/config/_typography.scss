@@ -56,6 +56,12 @@ p {
   &-35 {
     font-size: 1.944444444em;
   }
+  &-40 {
+    font-size: 2.222222222em;
+  }
+  &-52 {
+    font-size: 2.888888889em;
+  }
 }
 .TitleMain {
   //@include span-columns(7);
@@ -71,7 +77,65 @@ p {
   }
 }
 
+.Number {
+  color: $dark-blue;
+  font-size: 220px;
+  font-family: $titlefont;  
+}
+.TitleList {
+  font-size: 40px;
+  color: $dark-blue;
+  &-head {
+    text-transform: uppercase;
+    font-size: 1em;
+  }
+  &-para {
+    color: $white;
+    font-size: .3em;
+    font-weight: bold;
+  }
+}
+
 .TextPara {
   font-size: 13px;
   font-weight: bold;
+  span {
+    display: block;
+    line-height: 1em;
+  }
+  &-19 {
+    font-size: 1.461538462em;
+  }
+  &-22 {
+    font-size: 1.692307692em;
+  }
+  &-26 {
+    font-size: 2em;
+  }
+}
+
+.TextSub {
+  font-family: $basefont;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  &.riesgo {
+    color : $dark-blue;
+  }
+}
+
+.Content {;
+  font-family: $basefont;
+  font-weight: bold;
+  &-title {
+    color: $dark-blue;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: inherit;
+    text-transform: uppercase;
+    span {
+      display: block;
+      font-size: .608695652em;
+    }
+  }
 }

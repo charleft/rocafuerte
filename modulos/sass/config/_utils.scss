@@ -1,3 +1,6 @@
+figure{
+  margin: 0px;
+}
 .hide-text {
   text-indent: 100%;
   white-space: nowrap;
@@ -9,6 +12,30 @@
 .nomrg-vert {
   margin-bottom: 0px;
   margin-top: 0px;
+}
+.mrgtop {
+  margin-top: 80px;
+}
+.padtop {
+  padding-top: 60px;
+}
+.pads {
+  padding: 70px 30px;
+}
+.omega {
+  float: right;
+}
+
+.pic-center {
+  margin: 0 auto;
+  display: block;
+  float: none!important;
+}
+.up {
+  margin-top: -60px;
+  .Content-para {
+    margin-top: 80px;
+  }
 }
 /* BACKGROUNDS */
 .bgblue-low {
@@ -23,6 +50,10 @@
   background: $bgcyan-light;
   color: $white;
 }
+.bgcyan-bright {
+  background: $bgcyan-bright;
+  color: $white;
+}
 .bgcyan-strong {
   background: $bgcyan-strong;
   color: $white;
@@ -30,4 +61,22 @@
 .bgturquoise {
   background: $bgturquoise;
   color: $white;
+}
+.bgturquoise-low {
+  background: $bgturquoise-low;
+  color: $white;
+}
+.bgred-low {
+  background: $bgred-low;
+  color: $white;
+}
+.bgyellow-low {
+  background: $bgyellow-low;
+  color: $white;
+}
+
+@media screen and (max-width: 605px) {
+  .pads {
+    padding: 20px 10px;
+  }
 }

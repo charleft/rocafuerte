@@ -72,6 +72,126 @@
     color: $black-blue;
   }
 }
+.Number {
+  @include span-columns(1);
+  @include push(1);
+  height: 240px;
+}
+.TitleList {
+  @include span-columns(6);
+  @include prefix(1);
+  &.no-pic {
+    @include span-columns(8);
+  }
+}
+.Fullwide {
+  @include span-columns(12);
+}
+.Figure {
+  margin: 0;
+  @include span-columns(4);
+  @include push(1);
+  &--right {
+    margin: 0;
+    @include span-columns(4 omega);
+    &-pic {
+      float: right;
+    }
+  }
+}
+
+.Ocurrencia {
+  @include span-columns(6 omega);
+  @include suffix(1);
+  &--left {
+    @include span-columns(6);
+    @include prefix(1);
+  }
+}
+
+.Concreto {
+  @include span-columns(9);
+}
+.Licito {
+  @include span-columns(8);
+}
+.Idea {
+  @include span-columns(7);
+  //@include push(1);
+}
+.Economico {
+  @include span-columns(5);
+}
+.Dinero {
+  @include span-columns(4 omega); 
+  @include suffix(1);
+}
+.Foco {
+  @include span-columns(3 omega);
+  @include suffix(1);
+  img {
+    @extend .pic-center;
+  }
+}
+.Banderines {
+  width: 337px;
+}
+.Resumen {
+  color: $black;
+  hr {
+    border: 1px solid $white;
+    margin-left: -10%;
+    width: 80%;
+  }
+}
+.Estrategia {
+  @include span-columns(12);
+  &-item {
+    @include span-columns(12);
+    &:first-child .Estrategia-number{
+      color: $bgred-low;
+    }
+    &:nth-child(2) .Estrategia-number{
+      color: $bgyellow-low;
+    }
+    &:nth-child(3) .Estrategia-number{
+      color: $bgturquoise;
+    }
+    &:last-child .Estrategia-number{
+      color: $bgcyan-bright;
+    }
+  }
+  &-text {
+    @include span-columns(12);
+    @include prefix(1);
+    @include suffix(1);
+    min-height: 115px;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: bold;
+  }
+  &-title {
+    font-family: $basefont;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  &-number {
+    @include background-image(linear-gradient(to right, #cbcbcb, #ffffff));
+    height: 163px;
+    display: none;
+    font-family: $titlefont;
+    font-size: 120px;
+    
+  }
+}
+
+.Map {
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+}
 /* Media Queries */
 @media screen and (min-width: 1350px) { 
   
@@ -106,7 +226,48 @@
     }
   }
 }
+@media screen and (min-width: 880px) {
+  .Estrategia {
+    &-text {
+      @include span-columns(6);
+    }
+  }
+}
+@media screen and (min-width: 605px) {
+  .Meteor {
+    margin-top: 80px;
+  }
+  .Resumen {
+    p {
+      @include pad(1.5, 1.5);
+    }
+  }
+  .Estrategia {
+    &-item:nth-child(even) {
+      .Estrategia-number {
+        @include push(8);
+        text-align: right;
+      }
+      .Estrategia-text {
+        @include push(1);
+        height: 115px;
+        margin-top: -140px;
+      }
+    }
+    &-number {
+      @include span-columns(3);
+      @include push(1);
+      @include pad(.5, .5);
+    }
+    &-text {
+      @include span-columns(8);
+      @include pull(1);
+      margin-top: 25px;
+    }
+  }
+}
 @media screen and (max-width: 605px) {
+  
   .Layout-int {
     .Layout-half {
       @include span-columns(12);
@@ -132,6 +293,16 @@
       @include span-columns(5);
       @include push(5);
     }
+  }
+  .Number {
+    opacity: .5;
+    & + * {
+      position: relative;
+      z-index: 10;
+    }
+  }
+  .Licito {
+    overflow: hidden;
   }
 }
 @media screen and (max-width: 470px) {
@@ -159,6 +330,9 @@
       @include span-columns(5);
       @include push(5);
     }
+  }
+  .Estrategia {
+    margin-top: 50px;
   }
 }
 @media screen and (max-width:380px) {
