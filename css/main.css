@@ -13538,11 +13538,17 @@ figure {
   margin-top: 40px;
 }
 
-/* line 64, ../modulos/sass/layout/_conocer.scss */
+/* line 63, ../modulos/sass/layout/_conocer.scss */
+.Caracts {
+  padding-top: 85px;
+  padding-bottom: 190px;
+}
+
+/* line 68, ../modulos/sass/layout/_conocer.scss */
 .CaractsList-content {
   margin-left: 75px;
 }
-/* line 67, ../modulos/sass/layout/_conocer.scss */
+/* line 71, ../modulos/sass/layout/_conocer.scss */
 .CaractsList-item {
   position: relative;
   width: 37.4502%;
@@ -13550,23 +13556,27 @@ figure {
   margin-right: 0.39841%;
   display: inline;
   margin-left: 8.36653%;
-}
-/* line 71, ../modulos/sass/layout/_conocer.scss */
-.CaractsList-item:nth-child(even) {
-  margin-left: 50.1992%;
   margin-top: -80px;
 }
-/* line 74, ../modulos/sass/layout/_conocer.scss */
+/* line 76, ../modulos/sass/layout/_conocer.scss */
+.CaractsList-item:first-child {
+  margin-top: 0;
+}
+/* line 79, ../modulos/sass/layout/_conocer.scss */
+.CaractsList-item:nth-child(even) {
+  margin-left: 50.1992%;
+}
+/* line 81, ../modulos/sass/layout/_conocer.scss */
 .CaractsList-item:nth-child(even) .CaractsList-content {
   text-align: right;
   margin-left: 0;
   margin-right: 75px;
 }
-/* line 79, ../modulos/sass/layout/_conocer.scss */
+/* line 86, ../modulos/sass/layout/_conocer.scss */
 .CaractsList-item:nth-child(even) .Numball {
   left: 85%;
 }
-/* line 83, ../modulos/sass/layout/_conocer.scss */
+/* line 90, ../modulos/sass/layout/_conocer.scss */
 .CaractsList-item::after {
   content: "";
   display: inline-block;
@@ -13574,32 +13584,32 @@ figure {
   border-top: transparent;
   border-bottom: transparent;
 }
-/* line 91, ../modulos/sass/layout/_conocer.scss */
+/* line 98, ../modulos/sass/layout/_conocer.scss */
 .CaractsList-item:first-child .Numball {
   color: #7AADD3;
 }
-/* line 94, ../modulos/sass/layout/_conocer.scss */
+/* line 101, ../modulos/sass/layout/_conocer.scss */
 .CaractsList-item:nth-child(3) .Numball {
   color: #648CB0;
 }
-/* line 97, ../modulos/sass/layout/_conocer.scss */
+/* line 104, ../modulos/sass/layout/_conocer.scss */
 .CaractsList-item:nth-child(6) .Numball {
   color: #589999;
 }
-/* line 100, ../modulos/sass/layout/_conocer.scss */
+/* line 107, ../modulos/sass/layout/_conocer.scss */
 .CaractsList-item:nth-child(4) .Numball, .CaractsList-item:nth-child(7) .Numball {
   color: #5187C6;
 }
-/* line 104, ../modulos/sass/layout/_conocer.scss */
+/* line 111, ../modulos/sass/layout/_conocer.scss */
 .CaractsList-item:nth-child(2) .Numball, .CaractsList-item:nth-child(5) .Numball, .CaractsList-item:nth-child(8) .Numball {
   color: #E58F25;
 }
-/* line 109, ../modulos/sass/layout/_conocer.scss */
+/* line 116, ../modulos/sass/layout/_conocer.scss */
 .CaractsList-item:last-child .Numball {
   color: #7FB9D3;
 }
 
-/* line 113, ../modulos/sass/layout/_conocer.scss */
+/* line 120, ../modulos/sass/layout/_conocer.scss */
 .Numball {
   display: inline-block;
   position: absolute;
@@ -13621,36 +13631,37 @@ figure {
 }
 
 @media screen and (max-width: 830px) {
-  /* line 143, ../modulos/sass/layout/_conocer.scss */
+  /* line 150, ../modulos/sass/layout/_conocer.scss */
   .TipoPics-int {
     width: 41.43426%;
     float: left;
     margin-right: 0.39841%;
     display: inline;
   }
-  /* line 146, ../modulos/sass/layout/_conocer.scss */
+  /* line 153, ../modulos/sass/layout/_conocer.scss */
   .TipoPics-int:first-child {
     display: none;
   }
-  /* line 149, ../modulos/sass/layout/_conocer.scss */
+  /* line 156, ../modulos/sass/layout/_conocer.scss */
   .TipoPics-int:nth-child(2) {
     margin-left: 8.36653%;
   }
 
-  /* line 154, ../modulos/sass/layout/_conocer.scss */
+  /* line 161, ../modulos/sass/layout/_conocer.scss */
   .CaractsList-item {
     width: 83.26693%;
     float: left;
     margin-right: 0.39841%;
     display: inline;
+    margin-top: 0px;
   }
-  /* line 156, ../modulos/sass/layout/_conocer.scss */
+  /* line 164, ../modulos/sass/layout/_conocer.scss */
   .CaractsList-item:nth-child(even) {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 8.36653%;
   }
-  /* line 160, ../modulos/sass/layout/_conocer.scss */
+  /* line 168, ../modulos/sass/layout/_conocer.scss */
   .CaractsList-item:nth-child(even) .CaractsList-content {
     width: 83.26693%;
     float: left;
@@ -13659,53 +13670,53 @@ figure {
   }
 }
 @media screen and (max-width: 605px) {
-  /* line 168, ../modulos/sass/layout/_conocer.scss */
+  /* line 176, ../modulos/sass/layout/_conocer.scss */
   .TipoPics {
     padding-top: 40px;
   }
 }
 @media screen and (max-width: 580px) {
-  /* line 173, ../modulos/sass/layout/_conocer.scss */
+  /* line 181, ../modulos/sass/layout/_conocer.scss */
   .Flag {
     display: block;
     width: inherit;
   }
-  /* line 176, ../modulos/sass/layout/_conocer.scss */
+  /* line 184, ../modulos/sass/layout/_conocer.scss */
   .Flag-item {
     display: block;
     width: 100%;
     height: 120px;
     position: relative;
   }
-  /* line 181, ../modulos/sass/layout/_conocer.scss */
+  /* line 189, ../modulos/sass/layout/_conocer.scss */
   .Flag-item a {
     position: absolute;
     vertical-align: middle;
     width: inherit;
     top: 45%;
   }
-  /* line 187, ../modulos/sass/layout/_conocer.scss */
+  /* line 195, ../modulos/sass/layout/_conocer.scss */
   .Flag-item a:last-child {
     top: 35%;
   }
-  /* line 191, ../modulos/sass/layout/_conocer.scss */
+  /* line 199, ../modulos/sass/layout/_conocer.scss */
   .Flag-item::after {
     display: none;
   }
 
-  /* line 197, ../modulos/sass/layout/_conocer.scss */
+  /* line 205, ../modulos/sass/layout/_conocer.scss */
   .TipoPics-int {
     width: 83.26693%;
     float: left;
     margin-right: 0.39841%;
     display: inline;
   }
-  /* line 200, ../modulos/sass/layout/_conocer.scss */
+  /* line 208, ../modulos/sass/layout/_conocer.scss */
   .TipoPics-int:last-child {
     display: none;
   }
 
-  /* line 205, ../modulos/sass/layout/_conocer.scss */
+  /* line 213, ../modulos/sass/layout/_conocer.scss */
   .Seguro-int {
     width: 83.26693%;
     float: left;
@@ -13713,7 +13724,7 @@ figure {
     display: inline;
     margin-left: 8.36653%;
   }
-  /* line 208, ../modulos/sass/layout/_conocer.scss */
+  /* line 216, ../modulos/sass/layout/_conocer.scss */
   .Seguro-int:last-child {
     display: none;
   }

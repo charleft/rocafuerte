@@ -60,6 +60,10 @@
     margin-top: 40px;
   }
 }
+.Caracts {
+  padding-top: 85px;
+  padding-bottom: 190px;
+}
 .CaractsList {
   &-content {
     margin-left: 75px;
@@ -68,9 +72,12 @@
     position: relative;
     @include span-columns(4.5);
     @include push(1);
+    margin-top: -80px;
+    &:first-child {
+      margin-top: 0;
+    }
     &:nth-child(even) {
       @include push(6);
-      margin-top: -80px;
       .CaractsList-content {
         text-align: right;
         margin-left: 0;
@@ -153,6 +160,7 @@
   .CaractsList {
     &-item {
       @include span-columns(10);
+      margin-top: 0px;
       &:nth-child(even) {
         margin-top: 10px;
         margin-bottom: 10px;
