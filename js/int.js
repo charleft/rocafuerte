@@ -1,5 +1,8 @@
 // ******** Scroll ********//
 $(document).ready(function() {
+	var sid = $("#Slider");
+	var pal = $("#A").height();
+	sid.height(pal);
  	$(".button-collapse").sideNav();
  	$('.parallax').parallax();
  	$('.slider').slider({full_width: true});
@@ -57,9 +60,13 @@ var uno = $('#uno');
 var dos = $('#dos');
 var tres = $('#tres');
 var cuatro = $('#cuatro');
-
+var faltura = $("#A").height();
+var sid = $("#Slider");
 uno.on('click',function(){
-	ci.css('left',0);
+	var altura = $("#A").height();
+	sid.height(altura);
+	ci.css({left:0,height:altura});
+	//ci.css('left',0);
 	$('#uno').addClass('blue')
 			.addClass('active');
 	$('#dos').removeClass('blue active');
@@ -68,7 +75,10 @@ uno.on('click',function(){
 });
 
 dos.on('click',function(){
-	ci.css('left','-'+100+'%');
+	var altura = $("#B").height();
+	sid.height(altura);
+	ci.css({left:'-'+100+'%',height:altura});
+	//ci.css('left','-'+100+'%');
 	$('#dos').addClass('blue')
 			.addClass('active');
 	$('#uno').removeClass('blue active');
@@ -77,7 +87,10 @@ dos.on('click',function(){
 });
 
 tres.on('click',function(){
-	ci.css('left','-'+200+'%');
+	var altura = $("#C").height();
+	sid.height(altura);
+	ci.css({left:'-'+200+'%',height:altura});
+	//ci.css('left','-'+200+'%');
 	$('#tres').addClass('blue')
 			.addClass('active');
 	$('#uno').removeClass('blue active');
@@ -85,7 +98,14 @@ tres.on('click',function(){
 	$('#cuatro').removeClass('blue active');
 });
 cuatro.on('click',function(){
-	ci.css('left','-'+300+'%');
+	if($("#Evaluacion")) {
+		var altura = $("#Evaluacion").height();
+	} else {
+		var altura = $("#D").height();
+	}
+	sid.height(altura);
+	ci.css({left:'-'+300+'%',height:altura});
+	//ci.css('left','-'+300+'%');
 	$('#cuatro').addClass('blue')
 			.addClass('active');
 	$('#uno').removeClass('blue active');

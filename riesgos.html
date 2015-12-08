@@ -120,7 +120,7 @@
 						</div>
 					</div>
 				</div>-->
-				<div class="contenido Layout">
+				<div id="A" class="contenido Layout">
 					<div class="TextHead Layout-int bgcyan-light">
 						<p class="TextHead-md Layout-HeadPara"><strong>En este módulo</strong> revisaremos termonilogía asociada a la administración de riesgos, que nos permita contestar interrogantes tales como:</p>
 					</div>
@@ -247,7 +247,7 @@
 					</div>
 				</div>
 
-				<div class="contenido Layout">
+				<div id="B" class="contenido Layout">
 					<div class="TextHead Layout-int bgblue-low">
 						<p class="TextHead-md Layout-HeadPara">Entre las  <strong>características</strong> <br/> <strong>esenciales</strong> del riesgo están:</p>
 					</div>
@@ -333,7 +333,7 @@
 					</div>
 				</div>
 
-				<div class="Layout contenido">
+				<div id="C" class="Layout contenido">
 					<div class="Layout-int pads Resumen bgcyan-light">
 						<header class="TitleSz">	
 							<h2>En Resumen el Riesgo</h2>
@@ -358,7 +358,7 @@
 							</li>
 							<li class="EtapasList-item bgturquoise-low">
 								<h3 class="EtapasList-title"><i>2</i> Evaluación</h3>
-								<p class="EtapasList-text">En esta etapa se realiza la recopilación de los eventos de riesgos.</p>
+								<p class="EtapasList-text">En base a los datos recopilados se realizará la valoración de los eventos de riesgos donde se analizará cada evento para identificar su impacto.</p>
 							</li>
 							<li class="EtapasList-item bgcyan-light">
 								<h3 class="EtapasList-title"><i>3</i> Control</h3>
@@ -428,14 +428,14 @@ Riesgos será calcular el Capital Basado En Riesgos (CBR) de la  compañía seg�
 					</div>
 				</div>
 
-				<!--<div id="Evaluacion" class="contenido Layout">
+				<div id="Evaluacion" class="contenido Layout">
 					<div class="">
 						<h1 class="orange-text center-align">Evaluaci&oacute;n</h1>
 						<p class="blue-text text-darken-3 center-align" style="font-size: 1.3em;"><i>Mide tus conocimientos con este pr&aacute;ctico test.</i></p>
 					</div>
 					<div class="row grey lighten-3" style="width:99%; margin:0 auto;">
 						<!-- Pregunta 1 -->
-						<!--<div class="col s12 m6 l6">
+						<div class="col s12 m6 l6">
 							<p class="ml">A) Cuántas son las carácterísticas esenciales del riesgo:</p>
 						</div>
 						<div class="col s12 m6 l6">
@@ -454,7 +454,7 @@ Riesgos será calcular el Capital Basado En Riesgos (CBR) de la  compañía seg�
 						</div>
 						<!-- Fin Pregunta 1 -->
 						<!-- Pregunta 2 -->
-						<!--<div class="col s12 m6 l6">
+						<div class="col s12 m6 l6">
 							<p class="ml">B) Señale una característica esencial del riesgo:</p>
 						</div>
 						<div class="col s12 m6 l6">
@@ -473,7 +473,7 @@ Riesgos será calcular el Capital Basado En Riesgos (CBR) de la  compañía seg�
 						</div>
 						<!-- Fin Pregunta 2 -->
 						<!-- Pregunta 3 -->
-						<!--<div class="col s12 m6 l6">
+						<div class="col s12 m6 l6">
 							<p class="ml">C) Una de las Estrategias de Administración de Riesgo es: <br /> </p>
 						</div>
 						<div class="col s12 m6 l6">
@@ -492,7 +492,7 @@ Riesgos será calcular el Capital Basado En Riesgos (CBR) de la  compañía seg�
 						</div>
 						<!-- Fin Pregunta 3 -->
 						<!-- Pregunta 4 -->
-						<!--<div class="col s12 m6 l6">
+						<div class="col s12 m6 l6">
 							<p class="ml">D) Para poder realizar la medición de los riesgos debemos poder cuantificar al menos dos factores. Señale uno: <br /> </p>
 						</div>
 						<div class="col s12 m6 l6">
@@ -511,7 +511,7 @@ Riesgos será calcular el Capital Basado En Riesgos (CBR) de la  compañía seg�
 						</div>
 						<!-- Fin Pregunta 4 -->
 						<!-- Pregunta 5 -->
-						<!--<div class="col s12 m6 l6">
+						<div class="col s12 m6 l6">
 							<p class="ml">E) El proceso de administración de riesgos contempla varias etapas, seleccione una de ellas: <br /> </p>
 						</div>
 						<div class="col s12 m6 l6">
@@ -529,7 +529,7 @@ Riesgos será calcular el Capital Basado En Riesgos (CBR) de la  compañía seg�
 							</p>
 						</div>
 						<!-- Fin Pregunta 5 -->
-					<!--</div>
+					</div>
 					<div class="row">
 						<div class="col s12">
 							<button class="btn waves-effect orange right mt" type="submit" onclick="evaluar()" id="Enviar" name="send">Resultado
@@ -543,19 +543,20 @@ Riesgos será calcular el Capital Basado En Riesgos (CBR) de la  compañía seg�
 							<h1 class="orange-text">5/5</h1>
 							<h5 class="blue-text text-darken-3">FELICIDADES</h5>
 						</div> -->
-					<!--</div>-->
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section id="Paginador" class="container">
-		<div class="row">
+		<div class="">
 			<div class="col s12">
 				<ul class="pagination">
 					<li class="disabled" id="prev"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
 				    <li class="waves-effect" id="uno"><a href="#!">1</a></li> <!-- active blue darken-4 -->
 				    <li class="waves-effect" id="dos"><a href="#!">2</a></li>
 				    <li class="waves-effect" id="tres"><a href="#!">3</a></li>
+				    <li class="waves-effect" id="cuatro"><a href="#!">4</a></li>
 				    <li class="disabled" id="next"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
 				</ul>
 			</div>

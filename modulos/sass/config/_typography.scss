@@ -14,10 +14,33 @@ a {
 p {
   font-family: OpenSans-Regular, sans-serif;
 }
-
+.Text {
+  font-weight: bold;
+  font-size: 16px
+  &-16 {
+    font-size: 1em;
+  }
+  &-21 {
+    font-size: 1.3125em;
+    line-height: 1.2em;
+  }
+  &-23 {
+    font-size: 1.4375em;
+    line-height: 1.2em;
+  }
+  &-56 {
+    font-size: 3.5em;
+    line-height: 1.2em;
+  }
+}
 .TitleVW {
   font-size: 18px;
   line-height: 1.5em;
+  span {
+    display: block;
+    line-height: .9em;
+    text-align: center;
+  }
   &-12 {
     font-size: .666666667em;
     line-height: 1.2em;
@@ -50,6 +73,14 @@ p {
     font-size: 1.388888889em;
     line-height: 1em;
   }
+  &-26 {
+    font-size: 1.444444444em;
+    line-height: 1em;
+  }
+  &-27 {
+    font-size: 1.5em;
+    line-height: 1em;
+  }
   &-29 {
     font-size: 1.611111111em;
   }
@@ -61,6 +92,15 @@ p {
   }
   &-52 {
     font-size: 2.888888889em;
+  }
+  &-65 {
+    font-size: 3.611111111em;
+  }
+  &-70 {
+    font-size: 3.888888889em;
+  }
+  &-97 {
+    font-size: 5.388888889em;
   }
 }
 .TitleMain {

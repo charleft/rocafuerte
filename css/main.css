@@ -12184,150 +12184,200 @@ p {
   font-family: OpenSans-Regular, sans-serif;
 }
 
-/* line 18, ../modulos/sass/config/_typography.scss */
+/* line 17, ../modulos/sass/config/_typography.scss */
+.Text {
+  font-weight: bold;
+  font-size: 16px .Text-16;
+  font-size-font-size: 1em;
+}
+/* line 23, ../modulos/sass/config/_typography.scss */
+.Text-21 {
+  font-size: 1.3125em;
+  line-height: 1.2em;
+}
+/* line 27, ../modulos/sass/config/_typography.scss */
+.Text-23 {
+  font-size: 1.4375em;
+  line-height: 1.2em;
+}
+/* line 31, ../modulos/sass/config/_typography.scss */
+.Text-56 {
+  font-size: 3.5em;
+  line-height: 1.2em;
+}
+
+/* line 36, ../modulos/sass/config/_typography.scss */
 .TitleVW {
   font-size: 18px;
   line-height: 1.5em;
 }
-/* line 21, ../modulos/sass/config/_typography.scss */
+/* line 39, ../modulos/sass/config/_typography.scss */
+.TitleVW span {
+  display: block;
+  line-height: .9em;
+  text-align: center;
+}
+/* line 44, ../modulos/sass/config/_typography.scss */
 .TitleVW-12 {
   font-size: .666666667em;
   line-height: 1.2em;
 }
-/* line 25, ../modulos/sass/config/_typography.scss */
+/* line 48, ../modulos/sass/config/_typography.scss */
 .TitleVW-13 {
   font-size: .722222222em;
   line-height: 1.2em;
 }
-/* line 29, ../modulos/sass/config/_typography.scss */
+/* line 52, ../modulos/sass/config/_typography.scss */
 .TitleVW-14 {
   font-size: .777777778em;
   line-height: 1.2em;
 }
-/* line 33, ../modulos/sass/config/_typography.scss */
+/* line 56, ../modulos/sass/config/_typography.scss */
 .TitleVW-15 {
   font-size: .833333333em;
   line-height: 1.2em;
 }
-/* line 37, ../modulos/sass/config/_typography.scss */
+/* line 60, ../modulos/sass/config/_typography.scss */
 .TitleVW-16 {
   font-size: .888888889em;
   line-height: 1.2em;
 }
-/* line 41, ../modulos/sass/config/_typography.scss */
+/* line 64, ../modulos/sass/config/_typography.scss */
 .TitleVW-18 {
   font-size: 1em;
   line-height: 1em;
 }
-/* line 45, ../modulos/sass/config/_typography.scss */
+/* line 68, ../modulos/sass/config/_typography.scss */
 .TitleVW-21 {
   font-size: 1.166666667em;
   line-height: 1em;
 }
-/* line 49, ../modulos/sass/config/_typography.scss */
+/* line 72, ../modulos/sass/config/_typography.scss */
 .TitleVW-25 {
   font-size: 1.388888889em;
   line-height: 1em;
 }
-/* line 53, ../modulos/sass/config/_typography.scss */
+/* line 76, ../modulos/sass/config/_typography.scss */
+.TitleVW-26 {
+  font-size: 1.444444444em;
+  line-height: 1em;
+}
+/* line 80, ../modulos/sass/config/_typography.scss */
+.TitleVW-27 {
+  font-size: 1.5em;
+  line-height: 1em;
+}
+/* line 84, ../modulos/sass/config/_typography.scss */
 .TitleVW-29 {
   font-size: 1.611111111em;
 }
-/* line 56, ../modulos/sass/config/_typography.scss */
+/* line 87, ../modulos/sass/config/_typography.scss */
 .TitleVW-35 {
   font-size: 1.944444444em;
 }
-/* line 59, ../modulos/sass/config/_typography.scss */
+/* line 90, ../modulos/sass/config/_typography.scss */
 .TitleVW-40 {
   font-size: 2.222222222em;
 }
-/* line 62, ../modulos/sass/config/_typography.scss */
+/* line 93, ../modulos/sass/config/_typography.scss */
 .TitleVW-52 {
   font-size: 2.888888889em;
 }
+/* line 96, ../modulos/sass/config/_typography.scss */
+.TitleVW-65 {
+  font-size: 3.611111111em;
+}
+/* line 99, ../modulos/sass/config/_typography.scss */
+.TitleVW-70 {
+  font-size: 3.888888889em;
+}
+/* line 102, ../modulos/sass/config/_typography.scss */
+.TitleVW-97 {
+  font-size: 5.388888889em;
+}
 
-/* line 66, ../modulos/sass/config/_typography.scss */
+/* line 106, ../modulos/sass/config/_typography.scss */
 .TitleMain {
   font-size: 50px;
 }
-/* line 69, ../modulos/sass/config/_typography.scss */
+/* line 109, ../modulos/sass/config/_typography.scss */
 .TitleMain span {
   display: block;
 }
-/* line 72, ../modulos/sass/config/_typography.scss */
+/* line 112, ../modulos/sass/config/_typography.scss */
 .TitleMain-up {
   font-size: 1em;
 }
-/* line 75, ../modulos/sass/config/_typography.scss */
+/* line 115, ../modulos/sass/config/_typography.scss */
 .TitleMain-down {
   font-size: .94em;
 }
 
-/* line 80, ../modulos/sass/config/_typography.scss */
+/* line 120, ../modulos/sass/config/_typography.scss */
 .Number {
   color: #28374C;
   font-size: 220px;
   font-family: BebasNeue;
 }
 
-/* line 85, ../modulos/sass/config/_typography.scss */
+/* line 125, ../modulos/sass/config/_typography.scss */
 .TitleList {
   font-size: 40px;
   color: #28374C;
 }
-/* line 88, ../modulos/sass/config/_typography.scss */
+/* line 128, ../modulos/sass/config/_typography.scss */
 .TitleList-head {
   text-transform: uppercase;
   font-size: 1em;
 }
-/* line 92, ../modulos/sass/config/_typography.scss */
+/* line 132, ../modulos/sass/config/_typography.scss */
 .TitleList-para {
   color: #FFFFFF;
   font-size: .3em;
   font-weight: bold;
 }
 
-/* line 99, ../modulos/sass/config/_typography.scss */
+/* line 139, ../modulos/sass/config/_typography.scss */
 .TextPara {
   font-size: 13px;
   font-weight: bold;
 }
-/* line 102, ../modulos/sass/config/_typography.scss */
+/* line 142, ../modulos/sass/config/_typography.scss */
 .TextPara span {
   display: block;
   line-height: 1em;
 }
-/* line 106, ../modulos/sass/config/_typography.scss */
+/* line 146, ../modulos/sass/config/_typography.scss */
 .TextPara-19 {
   font-size: 1.461538462em;
 }
-/* line 109, ../modulos/sass/config/_typography.scss */
+/* line 149, ../modulos/sass/config/_typography.scss */
 .TextPara-22 {
   font-size: 1.692307692em;
 }
-/* line 112, ../modulos/sass/config/_typography.scss */
+/* line 152, ../modulos/sass/config/_typography.scss */
 .TextPara-26 {
   font-size: 2em;
 }
 
-/* line 117, ../modulos/sass/config/_typography.scss */
+/* line 157, ../modulos/sass/config/_typography.scss */
 .TextSub {
   font-family: OpenSans-Regular;
   text-align: center;
   font-size: 24px;
   font-weight: bold;
 }
-/* line 122, ../modulos/sass/config/_typography.scss */
+/* line 162, ../modulos/sass/config/_typography.scss */
 .TextSub.riesgo {
   color: #28374C;
 }
 
-/* line 127, ../modulos/sass/config/_typography.scss */
+/* line 167, ../modulos/sass/config/_typography.scss */
 .Content {
   font-family: OpenSans-Regular;
   font-weight: bold;
 }
-/* line 130, ../modulos/sass/config/_typography.scss */
+/* line 170, ../modulos/sass/config/_typography.scss */
 .Content-title {
   color: #28374C;
   font-weight: bold;
@@ -12335,7 +12385,7 @@ p {
   font-family: inherit;
   text-transform: uppercase;
 }
-/* line 136, ../modulos/sass/config/_typography.scss */
+/* line 176, ../modulos/sass/config/_typography.scss */
 .Content-title span {
   display: block;
   font-size: .608695652em;
@@ -12436,116 +12486,169 @@ figure {
 }
 
 /* line 4, ../modulos/sass/config/_utils.scss */
+.hauto {
+  height: auto !important;
+}
+
+/* line 7, ../modulos/sass/config/_utils.scss */
 .hide-text, .Restricciones-item i, .QuestionList-item i {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
 }
 
-/* line 9, ../modulos/sass/config/_utils.scss */
+/* line 12, ../modulos/sass/config/_utils.scss */
 .fix-height, .QuestionList-item a {
   overflow: hidden;
 }
 
-/* line 12, ../modulos/sass/config/_utils.scss */
+/* line 15, ../modulos/sass/config/_utils.scss */
 .nomrg-vert, .TextHead, .QuestionList {
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
-/* line 16, ../modulos/sass/config/_utils.scss */
+/* line 19, ../modulos/sass/config/_utils.scss */
 .mrgtop {
   margin-top: 80px;
 }
 
-/* line 19, ../modulos/sass/config/_utils.scss */
+/* line 22, ../modulos/sass/config/_utils.scss */
 .padtop {
   padding-top: 60px;
 }
 
-/* line 22, ../modulos/sass/config/_utils.scss */
+/* line 25, ../modulos/sass/config/_utils.scss */
 .pads {
   padding: 70px 30px;
 }
 
-/* line 25, ../modulos/sass/config/_utils.scss */
+/* line 28, ../modulos/sass/config/_utils.scss */
 .omega {
   float: right;
 }
 
-/* line 29, ../modulos/sass/config/_utils.scss */
+/* line 32, ../modulos/sass/config/_utils.scss */
 .pic-center, .Foco img {
   margin: 0 auto;
   display: block;
   float: none !important;
 }
 
-/* line 34, ../modulos/sass/config/_utils.scss */
+/* line 37, ../modulos/sass/config/_utils.scss */
 .up {
   margin-top: -60px;
 }
-/* line 36, ../modulos/sass/config/_utils.scss */
+/* line 39, ../modulos/sass/config/_utils.scss */
 .up .Content-para {
   margin-top: 80px;
 }
 
 /* BACKGROUNDS */
-/* line 41, ../modulos/sass/config/_utils.scss */
+/* line 44, ../modulos/sass/config/_utils.scss */
+.bgblue {
+  background: #06396D;
+  color: #FFFFFF;
+}
+
+/* line 48, ../modulos/sass/config/_utils.scss */
+.bgcyan-other {
+  background: #648CB0;
+  color: #FFFFFF;
+}
+
+/* line 52, ../modulos/sass/config/_utils.scss */
+.bgcyan-lighty {
+  background: #71C5D0;
+  color: #FFFFFF;
+}
+
+/* line 56, ../modulos/sass/config/_utils.scss */
 .bgblue-low {
   background: #4D5F8A;
   color: #FFFFFF;
 }
 
-/* line 45, ../modulos/sass/config/_utils.scss */
+/* line 60, ../modulos/sass/config/_utils.scss */
 .bgcyan {
   background: #6DA6BC;
   color: #FFFFFF;
 }
 
-/* line 49, ../modulos/sass/config/_utils.scss */
+/* line 64, ../modulos/sass/config/_utils.scss */
+.bgcyany {
+  background: #7AADD3;
+  color: #FFFFFF;
+}
+
+/* line 68, ../modulos/sass/config/_utils.scss */
 .bgcyan-light {
   background: #7FB9D3;
   color: #FFFFFF;
 }
 
-/* line 53, ../modulos/sass/config/_utils.scss */
+/* line 72, ../modulos/sass/config/_utils.scss */
 .bgcyan-bright {
   background: #5187C6;
   color: #FFFFFF;
 }
 
-/* line 57, ../modulos/sass/config/_utils.scss */
+/* line 76, ../modulos/sass/config/_utils.scss */
 .bgcyan-strong {
   background: #589999;
   color: #FFFFFF;
 }
 
-/* line 61, ../modulos/sass/config/_utils.scss */
+/* line 80, ../modulos/sass/config/_utils.scss */
 .bgturquoise {
   background: #589999;
   color: #FFFFFF;
 }
 
-/* line 65, ../modulos/sass/config/_utils.scss */
+/* line 84, ../modulos/sass/config/_utils.scss */
 .bgturquoise-low {
   background: #70BA9E;
   color: #FFFFFF;
 }
 
-/* line 69, ../modulos/sass/config/_utils.scss */
+/* line 88, ../modulos/sass/config/_utils.scss */
 .bgred-low {
   background: #C7544A;
   color: #FFFFFF;
 }
 
-/* line 73, ../modulos/sass/config/_utils.scss */
+/* line 92, ../modulos/sass/config/_utils.scss */
+.bgred {
+  background: #C7512E;
+  color: #FFFFFF;
+}
+
+/* line 96, ../modulos/sass/config/_utils.scss */
 .bgyellow-low {
   background: #D1AF59;
   color: #FFFFFF;
 }
 
+/* line 100, ../modulos/sass/config/_utils.scss */
+.bgorange {
+  background: #E58F25;
+  color: #FFFFFF;
+}
+
+/* line 104, ../modulos/sass/config/_utils.scss */
+.bgwhite {
+  background: #F1F2F3;
+  color: #06396D;
+}
+
+/* line 109, ../modulos/sass/config/_utils.scss */
+.bggray-dark {
+  background: #4E4E4E;
+  color: #FFFFFF;
+}
+
 @media screen and (max-width: 605px) {
-  /* line 79, ../modulos/sass/config/_utils.scss */
+  /* line 115, ../modulos/sass/config/_utils.scss */
   .pads {
     padding: 20px 10px;
   }
@@ -12994,6 +13097,14 @@ figure {
     padding-right: 12.749%;
   }
 
+  /* line 287, ../modulos/sass/layout/_riesgo.scss */
+  .EtapasList {
+    /*&-text {
+      &::after {
+        box-shadow
+      }
+    } */
+  }
   /* line 288, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item {
     margin-bottom: 25px;
@@ -13196,18 +13307,18 @@ figure {
     top: 100%;
   }
 
-  /* line 441, ../modulos/sass/layout/_riesgo.scss */
+  /* line 443, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-item:nth-child(even) .Estrategia-number {
     margin-left: 66.93227%;
     text-align: right;
   }
-  /* line 445, ../modulos/sass/layout/_riesgo.scss */
+  /* line 447, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-item:nth-child(even) .Estrategia-text {
     margin-left: 8.36653%;
     height: 115px;
     margin-top: -140px;
   }
-  /* line 451, ../modulos/sass/layout/_riesgo.scss */
+  /* line 453, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-number {
     width: 24.7012%;
     float: left;
@@ -13217,7 +13328,7 @@ figure {
     padding-left: 3.98406%;
     padding-right: 3.98406%;
   }
-  /* line 456, ../modulos/sass/layout/_riesgo.scss */
+  /* line 458, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-text {
     width: 66.53386%;
     float: left;
@@ -13228,24 +13339,24 @@ figure {
   }
 }
 @media screen and (max-width: 605px) {
-  /* line 466, ../modulos/sass/layout/_riesgo.scss */
+  /* line 468, ../modulos/sass/layout/_riesgo.scss */
   .Layout-int .Layout-half {
     width: 100%;
     float: left;
     margin-right: 0.39841%;
     display: inline;
   }
-  /* line 468, ../modulos/sass/layout/_riesgo.scss */
+  /* line 470, ../modulos/sass/layout/_riesgo.scss */
   .Layout-int .Layout-half:last-child {
     margin-top: 10px;
   }
 
-  /* line 474, ../modulos/sass/layout/_riesgo.scss */
+  /* line 476, ../modulos/sass/layout/_riesgo.scss */
   .Dialog-text {
     padding-left: 37.84861%;
   }
 
-  /* line 479, ../modulos/sass/layout/_riesgo.scss */
+  /* line 481, ../modulos/sass/layout/_riesgo.scss */
   .Classroom .Teacher {
     width: 83.26693%;
     float: left;
@@ -13253,11 +13364,11 @@ figure {
     display: inline;
     margin-left: 8.36653%;
   }
-  /* line 482, ../modulos/sass/layout/_riesgo.scss */
+  /* line 484, ../modulos/sass/layout/_riesgo.scss */
   .Classroom .Teacher-pic {
     margin-left: -20px;
   }
-  /* line 486, ../modulos/sass/layout/_riesgo.scss */
+  /* line 488, ../modulos/sass/layout/_riesgo.scss */
   .Classroom .Canvas-text {
     width: 41.43426%;
     float: left;
@@ -13266,39 +13377,39 @@ figure {
     margin-left: 41.83267%;
   }
 
-  /* line 491, ../modulos/sass/layout/_riesgo.scss */
+  /* line 493, ../modulos/sass/layout/_riesgo.scss */
   .Number {
     opacity: .5;
   }
-  /* line 493, ../modulos/sass/layout/_riesgo.scss */
+  /* line 495, ../modulos/sass/layout/_riesgo.scss */
   .Number + * {
     position: relative;
     z-index: 10;
   }
 
-  /* line 498, ../modulos/sass/layout/_riesgo.scss */
+  /* line 500, ../modulos/sass/layout/_riesgo.scss */
   .Licito {
     overflow: hidden;
   }
 }
 @media screen and (max-width: 470px) {
-  /* line 503, ../modulos/sass/layout/_riesgo.scss */
+  /* line 505, ../modulos/sass/layout/_riesgo.scss */
   .Dialog {
     width: 100%;
     float: left;
     margin-right: 0.39841%;
     display: inline;
   }
-  /* line 505, ../modulos/sass/layout/_riesgo.scss */
+  /* line 507, ../modulos/sass/layout/_riesgo.scss */
   .Dialog-text {
     padding-left: 33.46614%;
   }
 
-  /* line 509, ../modulos/sass/layout/_riesgo.scss */
+  /* line 511, ../modulos/sass/layout/_riesgo.scss */
   .Loud {
     background: none;
   }
-  /* line 511, ../modulos/sass/layout/_riesgo.scss */
+  /* line 513, ../modulos/sass/layout/_riesgo.scss */
   .Loud-text {
     width: 100%;
     float: left;
@@ -13307,11 +13418,11 @@ figure {
     padding-left: 8.36653%;
   }
 
-  /* line 519, ../modulos/sass/layout/_riesgo.scss */
+  /* line 521, ../modulos/sass/layout/_riesgo.scss */
   .Classroom .Teacher-pic {
     margin-left: -60px;
   }
-  /* line 523, ../modulos/sass/layout/_riesgo.scss */
+  /* line 525, ../modulos/sass/layout/_riesgo.scss */
   .Classroom .Canvas-text {
     width: 41.43426%;
     float: left;
@@ -13320,23 +13431,291 @@ figure {
     margin-left: 41.83267%;
   }
 
-  /* line 528, ../modulos/sass/layout/_riesgo.scss */
+  /* line 530, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia {
     margin-top: 50px;
   }
 }
 @media screen and (max-width: 380px) {
-  /* line 535, ../modulos/sass/layout/_riesgo.scss */
+  /* line 537, ../modulos/sass/layout/_riesgo.scss */
   .Classroom .Teacher-pic {
     margin-left: -125px;
   }
-  /* line 539, ../modulos/sass/layout/_riesgo.scss */
+  /* line 541, ../modulos/sass/layout/_riesgo.scss */
   .Classroom .Canvas-text {
     width: 49.8008%;
     float: left;
     margin-right: 0.39841%;
     display: inline;
     margin-left: 33.46614%;
+  }
+}
+/* line 1, ../modulos/sass/layout/_conocer.scss */
+.Headtext {
+  width: 80%;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+/* line 6, ../modulos/sass/layout/_conocer.scss */
+.Flag {
+  width: 514px;
+  margin: 0 auto;
+  display: table;
+}
+/* line 10, ../modulos/sass/layout/_conocer.scss */
+.Flag-item {
+  height: 460px;
+  width: 33.33333%;
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+/* line 16, ../modulos/sass/layout/_conocer.scss */
+.Flag-item a {
+  color: inherit;
+  font-family: BebasNeue;
+  text-align: center;
+}
+/* line 21, ../modulos/sass/layout/_conocer.scss */
+.Flag-item:first-child::after {
+  border-top: 34px solid #E58F25;
+}
+/* line 24, ../modulos/sass/layout/_conocer.scss */
+.Flag-item:nth-child(2)::after {
+  border-top: 34px solid #C7512E;
+}
+/* line 27, ../modulos/sass/layout/_conocer.scss */
+.Flag-item:last-child::after {
+  border-top: 34px solid #4E4E4E;
+}
+/* line 30, ../modulos/sass/layout/_conocer.scss */
+.Flag-item::after {
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 100%;
+  border-left: 86px solid transparent;
+  border-right: 86px solid transparent;
+}
+
+/* line 42, ../modulos/sass/layout/_conocer.scss */
+.TipoPics {
+  padding-bottom: 0px;
+}
+/* line 44, ../modulos/sass/layout/_conocer.scss */
+.TipoPics-int {
+  width: 33.06773%;
+  float: left;
+  margin-right: 0.39841%;
+  display: inline;
+}
+/* line 46, ../modulos/sass/layout/_conocer.scss */
+.TipoPics-int:last-child {
+  float: right;
+  margin-right: 0;
+  *margin-left: -3.75px;
+  display: inline;
+}
+
+/* line 53, ../modulos/sass/layout/_conocer.scss */
+.Seguro-int {
+  width: 49.8008%;
+  float: left;
+  margin-right: 0.39841%;
+  display: inline;
+}
+/* line 55, ../modulos/sass/layout/_conocer.scss */
+.Seguro-int:last-child {
+  float: right;
+  margin-right: 0;
+  *margin-left: -3.75px;
+  display: inline;
+}
+/* line 59, ../modulos/sass/layout/_conocer.scss */
+.Seguro img {
+  margin-top: 40px;
+}
+
+/* line 64, ../modulos/sass/layout/_conocer.scss */
+.CaractsList-content {
+  margin-left: 75px;
+}
+/* line 67, ../modulos/sass/layout/_conocer.scss */
+.CaractsList-item {
+  position: relative;
+  width: 37.4502%;
+  float: left;
+  margin-right: 0.39841%;
+  display: inline;
+  margin-left: 8.36653%;
+}
+/* line 71, ../modulos/sass/layout/_conocer.scss */
+.CaractsList-item:nth-child(even) {
+  margin-left: 50.1992%;
+  margin-top: -80px;
+}
+/* line 74, ../modulos/sass/layout/_conocer.scss */
+.CaractsList-item:nth-child(even) .CaractsList-content {
+  text-align: right;
+  margin-left: 0;
+  margin-right: 75px;
+}
+/* line 79, ../modulos/sass/layout/_conocer.scss */
+.CaractsList-item:nth-child(even) .Numball {
+  left: 85%;
+}
+/* line 83, ../modulos/sass/layout/_conocer.scss */
+.CaractsList-item::after {
+  content: "";
+  display: inline-block;
+  border-left: 20px solid #6DA6BC;
+  border-top: transparent;
+  border-bottom: transparent;
+}
+/* line 91, ../modulos/sass/layout/_conocer.scss */
+.CaractsList-item:first-child .Numball {
+  color: #7AADD3;
+}
+/* line 94, ../modulos/sass/layout/_conocer.scss */
+.CaractsList-item:nth-child(3) .Numball {
+  color: #648CB0;
+}
+/* line 97, ../modulos/sass/layout/_conocer.scss */
+.CaractsList-item:nth-child(6) .Numball {
+  color: #589999;
+}
+/* line 100, ../modulos/sass/layout/_conocer.scss */
+.CaractsList-item:nth-child(4) .Numball, .CaractsList-item:nth-child(7) .Numball {
+  color: #5187C6;
+}
+/* line 104, ../modulos/sass/layout/_conocer.scss */
+.CaractsList-item:nth-child(2) .Numball, .CaractsList-item:nth-child(5) .Numball, .CaractsList-item:nth-child(8) .Numball {
+  color: #E58F25;
+}
+/* line 109, ../modulos/sass/layout/_conocer.scss */
+.CaractsList-item:last-child .Numball {
+  color: #7FB9D3;
+}
+
+/* line 113, ../modulos/sass/layout/_conocer.scss */
+.Numball {
+  display: inline-block;
+  position: absolute;
+  left: -60px;
+  top: 30%;
+  bottom: 0;
+  border-radius: 50%;
+  font-size: 90px;
+  text-align: center;
+  width: 117px;
+  height: 117px;
+  background: #FFFFFF;
+  font-style: normal;
+  line-height: 1.1em;
+  font-family: BebasNeue;
+  border-style: solid;
+  border-width: 15px;
+  box-shadow: 0px 5px #FFFFFF, 5px 0px #FFFFFF, -5px 0px #FFFFFF, 0px -5px #FFFFFF, 2.5px 2.5px #FFFFFF, 2.5px -2.5px #FFFFFF, -2.5px 2.5px #FFFFFF, -2.5px -2.5px #FFFFFF;
+}
+
+@media screen and (max-width: 830px) {
+  /* line 143, ../modulos/sass/layout/_conocer.scss */
+  .TipoPics-int {
+    width: 41.43426%;
+    float: left;
+    margin-right: 0.39841%;
+    display: inline;
+  }
+  /* line 146, ../modulos/sass/layout/_conocer.scss */
+  .TipoPics-int:first-child {
+    display: none;
+  }
+  /* line 149, ../modulos/sass/layout/_conocer.scss */
+  .TipoPics-int:nth-child(2) {
+    margin-left: 8.36653%;
+  }
+
+  /* line 154, ../modulos/sass/layout/_conocer.scss */
+  .CaractsList-item {
+    width: 83.26693%;
+    float: left;
+    margin-right: 0.39841%;
+    display: inline;
+  }
+  /* line 156, ../modulos/sass/layout/_conocer.scss */
+  .CaractsList-item:nth-child(even) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 8.36653%;
+  }
+  /* line 160, ../modulos/sass/layout/_conocer.scss */
+  .CaractsList-item:nth-child(even) .CaractsList-content {
+    width: 83.26693%;
+    float: left;
+    margin-right: 0.39841%;
+    display: inline;
+  }
+}
+@media screen and (max-width: 605px) {
+  /* line 168, ../modulos/sass/layout/_conocer.scss */
+  .TipoPics {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 580px) {
+  /* line 173, ../modulos/sass/layout/_conocer.scss */
+  .Flag {
+    display: block;
+    width: inherit;
+  }
+  /* line 176, ../modulos/sass/layout/_conocer.scss */
+  .Flag-item {
+    display: block;
+    width: 100%;
+    height: 120px;
+    position: relative;
+  }
+  /* line 181, ../modulos/sass/layout/_conocer.scss */
+  .Flag-item a {
+    position: absolute;
+    vertical-align: middle;
+    width: inherit;
+    top: 45%;
+  }
+  /* line 187, ../modulos/sass/layout/_conocer.scss */
+  .Flag-item a:last-child {
+    top: 35%;
+  }
+  /* line 191, ../modulos/sass/layout/_conocer.scss */
+  .Flag-item::after {
+    display: none;
+  }
+
+  /* line 197, ../modulos/sass/layout/_conocer.scss */
+  .TipoPics-int {
+    width: 83.26693%;
+    float: left;
+    margin-right: 0.39841%;
+    display: inline;
+  }
+  /* line 200, ../modulos/sass/layout/_conocer.scss */
+  .TipoPics-int:last-child {
+    display: none;
+  }
+
+  /* line 205, ../modulos/sass/layout/_conocer.scss */
+  .Seguro-int {
+    width: 83.26693%;
+    float: left;
+    margin-right: 0.39841%;
+    display: inline;
+    margin-left: 8.36653%;
+  }
+  /* line 208, ../modulos/sass/layout/_conocer.scss */
+  .Seguro-int:last-child {
+    display: none;
   }
 }
 /* line 3, ../modulos/sass/modules/_riesgo.scss */

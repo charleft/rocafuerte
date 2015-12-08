@@ -1,0 +1,213 @@
+.Headtext {
+  width: 80%;
+  max-width: 540px;
+  margin: 0 auto;
+}
+.Flag {
+  width: 514px;
+  margin: 0 auto;
+  display: table;
+  &-item {
+    height: 460px;
+    width: 33.33333%;
+    display: table-cell; 
+    vertical-align: middle;
+    position: relative;
+    a {
+      color: inherit;
+      font-family: $titlefont;
+      text-align: center;
+    }
+    &:first-child::after{
+      border-top : 34px solid $bgorange; 
+    }
+    &:nth-child(2)::after{
+      border-top : 34px solid $bgred; 
+    }
+    &:last-child::after{
+      border-top : 34px solid $bggray-dark; 
+    }
+    &::after {
+      content : "";
+      width: 100%;
+      display: block;
+      position: absolute;
+      top: 100%;
+      border-left: 86px solid transparent;
+      border-right: 86px solid transparent;
+    }
+  }
+}
+
+.TipoPics {
+  padding-bottom: 0px;
+  &-int {
+    @include span-columns(4);
+    &:last-child {
+      @include omega();
+    }
+  }
+}
+
+.Seguro {
+  &-int {
+    @include span-columns(6);
+    &:last-child {
+      @include omega();
+    }
+  }
+  img {
+    margin-top: 40px;
+  }
+}
+.CaractsList {
+  &-content {
+    margin-left: 75px;
+  }
+  &-item {
+    position: relative;
+    @include span-columns(4.5);
+    @include push(1);
+    &:nth-child(even) {
+      @include push(6);
+      margin-top: -80px;
+      .CaractsList-content {
+        text-align: right;
+        margin-left: 0;
+        margin-right: 75px;
+      }
+      .Numball {
+        left: 85%;
+      }
+    }
+    &::after {
+      content:"";
+      display: inline-block;
+      border-left: 20px solid $bgcyan;
+      border-top: transparent;
+      border-bottom: transparent;
+    }
+  }
+  &-item:first-child .Numball {
+    color: $bgcyany; 
+  }
+  &-item:nth-child(3) .Numball {
+    color: $bgcyan-other;
+  }
+  &-item:nth-child(6) .Numball {
+    color: $bgturquoise;
+  }
+  &-item:nth-child(4) .Numball,
+  &-item:nth-child(7) .Numball {
+    color: $bgcyan-bright;
+  }
+  &-item:nth-child(2) .Numball,
+  &-item:nth-child(5) .Numball,
+  &-item:nth-child(8) .Numball {
+    color: $bgorange;
+  }
+  &-item:last-child .Numball {
+    color: $bgcyan-light; 
+  }
+}
+.Numball {
+  display: inline-block;
+  position: absolute;
+  left: -60px;
+  top: 30%;
+  bottom: 0;
+  border-radius: 50%;
+  font-size: 90px;
+  text-align: center;
+  width: 117px;
+  height: 117px;
+  background: $white;
+  font-style: normal;
+  line-height: 1.1em;
+  font-family: $titlefont;
+  border-style: solid;
+  border-width: 15px;
+  box-shadow: 0px 5px $white,
+              5px 0px $white,
+              -5px 0px $white,
+              0px -5px $white,
+              2.5px 2.5px $white,
+              2.5px -2.5px $white,
+              -2.5px 2.5px $white,
+              -2.5px -2.5px $white,;
+  //box-shadow: 0px 5px #ffffff;
+}
+
+@media screen and (max-width: 830px) {
+  .TipoPics {
+    &-int {
+      @include span-columns(5);
+    }
+    &-int:first-child {
+      display: none;
+    }
+    &-int:nth-child(2) {
+      @include push(1);
+    }
+  }
+  .CaractsList {
+    &-item {
+      @include span-columns(10);
+      &:nth-child(even) {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        @include push(1);
+        .CaractsList-content {
+          @include span-columns(10);
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 605px) {
+  .TipoPics {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .Flag {
+    display: block;
+    width: inherit;
+    &-item {
+      display: block;
+      width: 100%;
+      height: 120px;
+      position: relative;
+      a {
+        position: absolute;
+        vertical-align: middle;
+        //height: inherit;
+        width: inherit;
+        top: 45%;
+        &:last-child {
+          top: 35%;
+        }
+      }
+      &::after {
+        display: none;
+      }
+    }
+  }
+  .TipoPics {
+    &-int {
+      @include span-columns(10);
+    }
+    &-int:last-child {
+      display: none;
+    }
+  }
+  .Seguro {
+    &-int {
+      @include span-columns(10);
+      @include push(1);
+      &:last-child {
+        display: none;
+      }
+    }
+  }
+}

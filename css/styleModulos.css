@@ -33,7 +33,7 @@ p{
 	padding-top: 125px;
 }
 #Paginador{
-	position: fixed;
+	/*position: fixed;*/
 	clear: both;
 	/*background: red;*/
 	bottom: 1%;
@@ -99,10 +99,11 @@ p{
 	bottom: 0;
 }
 .slider-inner{
-	display: table;
+	display: block;
 	position: relative;
 	transition: all .3s;
 	left: 0;
+  height: inherit;
 }
 .contenido{
 	/*background-color: rgba(0,0,0, .1);*/

@@ -1,6 +1,9 @@
 figure{
   margin: 0px;
 }
+.hauto {
+  height: auto!important;
+}
 .hide-text {
   text-indent: 100%;
   white-space: nowrap;
@@ -38,12 +41,28 @@ figure{
   }
 }
 /* BACKGROUNDS */
+.bgblue {
+  background: $bgblue;
+  color: $white;
+}
+.bgcyan-other {
+  background: $bgcyan-other;
+  color: $white;
+}
+.bgcyan-lighty {
+  background: $bgcyan-lighty;
+  color: $white;
+}
 .bgblue-low {
   background: $bgblue-low;
   color: $white;
 }
 .bgcyan {
   background: $bgcyan;
+  color: $white;
+}
+.bgcyany {
+  background: $bgcyany;
   color: $white;
 }
 .bgcyan-light {
@@ -70,8 +89,25 @@ figure{
   background: $bgred-low;
   color: $white;
 }
+.bgred {
+  background: $bgred;
+  color: $white;
+}
 .bgyellow-low {
   background: $bgyellow-low;
+  color: $white;
+}
+.bgorange {
+  background: $bgorange;
+  color: $white;
+}
+.bgwhite {
+  background: $bgwhite;
+  color: $bgblue;
+}
+
+.bggray-dark {
+  background: $bggray-dark;
   color: $white;
 }
 

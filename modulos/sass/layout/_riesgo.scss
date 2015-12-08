@@ -432,9 +432,11 @@
       }
 
     }
-    &-text {
-      
-    } 
+    /*&-text {
+      &::after {
+        box-shadow
+      }
+    } */
   }
   .Estrategia {
     &-item:nth-child(even) {
