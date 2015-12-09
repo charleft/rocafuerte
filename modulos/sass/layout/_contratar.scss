@@ -1,0 +1,27 @@
+.bgegipto {
+  background: url(../img/contratar/egipto.png) no-repeat bottom right $bgturquoise;
+  background-size: cover;
+  padding-bottom: 180px;
+}
+
+.bgbabilonios {
+  background: url(../img/contratar/babilonios.png) no-repeat bottom right $bgblue-low;
+  background-size: cover;
+  padding-bottom: 180px;
+}
+
+.bgtren {
+  background: url(../img/contratar/tren.png) no-repeat bottom right $bgblue-low;
+  //background-size: cover;
+  padding-bottom: 180px;
+}
+
+@media screen and (max-width:605px) {
+  .hide-md {
+    display: none;
+  }
+  .full-md {
+    @include span-columns(10);
+    @include push(1);
+  }
+}

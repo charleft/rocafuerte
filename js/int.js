@@ -87,7 +87,13 @@ dos.on('click',function(){
 });
 
 tres.on('click',function(){
-	var altura = $("#C").height();
+	if( $("#C").length ) {
+		var altura = $("#C").height();		
+	}
+	else {
+		var altura = $("#Evaluacion").height();
+	}
+	//var altura = $("#C").height();
 	sid.height(altura);
 	ci.css({left:'-'+200+'%',height:altura});
 	//ci.css('left','-'+200+'%');

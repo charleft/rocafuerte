@@ -12638,33 +12638,48 @@ figure {
 }
 
 /* line 40, ../modulos/sass/config/_utils.scss */
+.mrgbttm {
+  margin-bottom: 180px;
+}
+
+/* line 43, ../modulos/sass/config/_utils.scss */
 .padtop {
   padding-top: 60px;
 }
 
-/* line 43, ../modulos/sass/config/_utils.scss */
+/* line 46, ../modulos/sass/config/_utils.scss */
 .pads {
   padding: 70px 30px;
 }
 
-/* line 46, ../modulos/sass/config/_utils.scss */
+/* line 49, ../modulos/sass/config/_utils.scss */
+.padds {
+  width: 100%;
+  float: left;
+  margin-right: 0.39841%;
+  display: inline;
+  padding-left: 8.36653%;
+  padding-right: 8.36653%;
+}
+
+/* line 53, ../modulos/sass/config/_utils.scss */
 .omega {
   float: right;
 }
 
-/* line 49, ../modulos/sass/config/_utils.scss */
+/* line 56, ../modulos/sass/config/_utils.scss */
 .cyantext {
   color: #71C5D0;
 }
 
-/* line 52, ../modulos/sass/config/_utils.scss */
+/* line 59, ../modulos/sass/config/_utils.scss */
 .pic-center, .Foco img {
   margin: 0 auto;
   display: block;
   float: none !important;
 }
 
-/* line 57, ../modulos/sass/config/_utils.scss */
+/* line 64, ../modulos/sass/config/_utils.scss */
 .fullhr {
   width: 83.26693%;
   float: left;
@@ -12675,228 +12690,244 @@ figure {
   margin-bottom: 50px;
 }
 
-/* line 63, ../modulos/sass/config/_utils.scss */
+/* line 70, ../modulos/sass/config/_utils.scss */
 .up {
   margin-top: -60px;
 }
-/* line 65, ../modulos/sass/config/_utils.scss */
+/* line 72, ../modulos/sass/config/_utils.scss */
 .up .Content-para {
   margin-top: 80px;
 }
 
+/* COLORS*/
+/* line 78, ../modulos/sass/config/_utils.scss */
+.cyan-bright {
+  color: #5187C6 !important;
+}
+
+/* line 81, ../modulos/sass/config/_utils.scss */
+.red-low {
+  color: #C7544A !important;
+}
+
+/* line 84, ../modulos/sass/config/_utils.scss */
+.yellow-low {
+  color: #D1AF59 !important;
+}
+
 /* BACKGROUNDS */
-/* line 70, ../modulos/sass/config/_utils.scss */
+/* line 88, ../modulos/sass/config/_utils.scss */
 .bgblue {
   background: #06396D;
   color: #FFFFFF;
 }
 
-/* line 74, ../modulos/sass/config/_utils.scss */
+/* line 92, ../modulos/sass/config/_utils.scss */
 .bgcyan-other {
   background: #648CB0;
   color: #FFFFFF;
 }
 
-/* line 78, ../modulos/sass/config/_utils.scss */
+/* line 96, ../modulos/sass/config/_utils.scss */
 .bgcyan-water {
   background: #98D1FC;
   color: #FFFFFF;
 }
 
-/* line 82, ../modulos/sass/config/_utils.scss */
+/* line 100, ../modulos/sass/config/_utils.scss */
 .bgcyan-lighty {
   background: #71C5D0;
   color: #FFFFFF;
 }
 
-/* line 86, ../modulos/sass/config/_utils.scss */
+/* line 104, ../modulos/sass/config/_utils.scss */
 .bgblue-low {
   background: #4D5F8A;
   color: #FFFFFF;
 }
 
-/* line 90, ../modulos/sass/config/_utils.scss */
+/* line 108, ../modulos/sass/config/_utils.scss */
 .bgblue-ghost {
   background: rgba(0, 0, 76, 0.68);
   color: #FFFFFF;
 }
 
-/* line 94, ../modulos/sass/config/_utils.scss */
+/* line 112, ../modulos/sass/config/_utils.scss */
 .bgblue-cloud {
   background: #4D5069;
   color: #FFFFFF;
 }
 
-/* line 98, ../modulos/sass/config/_utils.scss */
+/* line 116, ../modulos/sass/config/_utils.scss */
 .bgcyan {
   background: #6DA6BC;
   color: #FFFFFF;
 }
 
-/* line 102, ../modulos/sass/config/_utils.scss */
+/* line 120, ../modulos/sass/config/_utils.scss */
 .bgcyan-cloud {
   background: #7AABC4;
   color: #FFFFFF;
 }
 
-/* line 106, ../modulos/sass/config/_utils.scss */
+/* line 124, ../modulos/sass/config/_utils.scss */
 .bgturquoise-cloud {
   background: #5DA39A;
   color: #FFFFFF;
 }
 
-/* line 110, ../modulos/sass/config/_utils.scss */
+/* line 128, ../modulos/sass/config/_utils.scss */
 .bgcloudcol1 {
   background: #4a4f6a;
   color: #FFFFFF;
 }
 
-/* line 114, ../modulos/sass/config/_utils.scss */
+/* line 132, ../modulos/sass/config/_utils.scss */
 .bgcloudcol2 {
   background: #0ba59b;
   color: #FFFFFF;
 }
 
-/* line 118, ../modulos/sass/config/_utils.scss */
+/* line 136, ../modulos/sass/config/_utils.scss */
 .bgcloudcol3 {
   background: #f9ae40;
   color: #FFFFFF;
 }
 
-/* line 123, ../modulos/sass/config/_utils.scss */
+/* line 141, ../modulos/sass/config/_utils.scss */
 .bgcloud1 {
   background: #4a4f6a;
   color: #FFFFFF;
 }
 
-/* line 127, ../modulos/sass/config/_utils.scss */
+/* line 145, ../modulos/sass/config/_utils.scss */
 .bgcloud2 {
   background: #ff9452;
   color: #FFFFFF;
 }
 
-/* line 131, ../modulos/sass/config/_utils.scss */
+/* line 149, ../modulos/sass/config/_utils.scss */
 .bgcloud3 {
   background: #5eadc6;
   color: #FFFFFF;
 }
 
-/* line 135, ../modulos/sass/config/_utils.scss */
+/* line 153, ../modulos/sass/config/_utils.scss */
 .bgcloud4 {
   background: #0ba59b;
   color: #FFFFFF;
 }
 
-/* line 139, ../modulos/sass/config/_utils.scss */
+/* line 157, ../modulos/sass/config/_utils.scss */
 .bgcloud5 {
   background: #f9ae40;
   color: #FFFFFF;
 }
 
-/* line 143, ../modulos/sass/config/_utils.scss */
+/* line 161, ../modulos/sass/config/_utils.scss */
 .bgcloud6 {
   background: #f3bb71;
   color: #FFFFFF;
 }
 
-/* line 147, ../modulos/sass/config/_utils.scss */
+/* line 165, ../modulos/sass/config/_utils.scss */
 .bgcyany {
   background: #7AADD3;
   color: #FFFFFF;
 }
 
-/* line 151, ../modulos/sass/config/_utils.scss */
+/* line 169, ../modulos/sass/config/_utils.scss */
 .bgcyanA {
   background: #8AC4DB;
   color: #FFFFFF;
 }
 
-/* line 155, ../modulos/sass/config/_utils.scss */
+/* line 173, ../modulos/sass/config/_utils.scss */
 .bgcyanB {
   background: #7AABC4;
   color: #FFFFFF;
 }
 
-/* line 159, ../modulos/sass/config/_utils.scss */
+/* line 177, ../modulos/sass/config/_utils.scss */
 .bgcyan-light {
   background: #7FB9D3;
   color: #FFFFFF;
 }
 
-/* line 163, ../modulos/sass/config/_utils.scss */
+/* line 181, ../modulos/sass/config/_utils.scss */
 .bgcyan-bright {
   background: #5187C6;
   color: #FFFFFF;
 }
 
-/* line 167, ../modulos/sass/config/_utils.scss */
+/* line 185, ../modulos/sass/config/_utils.scss */
 .bgcyan-strong {
   background: #589999;
   color: #FFFFFF;
 }
 
-/* line 171, ../modulos/sass/config/_utils.scss */
+/* line 189, ../modulos/sass/config/_utils.scss */
 .bgturquoise {
   background: #589999;
   color: #FFFFFF;
 }
 
-/* line 175, ../modulos/sass/config/_utils.scss */
+/* line 193, ../modulos/sass/config/_utils.scss */
 .bgturquoise-low {
   background: #70BA9E;
   color: #FFFFFF;
 }
 
-/* line 179, ../modulos/sass/config/_utils.scss */
+/* line 197, ../modulos/sass/config/_utils.scss */
 .bgred-low {
   background: #C7544A;
   color: #FFFFFF;
 }
 
-/* line 183, ../modulos/sass/config/_utils.scss */
+/* line 201, ../modulos/sass/config/_utils.scss */
 .bgred {
   background: #C7512E;
   color: #FFFFFF;
 }
 
-/* line 187, ../modulos/sass/config/_utils.scss */
+/* line 205, ../modulos/sass/config/_utils.scss */
 .bgyellow-low {
   background: #D1AF59;
   color: #FFFFFF;
 }
 
-/* line 191, ../modulos/sass/config/_utils.scss */
+/* line 209, ../modulos/sass/config/_utils.scss */
 .bgorange {
   background: #E58F25;
   color: #FFFFFF;
 }
 
-/* line 195, ../modulos/sass/config/_utils.scss */
+/* line 213, ../modulos/sass/config/_utils.scss */
 .bgorange-low {
   background: #E4BA75;
   color: #FFFFFF;
 }
 
-/* line 199, ../modulos/sass/config/_utils.scss */
+/* line 217, ../modulos/sass/config/_utils.scss */
 .bgorange-cloud {
   background: #EA9357;
   color: #FFFFFF;
 }
 
-/* line 203, ../modulos/sass/config/_utils.scss */
+/* line 221, ../modulos/sass/config/_utils.scss */
 .bgwhite {
   background: #F1F2F3;
   color: #06396D;
 }
 
-/* line 208, ../modulos/sass/config/_utils.scss */
+/* line 226, ../modulos/sass/config/_utils.scss */
 .bggray-dark {
   background: #4E4E4E;
   color: #FFFFFF;
 }
 
 @media screen and (max-width: 605px) {
-  /* line 214, ../modulos/sass/config/_utils.scss */
+  /* line 232, ../modulos/sass/config/_utils.scss */
   .pads {
     padding: 20px 10px;
   }
@@ -14562,6 +14593,41 @@ figure {
   .Deber-item:nth-child(1n + 1) {
     margin-left: 0%;
     clear: left;
+  }
+}
+/* line 1, ../modulos/sass/layout/_contratar.scss */
+.bgegipto {
+  background: url(../img/contratar/egipto.png) no-repeat bottom right #589999;
+  background-size: cover;
+  padding-bottom: 180px;
+}
+
+/* line 7, ../modulos/sass/layout/_contratar.scss */
+.bgbabilonios {
+  background: url(../img/contratar/babilonios.png) no-repeat bottom right #4D5F8A;
+  background-size: cover;
+  padding-bottom: 180px;
+}
+
+/* line 13, ../modulos/sass/layout/_contratar.scss */
+.bgtren {
+  background: url(../img/contratar/tren.png) no-repeat bottom right #4D5F8A;
+  padding-bottom: 180px;
+}
+
+@media screen and (max-width: 605px) {
+  /* line 20, ../modulos/sass/layout/_contratar.scss */
+  .hide-md {
+    display: none;
+  }
+
+  /* line 23, ../modulos/sass/layout/_contratar.scss */
+  .full-md {
+    width: 83.26693%;
+    float: left;
+    margin-right: 0.39841%;
+    display: inline;
+    margin-left: 8.36653%;
   }
 }
 /* line 3, ../modulos/sass/modules/_riesgo.scss */

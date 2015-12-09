@@ -37,11 +37,18 @@ figure{
 .mrgtop {
   margin-top: 80px;
 }
+.mrgbttm {
+  margin-bottom: 180px;
+}
 .padtop {
   padding-top: 60px;
 }
 .pads {
   padding: 70px 30px;
+}
+.padds {
+  @include span-columns(12);
+  @include pad(1,1);
 }
 .omega {
   float: right;
@@ -65,6 +72,17 @@ figure{
   .Content-para {
     margin-top: 80px;
   }
+}
+
+/* COLORS*/
+.cyan-bright {
+  color: $bgcyan-bright!important;
+}
+.red-low {
+  color: $bgred-low!important;
+}
+.yellow-low {
+  color: $bgyellow-low!important;
 }
 /* BACKGROUNDS */
 .bgblue {
