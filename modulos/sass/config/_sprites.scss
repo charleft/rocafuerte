@@ -5,3 +5,7 @@ $restricciones-sprite-dimensions: true;
 @import "sprites/neon/*.png";
 $neon-sprite-dimensions: true;
 @include all-neon-sprites;
+
+@import "sprites/siniestro/*.png";
+$siniestro-sprite-dimensions: true;
+@include all-siniestro-sprites;

@@ -1,0 +1,82 @@
+.Lavadora {
+  background: url(../img/siniestro/bg-lavadora.jpg) no-repeat top right;
+  background-size: cover;
+  @include squish(1, 1);
+  @include span-columns(10);
+  &-text {
+    @include span-columns(6);
+    @include pad(1, 1);
+    padding-top: 90px;
+    padding-bottom: 60px;
+    margin: 0;
+
+  }
+}
+
+.ConsiList {
+  @include span-columns(12);
+  //@include pad(1,1);
+  &-item {
+    i {
+      //position: absolute;
+      //top: 0;
+      //left: 0;
+      //margin-right: 15px;
+      //margin-left: -115px;
+      float: left;
+      margin-right: 10px; 
+    }
+    
+    clear: left;
+    padding-top: 10px;
+    //margin-left: 115px;
+    
+  }
+}
+
+.Deber {
+  @include pad(1, 1);
+  &-item {
+    @include isolate-grid(6, 12);
+    &:nth-child(2),
+    &:nth-child(3) {
+      .Deber-fig {
+        background: #6d94c9;
+      }
+    }
+  }
+  &-fig {
+    text-align: center;
+    @include pad(1, 1);
+    background: #88c1ab;
+    color: $white;
+  }
+  &-img {
+    height: 120px;
+  }
+  &-caption {
+    min-height: 160px;
+    line-height: 1.2em;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .Deber {
+    @include pad(.5, .5);
+    &-fig {
+      @include pad(.5, .5);
+    }
+  }
+  .Lavadora {
+    &-text {
+      @include span-columns(12);
+    }
+  }
+}
+@media screen and (max-width: 350px) {
+  .Deber {
+    &-item {
+      @include isolate-grid(12, 12);
+    }
+  }
+}

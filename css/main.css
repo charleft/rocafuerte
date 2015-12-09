@@ -12505,92 +12505,166 @@ p {
   width: 87px;
 }
 
+/* line 112, sprites/siniestro/*.png */
+.siniestro-sprite, .siniestro-cinco, .siniestro-cuatro, .siniestro-dos, .siniestro-nueve, .siniestro-ocho, .siniestro-seis, .siniestro-siete, .siniestro-tres, .siniestro-uno {
+  background-image: url('../img/sprites/siniestro-scdb623d280.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.siniestro-cinco {
+  background-position: 0 0;
+  height: 102px;
+  width: 102px;
+}
+
+/* line 84, ../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.siniestro-cuatro {
+  background-position: 0 -102px;
+  height: 102px;
+  width: 102px;
+}
+
+/* line 84, ../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.siniestro-dos {
+  background-position: 0 -204px;
+  height: 102px;
+  width: 102px;
+}
+
+/* line 84, ../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.siniestro-nueve {
+  background-position: 0 -306px;
+  height: 102px;
+  width: 102px;
+}
+
+/* line 84, ../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.siniestro-ocho {
+  background-position: 0 -408px;
+  height: 102px;
+  width: 102px;
+}
+
+/* line 84, ../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.siniestro-seis {
+  background-position: 0 -510px;
+  height: 102px;
+  width: 102px;
+}
+
+/* line 84, ../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.siniestro-siete {
+  background-position: 0 -612px;
+  height: 102px;
+  width: 102px;
+}
+
+/* line 84, ../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.siniestro-tres {
+  background-position: 0 -714px;
+  height: 102px;
+  width: 102px;
+}
+
+/* line 84, ../../../.rvm/gems/ruby-2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.siniestro-uno {
+  background-position: 0 -816px;
+  height: 102px;
+  width: 102px;
+}
+
 /* line 1, ../modulos/sass/config/_utils.scss */
+.black {
+  color: #000000;
+}
+
+/* line 4, ../modulos/sass/config/_utils.scss */
 figure {
   margin: 0px;
 }
 
-/* line 4, ../modulos/sass/config/_utils.scss */
+/* line 7, ../modulos/sass/config/_utils.scss */
 .hauto {
   height: auto !important;
 }
 
-/* line 7, ../modulos/sass/config/_utils.scss */
+/* line 10, ../modulos/sass/config/_utils.scss */
 .nocntr, .nocntr span {
   text-align: left;
 }
 
-/* line 10, ../modulos/sass/config/_utils.scss */
+/* line 13, ../modulos/sass/config/_utils.scss */
 .nopos {
   position: static !important;
 }
 
-/* line 13, ../modulos/sass/config/_utils.scss */
+/* line 16, ../modulos/sass/config/_utils.scss */
 .posrel {
   position: relative;
 }
 
-/* line 16, ../modulos/sass/config/_utils.scss */
+/* line 19, ../modulos/sass/config/_utils.scss */
 .pushlft {
   margin-left: 8.36653%;
 }
 
-/* line 19, ../modulos/sass/config/_utils.scss */
+/* line 22, ../modulos/sass/config/_utils.scss */
 .pushhlf {
   margin-left: 41.83267%;
 }
 
-/* line 22, ../modulos/sass/config/_utils.scss */
-.hide-text, .Restricciones-item i, .QuestionList-item i {
+/* line 25, ../modulos/sass/config/_utils.scss */
+.hide-text, .Restricciones-item i, .QuestionList-item i, .ConsiList-item i {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
 }
 
-/* line 27, ../modulos/sass/config/_utils.scss */
+/* line 30, ../modulos/sass/config/_utils.scss */
 .fix-height, .QuestionList-item a {
   overflow: hidden;
 }
 
-/* line 30, ../modulos/sass/config/_utils.scss */
+/* line 33, ../modulos/sass/config/_utils.scss */
 .nomrg-vert, .TextHead, .QuestionList {
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
-/* line 34, ../modulos/sass/config/_utils.scss */
+/* line 37, ../modulos/sass/config/_utils.scss */
 .mrgtop {
   margin-top: 80px;
 }
 
-/* line 37, ../modulos/sass/config/_utils.scss */
+/* line 40, ../modulos/sass/config/_utils.scss */
 .padtop {
   padding-top: 60px;
 }
 
-/* line 40, ../modulos/sass/config/_utils.scss */
+/* line 43, ../modulos/sass/config/_utils.scss */
 .pads {
   padding: 70px 30px;
 }
 
-/* line 43, ../modulos/sass/config/_utils.scss */
+/* line 46, ../modulos/sass/config/_utils.scss */
 .omega {
   float: right;
 }
 
-/* line 46, ../modulos/sass/config/_utils.scss */
+/* line 49, ../modulos/sass/config/_utils.scss */
 .cyantext {
   color: #71C5D0;
 }
 
-/* line 49, ../modulos/sass/config/_utils.scss */
+/* line 52, ../modulos/sass/config/_utils.scss */
 .pic-center, .Foco img {
   margin: 0 auto;
   display: block;
   float: none !important;
 }
 
-/* line 54, ../modulos/sass/config/_utils.scss */
+/* line 57, ../modulos/sass/config/_utils.scss */
 .fullhr {
   width: 83.26693%;
   float: left;
@@ -12601,222 +12675,228 @@ figure {
   margin-bottom: 50px;
 }
 
-/* line 60, ../modulos/sass/config/_utils.scss */
+/* line 63, ../modulos/sass/config/_utils.scss */
 .up {
   margin-top: -60px;
 }
-/* line 62, ../modulos/sass/config/_utils.scss */
+/* line 65, ../modulos/sass/config/_utils.scss */
 .up .Content-para {
   margin-top: 80px;
 }
 
 /* BACKGROUNDS */
-/* line 67, ../modulos/sass/config/_utils.scss */
+/* line 70, ../modulos/sass/config/_utils.scss */
 .bgblue {
   background: #06396D;
   color: #FFFFFF;
 }
 
-/* line 71, ../modulos/sass/config/_utils.scss */
+/* line 74, ../modulos/sass/config/_utils.scss */
 .bgcyan-other {
   background: #648CB0;
   color: #FFFFFF;
 }
 
-/* line 75, ../modulos/sass/config/_utils.scss */
+/* line 78, ../modulos/sass/config/_utils.scss */
 .bgcyan-water {
   background: #98D1FC;
   color: #FFFFFF;
 }
 
-/* line 79, ../modulos/sass/config/_utils.scss */
+/* line 82, ../modulos/sass/config/_utils.scss */
 .bgcyan-lighty {
   background: #71C5D0;
   color: #FFFFFF;
 }
 
-/* line 83, ../modulos/sass/config/_utils.scss */
+/* line 86, ../modulos/sass/config/_utils.scss */
 .bgblue-low {
   background: #4D5F8A;
   color: #FFFFFF;
 }
 
-/* line 87, ../modulos/sass/config/_utils.scss */
+/* line 90, ../modulos/sass/config/_utils.scss */
+.bgblue-ghost {
+  background: rgba(0, 0, 76, 0.68);
+  color: #FFFFFF;
+}
+
+/* line 94, ../modulos/sass/config/_utils.scss */
 .bgblue-cloud {
   background: #4D5069;
   color: #FFFFFF;
 }
 
-/* line 91, ../modulos/sass/config/_utils.scss */
+/* line 98, ../modulos/sass/config/_utils.scss */
 .bgcyan {
   background: #6DA6BC;
   color: #FFFFFF;
 }
 
-/* line 95, ../modulos/sass/config/_utils.scss */
+/* line 102, ../modulos/sass/config/_utils.scss */
 .bgcyan-cloud {
   background: #7AABC4;
   color: #FFFFFF;
 }
 
-/* line 99, ../modulos/sass/config/_utils.scss */
+/* line 106, ../modulos/sass/config/_utils.scss */
 .bgturquoise-cloud {
   background: #5DA39A;
   color: #FFFFFF;
 }
 
-/* line 103, ../modulos/sass/config/_utils.scss */
+/* line 110, ../modulos/sass/config/_utils.scss */
 .bgcloudcol1 {
   background: #4a4f6a;
   color: #FFFFFF;
 }
 
-/* line 107, ../modulos/sass/config/_utils.scss */
+/* line 114, ../modulos/sass/config/_utils.scss */
 .bgcloudcol2 {
   background: #0ba59b;
   color: #FFFFFF;
 }
 
-/* line 111, ../modulos/sass/config/_utils.scss */
+/* line 118, ../modulos/sass/config/_utils.scss */
 .bgcloudcol3 {
   background: #f9ae40;
   color: #FFFFFF;
 }
 
-/* line 116, ../modulos/sass/config/_utils.scss */
+/* line 123, ../modulos/sass/config/_utils.scss */
 .bgcloud1 {
   background: #4a4f6a;
   color: #FFFFFF;
 }
 
-/* line 120, ../modulos/sass/config/_utils.scss */
+/* line 127, ../modulos/sass/config/_utils.scss */
 .bgcloud2 {
   background: #ff9452;
   color: #FFFFFF;
 }
 
-/* line 124, ../modulos/sass/config/_utils.scss */
+/* line 131, ../modulos/sass/config/_utils.scss */
 .bgcloud3 {
   background: #5eadc6;
   color: #FFFFFF;
 }
 
-/* line 128, ../modulos/sass/config/_utils.scss */
+/* line 135, ../modulos/sass/config/_utils.scss */
 .bgcloud4 {
   background: #0ba59b;
   color: #FFFFFF;
 }
 
-/* line 132, ../modulos/sass/config/_utils.scss */
+/* line 139, ../modulos/sass/config/_utils.scss */
 .bgcloud5 {
   background: #f9ae40;
   color: #FFFFFF;
 }
 
-/* line 136, ../modulos/sass/config/_utils.scss */
+/* line 143, ../modulos/sass/config/_utils.scss */
 .bgcloud6 {
   background: #f3bb71;
   color: #FFFFFF;
 }
 
-/* line 140, ../modulos/sass/config/_utils.scss */
+/* line 147, ../modulos/sass/config/_utils.scss */
 .bgcyany {
   background: #7AADD3;
   color: #FFFFFF;
 }
 
-/* line 144, ../modulos/sass/config/_utils.scss */
+/* line 151, ../modulos/sass/config/_utils.scss */
 .bgcyanA {
   background: #8AC4DB;
   color: #FFFFFF;
 }
 
-/* line 148, ../modulos/sass/config/_utils.scss */
+/* line 155, ../modulos/sass/config/_utils.scss */
 .bgcyanB {
   background: #7AABC4;
   color: #FFFFFF;
 }
 
-/* line 152, ../modulos/sass/config/_utils.scss */
+/* line 159, ../modulos/sass/config/_utils.scss */
 .bgcyan-light {
   background: #7FB9D3;
   color: #FFFFFF;
 }
 
-/* line 156, ../modulos/sass/config/_utils.scss */
+/* line 163, ../modulos/sass/config/_utils.scss */
 .bgcyan-bright {
   background: #5187C6;
   color: #FFFFFF;
 }
 
-/* line 160, ../modulos/sass/config/_utils.scss */
+/* line 167, ../modulos/sass/config/_utils.scss */
 .bgcyan-strong {
   background: #589999;
   color: #FFFFFF;
 }
 
-/* line 164, ../modulos/sass/config/_utils.scss */
+/* line 171, ../modulos/sass/config/_utils.scss */
 .bgturquoise {
   background: #589999;
   color: #FFFFFF;
 }
 
-/* line 168, ../modulos/sass/config/_utils.scss */
+/* line 175, ../modulos/sass/config/_utils.scss */
 .bgturquoise-low {
   background: #70BA9E;
   color: #FFFFFF;
 }
 
-/* line 172, ../modulos/sass/config/_utils.scss */
+/* line 179, ../modulos/sass/config/_utils.scss */
 .bgred-low {
   background: #C7544A;
   color: #FFFFFF;
 }
 
-/* line 176, ../modulos/sass/config/_utils.scss */
+/* line 183, ../modulos/sass/config/_utils.scss */
 .bgred {
   background: #C7512E;
   color: #FFFFFF;
 }
 
-/* line 180, ../modulos/sass/config/_utils.scss */
+/* line 187, ../modulos/sass/config/_utils.scss */
 .bgyellow-low {
   background: #D1AF59;
   color: #FFFFFF;
 }
 
-/* line 184, ../modulos/sass/config/_utils.scss */
+/* line 191, ../modulos/sass/config/_utils.scss */
 .bgorange {
   background: #E58F25;
   color: #FFFFFF;
 }
 
-/* line 188, ../modulos/sass/config/_utils.scss */
+/* line 195, ../modulos/sass/config/_utils.scss */
 .bgorange-low {
   background: #E4BA75;
   color: #FFFFFF;
 }
 
-/* line 192, ../modulos/sass/config/_utils.scss */
+/* line 199, ../modulos/sass/config/_utils.scss */
 .bgorange-cloud {
   background: #EA9357;
   color: #FFFFFF;
 }
 
-/* line 196, ../modulos/sass/config/_utils.scss */
+/* line 203, ../modulos/sass/config/_utils.scss */
 .bgwhite {
   background: #F1F2F3;
   color: #06396D;
 }
 
-/* line 201, ../modulos/sass/config/_utils.scss */
+/* line 208, ../modulos/sass/config/_utils.scss */
 .bggray-dark {
   background: #4E4E4E;
   color: #FFFFFF;
 }
 
 @media screen and (max-width: 605px) {
-  /* line 207, ../modulos/sass/config/_utils.scss */
+  /* line 214, ../modulos/sass/config/_utils.scss */
   .pads {
     padding: 20px 10px;
   }
@@ -12827,13 +12907,6 @@ figure {
   float: left;
   margin-right: 0.39841%;
   display: inline;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjNzk3OWU1IiBzdG9wLW9wYWNpdHk9IjAuMjUiLz48c3RvcCBvZmZzZXQ9IjcuOTY4MTMlIiBzdG9wLWNvbG9yPSIjNGY0ZmRkIiBzdG9wLW9wYWNpdHk9IjAuMjUiLz48c3RvcCBvZmZzZXQ9IjcuOTY4MTMlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjxzdG9wIG9mZnNldD0iOC4zNjY1MyUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI4LjM2NjUzJSIgc3RvcC1jb2xvcj0iIzc5NzllNSIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSIxNi4zMzQ2NiUiIHN0b3AtY29sb3I9IiM0ZjRmZGQiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iMTYuMzM0NjYlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjxzdG9wIG9mZnNldD0iMTYuNzMzMDclIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjxzdG9wIG9mZnNldD0iMTYuNzMzMDclIiBzdG9wLWNvbG9yPSIjNzk3OWU1IiBzdG9wLW9wYWNpdHk9IjAuMjUiLz48c3RvcCBvZmZzZXQ9IjI0LjcwMTIlIiBzdG9wLWNvbG9yPSIjNGY0ZmRkIiBzdG9wLW9wYWNpdHk9IjAuMjUiLz48c3RvcCBvZmZzZXQ9IjI0LjcwMTIlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjxzdG9wIG9mZnNldD0iMjUuMDk5NiUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSIyNS4wOTk2JSIgc3RvcC1jb2xvcj0iIzc5NzllNSIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSIzMy4wNjc3MyUiIHN0b3AtY29sb3I9IiM0ZjRmZGQiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iMzMuMDY3NzMlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjxzdG9wIG9mZnNldD0iMzMuNDY2MTQlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjxzdG9wIG9mZnNldD0iMzMuNDY2MTQlIiBzdG9wLWNvbG9yPSIjNzk3OWU1IiBzdG9wLW9wYWNpdHk9IjAuMjUiLz48c3RvcCBvZmZzZXQ9IjQxLjQzNDI2JSIgc3RvcC1jb2xvcj0iIzRmNGZkZCIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI0MS40MzQyNiUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI0MS44MzI2NyUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI0MS44MzI2NyUiIHN0b3AtY29sb3I9IiM3OTc5ZTUiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iNDkuODAwOCUiIHN0b3AtY29sb3I9IiM0ZjRmZGQiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iNDkuODAwOCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI1MC4xOTkyJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjUwLjE5OTIlIiBzdG9wLWNvbG9yPSIjNzk3OWU1IiBzdG9wLW9wYWNpdHk9IjAuMjUiLz48c3RvcCBvZmZzZXQ9IjU4LjE2NzMzJSIgc3RvcC1jb2xvcj0iIzRmNGZkZCIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI1OC4xNjczMyUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI1OC41NjU3NCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI1OC41NjU3NCUiIHN0b3AtY29sb3I9IiM3OTc5ZTUiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iNjYuNTMzODYlIiBzdG9wLWNvbG9yPSIjNGY0ZmRkIiBzdG9wLW9wYWNpdHk9IjAuMjUiLz48c3RvcCBvZmZzZXQ9IjY2LjUzMzg2JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjY2LjkzMjI3JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjY2LjkzMjI3JSIgc3RvcC1jb2xvcj0iIzc5NzllNSIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI3NC45MDA0JSIgc3RvcC1jb2xvcj0iIzRmNGZkZCIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI3NC45MDA0JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9Ijc1LjI5ODglIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjxzdG9wIG9mZnNldD0iNzUuMjk4OCUiIHN0b3AtY29sb3I9IiM3OTc5ZTUiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iODMuMjY2OTMlIiBzdG9wLWNvbG9yPSIjNGY0ZmRkIiBzdG9wLW9wYWNpdHk9IjAuMjUiLz48c3RvcCBvZmZzZXQ9IjgzLjI2NjkzJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjgzLjY2NTM0JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjgzLjY2NTM0JSIgc3RvcC1jb2xvcj0iIzc5NzllNSIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI5MS42MzM0NyUiIHN0b3AtY29sb3I9IiM0ZjRmZGQiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iOTEuNjMzNDclIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjxzdG9wIG9mZnNldD0iOTIuMDMxODclIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjxzdG9wIG9mZnNldD0iOTIuMDMxODclIiBzdG9wLWNvbG9yPSIjNzk3OWU1IiBzdG9wLW9wYWNpdHk9IjAuMjUiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0ZjRmZGQiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(121, 121, 229, 0.25)), color-stop(7.96813%, rgba(79, 79, 221, 0.25)), color-stop(7.96813%, rgba(0, 0, 0, 0)), color-stop(8.36653%, rgba(0, 0, 0, 0)), color-stop(8.36653%, rgba(121, 121, 229, 0.25)), color-stop(16.33466%, rgba(79, 79, 221, 0.25)), color-stop(16.33466%, rgba(0, 0, 0, 0)), color-stop(16.73307%, rgba(0, 0, 0, 0)), color-stop(16.73307%, rgba(121, 121, 229, 0.25)), color-stop(24.7012%, rgba(79, 79, 221, 0.25)), color-stop(24.7012%, rgba(0, 0, 0, 0)), color-stop(25.0996%, rgba(0, 0, 0, 0)), color-stop(25.0996%, rgba(121, 121, 229, 0.25)), color-stop(33.06773%, rgba(79, 79, 221, 0.25)), color-stop(33.06773%, rgba(0, 0, 0, 0)), color-stop(33.46614%, rgba(0, 0, 0, 0)), color-stop(33.46614%, rgba(121, 121, 229, 0.25)), color-stop(41.43426%, rgba(79, 79, 221, 0.25)), color-stop(41.43426%, rgba(0, 0, 0, 0)), color-stop(41.83267%, rgba(0, 0, 0, 0)), color-stop(41.83267%, rgba(121, 121, 229, 0.25)), color-stop(49.8008%, rgba(79, 79, 221, 0.25)), color-stop(49.8008%, rgba(0, 0, 0, 0)), color-stop(50.1992%, rgba(0, 0, 0, 0)), color-stop(50.1992%, rgba(121, 121, 229, 0.25)), color-stop(58.16733%, rgba(79, 79, 221, 0.25)), color-stop(58.16733%, rgba(0, 0, 0, 0)), color-stop(58.56574%, rgba(0, 0, 0, 0)), color-stop(58.56574%, rgba(121, 121, 229, 0.25)), color-stop(66.53386%, rgba(79, 79, 221, 0.25)), color-stop(66.53386%, rgba(0, 0, 0, 0)), color-stop(66.93227%, rgba(0, 0, 0, 0)), color-stop(66.93227%, rgba(121, 121, 229, 0.25)), color-stop(74.9004%, rgba(79, 79, 221, 0.25)), color-stop(74.9004%, rgba(0, 0, 0, 0)), color-stop(75.2988%, rgba(0, 0, 0, 0)), color-stop(75.2988%, rgba(121, 121, 229, 0.25)), color-stop(83.26693%, rgba(79, 79, 221, 0.25)), color-stop(83.26693%, rgba(0, 0, 0, 0)), color-stop(83.66534%, rgba(0, 0, 0, 0)), color-stop(83.66534%, rgba(121, 121, 229, 0.25)), color-stop(91.63347%, rgba(79, 79, 221, 0.25)), color-stop(91.63347%, rgba(0, 0, 0, 0)), color-stop(92.03187%, rgba(0, 0, 0, 0)), color-stop(92.03187%, rgba(121, 121, 229, 0.25)), color-stop(100%, rgba(79, 79, 221, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(121, 121, 229, 0.25) 0%, rgba(79, 79, 221, 0.25) 7.96813%, rgba(0, 0, 0, 0) 7.96813%, rgba(0, 0, 0, 0) 8.36653%, rgba(121, 121, 229, 0.25) 8.36653%, rgba(79, 79, 221, 0.25) 16.33466%, rgba(0, 0, 0, 0) 16.33466%, rgba(0, 0, 0, 0) 16.73307%, rgba(121, 121, 229, 0.25) 16.73307%, rgba(79, 79, 221, 0.25) 24.7012%, rgba(0, 0, 0, 0) 24.7012%, rgba(0, 0, 0, 0) 25.0996%, rgba(121, 121, 229, 0.25) 25.0996%, rgba(79, 79, 221, 0.25) 33.06773%, rgba(0, 0, 0, 0) 33.06773%, rgba(0, 0, 0, 0) 33.46614%, rgba(121, 121, 229, 0.25) 33.46614%, rgba(79, 79, 221, 0.25) 41.43426%, rgba(0, 0, 0, 0) 41.43426%, rgba(0, 0, 0, 0) 41.83267%, rgba(121, 121, 229, 0.25) 41.83267%, rgba(79, 79, 221, 0.25) 49.8008%, rgba(0, 0, 0, 0) 49.8008%, rgba(0, 0, 0, 0) 50.1992%, rgba(121, 121, 229, 0.25) 50.1992%, rgba(79, 79, 221, 0.25) 58.16733%, rgba(0, 0, 0, 0) 58.16733%, rgba(0, 0, 0, 0) 58.56574%, rgba(121, 121, 229, 0.25) 58.56574%, rgba(79, 79, 221, 0.25) 66.53386%, rgba(0, 0, 0, 0) 66.53386%, rgba(0, 0, 0, 0) 66.93227%, rgba(121, 121, 229, 0.25) 66.93227%, rgba(79, 79, 221, 0.25) 74.9004%, rgba(0, 0, 0, 0) 74.9004%, rgba(0, 0, 0, 0) 75.2988%, rgba(121, 121, 229, 0.25) 75.2988%, rgba(79, 79, 221, 0.25) 83.26693%, rgba(0, 0, 0, 0) 83.26693%, rgba(0, 0, 0, 0) 83.66534%, rgba(121, 121, 229, 0.25) 83.66534%, rgba(79, 79, 221, 0.25) 91.63347%, rgba(0, 0, 0, 0) 91.63347%, rgba(0, 0, 0, 0) 92.03187%, rgba(121, 121, 229, 0.25) 92.03187%, rgba(79, 79, 221, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(121, 121, 229, 0.25) 0%, rgba(79, 79, 221, 0.25) 7.96813%, rgba(0, 0, 0, 0) 7.96813%, rgba(0, 0, 0, 0) 8.36653%, rgba(121, 121, 229, 0.25) 8.36653%, rgba(79, 79, 221, 0.25) 16.33466%, rgba(0, 0, 0, 0) 16.33466%, rgba(0, 0, 0, 0) 16.73307%, rgba(121, 121, 229, 0.25) 16.73307%, rgba(79, 79, 221, 0.25) 24.7012%, rgba(0, 0, 0, 0) 24.7012%, rgba(0, 0, 0, 0) 25.0996%, rgba(121, 121, 229, 0.25) 25.0996%, rgba(79, 79, 221, 0.25) 33.06773%, rgba(0, 0, 0, 0) 33.06773%, rgba(0, 0, 0, 0) 33.46614%, rgba(121, 121, 229, 0.25) 33.46614%, rgba(79, 79, 221, 0.25) 41.43426%, rgba(0, 0, 0, 0) 41.43426%, rgba(0, 0, 0, 0) 41.83267%, rgba(121, 121, 229, 0.25) 41.83267%, rgba(79, 79, 221, 0.25) 49.8008%, rgba(0, 0, 0, 0) 49.8008%, rgba(0, 0, 0, 0) 50.1992%, rgba(121, 121, 229, 0.25) 50.1992%, rgba(79, 79, 221, 0.25) 58.16733%, rgba(0, 0, 0, 0) 58.16733%, rgba(0, 0, 0, 0) 58.56574%, rgba(121, 121, 229, 0.25) 58.56574%, rgba(79, 79, 221, 0.25) 66.53386%, rgba(0, 0, 0, 0) 66.53386%, rgba(0, 0, 0, 0) 66.93227%, rgba(121, 121, 229, 0.25) 66.93227%, rgba(79, 79, 221, 0.25) 74.9004%, rgba(0, 0, 0, 0) 74.9004%, rgba(0, 0, 0, 0) 75.2988%, rgba(121, 121, 229, 0.25) 75.2988%, rgba(79, 79, 221, 0.25) 83.26693%, rgba(0, 0, 0, 0) 83.26693%, rgba(0, 0, 0, 0) 83.66534%, rgba(121, 121, 229, 0.25) 83.66534%, rgba(79, 79, 221, 0.25) 91.63347%, rgba(0, 0, 0, 0) 91.63347%, rgba(0, 0, 0, 0) 92.03187%, rgba(121, 121, 229, 0.25) 92.03187%, rgba(79, 79, 221, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(121, 121, 229, 0.25) 0%, rgba(79, 79, 221, 0.25) 7.96813%, rgba(0, 0, 0, 0) 7.96813%, rgba(0, 0, 0, 0) 8.36653%, rgba(121, 121, 229, 0.25) 8.36653%, rgba(79, 79, 221, 0.25) 16.33466%, rgba(0, 0, 0, 0) 16.33466%, rgba(0, 0, 0, 0) 16.73307%, rgba(121, 121, 229, 0.25) 16.73307%, rgba(79, 79, 221, 0.25) 24.7012%, rgba(0, 0, 0, 0) 24.7012%, rgba(0, 0, 0, 0) 25.0996%, rgba(121, 121, 229, 0.25) 25.0996%, rgba(79, 79, 221, 0.25) 33.06773%, rgba(0, 0, 0, 0) 33.06773%, rgba(0, 0, 0, 0) 33.46614%, rgba(121, 121, 229, 0.25) 33.46614%, rgba(79, 79, 221, 0.25) 41.43426%, rgba(0, 0, 0, 0) 41.43426%, rgba(0, 0, 0, 0) 41.83267%, rgba(121, 121, 229, 0.25) 41.83267%, rgba(79, 79, 221, 0.25) 49.8008%, rgba(0, 0, 0, 0) 49.8008%, rgba(0, 0, 0, 0) 50.1992%, rgba(121, 121, 229, 0.25) 50.1992%, rgba(79, 79, 221, 0.25) 58.16733%, rgba(0, 0, 0, 0) 58.16733%, rgba(0, 0, 0, 0) 58.56574%, rgba(121, 121, 229, 0.25) 58.56574%, rgba(79, 79, 221, 0.25) 66.53386%, rgba(0, 0, 0, 0) 66.53386%, rgba(0, 0, 0, 0) 66.93227%, rgba(121, 121, 229, 0.25) 66.93227%, rgba(79, 79, 221, 0.25) 74.9004%, rgba(0, 0, 0, 0) 74.9004%, rgba(0, 0, 0, 0) 75.2988%, rgba(121, 121, 229, 0.25) 75.2988%, rgba(79, 79, 221, 0.25) 83.26693%, rgba(0, 0, 0, 0) 83.26693%, rgba(0, 0, 0, 0) 83.66534%, rgba(121, 121, 229, 0.25) 83.66534%, rgba(79, 79, 221, 0.25) 91.63347%, rgba(0, 0, 0, 0) 91.63347%, rgba(0, 0, 0, 0) 92.03187%, rgba(121, 121, 229, 0.25) 92.03187%, rgba(79, 79, 221, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-  background-position: left top;
   -moz-background-origin: content;
   -o-background-origin: content-box;
   -webkit-background-origin: content;
@@ -14369,8 +14442,130 @@ figure {
     display: none;
   }
 }
+/* line 1, ../modulos/sass/layout/_siniestro.scss */
+.Lavadora {
+  background: url(../img/siniestro/bg-lavadora.jpg) no-repeat top right;
+  background-size: cover;
+  margin-left: 8.36653%;
+  margin-right: 8.36653%;
+  width: 83.26693%;
+  float: left;
+  margin-right: 0.39841%;
+  display: inline;
+}
+/* line 6, ../modulos/sass/layout/_siniestro.scss */
+.Lavadora-text {
+  width: 49.8008%;
+  float: left;
+  margin-right: 0.39841%;
+  display: inline;
+  padding-left: 8.36653%;
+  padding-right: 8.36653%;
+  padding-top: 90px;
+  padding-bottom: 60px;
+  margin: 0;
+}
+
+/* line 16, ../modulos/sass/layout/_siniestro.scss */
+.ConsiList {
+  width: 100%;
+  float: left;
+  margin-right: 0.39841%;
+  display: inline;
+}
+/* line 19, ../modulos/sass/layout/_siniestro.scss */
+.ConsiList-item {
+  clear: left;
+  padding-top: 10px;
+}
+/* line 20, ../modulos/sass/layout/_siniestro.scss */
+.ConsiList-item i {
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 37, ../modulos/sass/layout/_siniestro.scss */
+.Deber {
+  padding-left: 8.36653%;
+  padding-right: 8.36653%;
+}
+/* line 39, ../modulos/sass/layout/_siniestro.scss */
+.Deber-item {
+  width: 49.8008%;
+  float: left;
+  margin-right: 0.39841%;
+  display: inline;
+  margin-right: -100%;
+}
+/* line 42, ../../../.rvm/gems/ruby-2.2.0/gems/susy-2.2.7/sass/susy/language/susyone/_isolation.scss */
+.Deber-item:nth-child(2n + 1) {
+  margin-left: 0%;
+  clear: left;
+}
+/* line 42, ../../../.rvm/gems/ruby-2.2.0/gems/susy-2.2.7/sass/susy/language/susyone/_isolation.scss */
+.Deber-item:nth-child(2n + 2) {
+  margin-left: 50.1992%;
+  clear: none;
+}
+/* line 43, ../modulos/sass/layout/_siniestro.scss */
+.Deber-item:nth-child(2) .Deber-fig, .Deber-item:nth-child(3) .Deber-fig {
+  background: #6d94c9;
+}
+/* line 48, ../modulos/sass/layout/_siniestro.scss */
+.Deber-fig {
+  text-align: center;
+  padding-left: 8.36653%;
+  padding-right: 8.36653%;
+  background: #88c1ab;
+  color: #FFFFFF;
+}
+/* line 54, ../modulos/sass/layout/_siniestro.scss */
+.Deber-img {
+  height: 120px;
+}
+/* line 57, ../modulos/sass/layout/_siniestro.scss */
+.Deber-caption {
+  min-height: 160px;
+  line-height: 1.2em;
+}
+
+@media screen and (max-width: 630px) {
+  /* line 64, ../modulos/sass/layout/_siniestro.scss */
+  .Deber {
+    padding-left: 3.98406%;
+    padding-right: 3.98406%;
+  }
+  /* line 66, ../modulos/sass/layout/_siniestro.scss */
+  .Deber-fig {
+    padding-left: 3.98406%;
+    padding-right: 3.98406%;
+  }
+
+  /* line 71, ../modulos/sass/layout/_siniestro.scss */
+  .Lavadora-text {
+    width: 100%;
+    float: left;
+    margin-right: 0.39841%;
+    display: inline;
+  }
+}
+@media screen and (max-width: 350px) {
+  /* line 78, ../modulos/sass/layout/_siniestro.scss */
+  .Deber-item {
+    width: 100%;
+    float: left;
+    margin-right: 0.39841%;
+    display: inline;
+    margin-right: -100%;
+  }
+  /* line 42, ../../../.rvm/gems/ruby-2.2.0/gems/susy-2.2.7/sass/susy/language/susyone/_isolation.scss */
+  .Deber-item:nth-child(1n + 1) {
+    margin-left: 0%;
+    clear: left;
+  }
+}
 /* line 3, ../modulos/sass/modules/_riesgo.scss */
-.Restricciones-item i, .QuestionList-item i {
+.Restricciones-item i, .QuestionList-item i, .ConsiList-item i {
   display: inline-block;
 }
 

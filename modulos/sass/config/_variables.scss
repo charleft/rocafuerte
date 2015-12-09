@@ -5,6 +5,7 @@ $black-blue    : #293347;
 $dark-blue     : #28374C;
 
 // BACKGROUND COLORS
+$bgblue-ghost  : rgba(0,0,76,.68);
 $bgcyan        : #6DA6BC;
 $bgcyan-in : #087EBF;
 $bgcyan-fig: #0B99D8;
@@ -52,6 +53,6 @@ $gutter-width   : 3.75px;
 $grid-padding   : 0;//$gutter-width;
 //$container-width: 945px;
 $container-style: magic;
-$show-grid-backgrounds  : true;
+$show-grid-backgrounds  : false;
 
 @import 'susyone';
