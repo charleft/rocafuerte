@@ -141,10 +141,310 @@
               2.5px 2.5px $white,
               2.5px -2.5px $white,
               -2.5px 2.5px $white,
-              -2.5px -2.5px $white,;
+              -2.5px -2.5px $white;
   //box-shadow: 0px 5px #ffffff;
 }
+.Picture {
+  @include span-columns(4);
+  @include prefix(1);
+  position: absolute;
+  bottom: 20%;
+  &-right {
+    float: right;
+  }
+}
+.TipoSeg {
+  @include pad(1, 1);
+  &-item {
+   @include span-columns(5);
+   &:last-child {
+    @include omega();
+   } 
+  }
+  &-fig {
+    text-align: center;
+    background: $bgcyan-in;
+  }
+  &-caption {
+    text-align: justify;
+    padding: 20px 10px;
+    background: $bgcyan-fig;
+  }
+  &-img {
+    padding: 20px 10px;
+    height: 239px;
+  }
+}
+.NubesCol { 
+  @include span-columns(7);
+  @include push(3);
+  font-size: 30px;
+  line-height: .9em;
+  p {
+    @include push(1);
+    @include pad(1, 1);
+    border-radius: 30px 30px 30px 0px;
+    padding: 30px 20px;
+    font-size: 1em;
+    text-align: right;
+    position: relative;
+    margin-bottom: 60px;
+    &:first-child::after {
+      content: "";
+      background: url(../img/conocer/nubecol1.png) no-repeat;
+      background-size: 50%;
+      height: image-height("../img/conocer/nubecol1.png");
+      width: image-width("../img/conocer/nubecol1.png");
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+    &:nth-child(2)::after {
+      content: "";
+      background: url(../img/conocer/nubecol2.png) no-repeat right top;
+      background-size: 50%;
+      height: image-height("../img/conocer/nubecol2.png");
+      width: image-width("../img/conocer/nubecol2.png");
+      position: absolute;
+      top: 100%;
+      right: 0;
+    }
+    &:last-child::after {
+      content: "";
+      background: url(../img/conocer/nubecol3.png) no-repeat;
+      background-size: 50%;
+      height: image-height("../img/conocer/nubecol3.png");
+      width: image-width("../img/conocer/nubecol3.png");
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
 
+    &:nth-child(even) {
+      text-align: left;
+      border-radius: 30px 30px 0px 30px;
+    }
+  }
+}
+.NubesSides {
+  @include span-columns(10);
+  @include push(1);
+  font-size: 30px;
+  line-height: .9em;
+  p {
+    border-radius: 30px 30px 0px 30px;
+    margin-bottom: 60px;
+    padding: 30px 20px;
+    font-size: 1em;
+    text-align: right;
+    @include span-columns(6);
+    position: relative;
+    &:nth-child(2) {
+      margin-top: 120px;
+    }
+    &:first-child::after {
+      content: "";
+      background: url(../img/conocer/nube1.png) no-repeat top right;
+      background-size: 50%;
+      height: image-height("../img/conocer/nube1.png");
+      width: image-width("../img/conocer/nube1.png");
+      position: absolute;
+      top: 100%;
+      right: 0;
+    }
+    &:nth-child(2)::after {
+      content: "";
+      background: url(../img/conocer/nube2.png) no-repeat;
+      background-size: 50%;
+      height: image-height("../img/conocer/nube2.png");
+      width: image-width("../img/conocer/nube2.png");
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+    &:nth-child(3)::after {
+      content: "";
+      background: url(../img/conocer/nube3.png) no-repeat top right;
+      background-size: 50%;
+      height: image-height("../img/conocer/nube3.png");
+      width: image-width("../img/conocer/nube3.png");
+      position: absolute;
+      top: 100%;
+      right: 0;
+    }
+    &:nth-child(4)::after {
+      content: "";
+      background: url(../img/conocer/nube4.png) no-repeat;
+      background-size: 50%;
+      height: image-height("../img/conocer/nube4.png");
+      width: image-width("../img/conocer/nube4.png");
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+    &:nth-child(5)::after {
+      content: "";
+      background: url(../img/conocer/nube5.png) no-repeat top right;
+      background-size: 50%;
+      height: image-height("../img/conocer/nube5.png");
+      width: image-width("../img/conocer/nube5.png");
+      position: absolute;
+      top: 100%;
+      right: 0;
+    }
+    &:last-child::after {
+      content: "";
+      background: url(../img/conocer/nube6.png) no-repeat;
+      background-size: 50%;
+      height: image-height("../img/conocer/nube6.png");
+      width: image-width("../img/conocer/nube6.png");
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+    &:nth-child(even) {
+      @include omega();
+      text-align: left;
+      border-radius: 30px 30px 30px 0px;
+    }
+
+  }
+}
+.bgasegurador {
+  background-image : url(../img/conocer/asegurador.png);
+  background-repeat: no-repeat;
+  background-position: 90% 100%; 
+}
+
+.bgasegurado {
+  background-image : url(../img/conocer/solicitante.png);
+  background-repeat: no-repeat;
+  background-position: 20% 100%; 
+}
+
+.bginteres {
+  background-image : url(../img/conocer/interes.png);
+  background-repeat: no-repeat;
+  background-position: 80% 100%; 
+}
+
+.Promo {
+  &-item {
+    @include isolate-grid(4,12);
+    padding: 10px;
+  }
+  &-fig {
+    text-align: center;
+  }
+  &-img {
+    height: 55px;
+    margin-bottom: 10px;
+  }
+  &-caption {
+    text-align: justify;
+    strong{
+      font-size: 1.2em;
+      color: $bgblue;
+    }
+  }
+}
+.Zigzag {
+  position: relative;
+  &-img {
+    position: absolute;
+    left: 20%;
+    bottom: 0;
+    width: 60%;
+  }
+}
+.Zigzag1, .Zigzag2, .Zigzag3, .Zigzag4, .Zigzag5 {
+  display: table-row;
+  margin-bottom: 15px;
+  //min-height: 150px;
+  p {
+    display: table-cell;
+    width: 50%;
+    height: 150px;
+    vertical-align: middle;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    //height: 100%;
+  }
+}
+.Zigzag3, .Zigzag4 {
+  p:first-child {
+    width: 70%;
+    padding-left: 40%;
+    padding-right: 5%;
+    text-align: right;
+  }
+  p:last-child {
+    width: 30%;
+  }
+}
+
+.Zigzag4 {
+  width: 70%;
+  @include omega();
+  p:first-child {
+    padding-left: 30%;
+    width: 60%;
+    text-align: center;
+    
+  }
+  p:last-child {
+    width: 40%;
+  }
+}
+.Zigzag5 {
+  width: 70%;
+  @include omega();
+  &>p {
+    width: 100%;
+    padding-left: 50%;
+  }
+}
+.LazoText {
+  @include span-columns(6);
+  @include push(3);
+  background: $bgorange;
+  border: 2px solid $bgblue;
+  position: relative;
+  z-index: 3;
+  &::before {
+    position: absolute;
+    z-index: -1;
+    top: -14px;
+    left: -26px;
+    content: "";
+    background: url(../img/conocer/lazoleft.png) no-repeat;
+    background-size: 70%;
+    height: 50px;
+    width: 80px;
+  }
+  &::after {
+    position: absolute;
+    z-index: -1;
+    top: -14px;
+    right: -25px;
+    content: "";
+    background: url(../img/conocer/lazoright.png) no-repeat right top;
+    background-size: 70%;
+    height: 50px;
+    width: 80px;
+  }
+}
+
+.Tabla {
+  position: relative;
+  &-asegurador {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 40%;
+  }
+}
 @media screen and (max-width: 830px) {
   .TipoPics {
     &-int {
@@ -156,6 +456,9 @@
     &-int:nth-child(2) {
       @include push(1);
     }
+  }
+  .Caracts {
+    overflow: hidden;
   }
   .CaractsList {
     &-item {
@@ -172,6 +475,23 @@
     }
   }
 }
+@media screen and (max-width: 710px) {
+  .NubesSides {
+    p {
+      @include span-columns(11);
+
+      &:nth-child(2) {
+        margin-top: 0;
+      }
+    }
+  }
+  .Zigzag {
+    &-img {
+      left: 15%;
+    }
+  }
+}
+
 @media screen and (max-width: 605px) {
   .TipoPics {
     padding-top: 40px;
@@ -201,6 +521,11 @@
       }
     }
   }
+  .TipoSeg {
+    &-item {
+      @include span-columns(12);
+    }
+  }
   .TipoPics {
     &-int {
       @include span-columns(10);
@@ -216,6 +541,37 @@
       &:last-child {
         display: none;
       }
+    }
+  }
+  .Promo {
+    &-item {
+      @include isolate-grid(12, 12);
+    }
+    &-fig {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  .Zigzag {
+    &-img {
+      left: 10%;
+    }
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .Zigzag {
+    &1, &2, &3, &4, &5 {
+      width: 100%;
+      p:first-child, p:last-child {
+        //display: table-row;
+        width: 50%;
+        padding-left: 10%;
+        padding-bottom: 10%;
+      }
+    } 
+    &-img {
+      display: none;
     }
   }
 }

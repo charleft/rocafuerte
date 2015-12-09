@@ -16,9 +16,16 @@ p {
 }
 .Text {
   font-weight: bold;
-  font-size: 16px
+  font-size: 16px;
+  strong {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
   &-16 {
     font-size: 1em;
+  }
+  &-24 {
+    font-size: 1.5em;
   }
   &-21 {
     font-size: 1.3125em;
@@ -69,6 +76,10 @@ p {
     font-size: 1.166666667em;
     line-height: 1em;
   }
+  &-24 {
+    font-size: 1.333333333em;
+    line-height: 1em;
+  }
   &-25 {
     font-size: 1.388888889em;
     line-height: 1em;
@@ -83,6 +94,12 @@ p {
   }
   &-29 {
     font-size: 1.611111111em;
+  }
+  &-30 {
+    font-size: 1.666666667em;
+  }
+  &-33 {
+    font-size: 1.833333333em;
   }
   &-35 {
     font-size: 1.944444444em;

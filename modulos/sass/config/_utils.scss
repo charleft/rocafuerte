@@ -4,6 +4,21 @@ figure{
 .hauto {
   height: auto!important;
 }
+.nocntr, .nocntr span {
+  text-align: left;
+}
+.nopos {
+  position: static!important;
+}
+.posrel {
+  position: relative;
+}
+.pushlft {
+  @include push(1);
+}
+.pushhlf {
+  @include push(5);
+}
 .hide-text {
   text-indent: 100%;
   white-space: nowrap;
@@ -28,11 +43,19 @@ figure{
 .omega {
   float: right;
 }
-
+.cyantext {
+  color: $bgcyan-lighty;
+}
 .pic-center {
   margin: 0 auto;
   display: block;
   float: none!important;
+}
+.fullhr {
+  @include span-columns(10);
+  @include push(1);
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .up {
   margin-top: -60px;
@@ -49,6 +72,10 @@ figure{
   background: $bgcyan-other;
   color: $white;
 }
+.bgcyan-water {
+  background: $bgcyan-water;
+  color: $white;
+}
 .bgcyan-lighty {
   background: $bgcyan-lighty;
   color: $white;
@@ -57,12 +84,69 @@ figure{
   background: $bgblue-low;
   color: $white;
 }
+.bgblue-cloud {
+  background: $bgblue-cloud;
+  color: $white;
+}
 .bgcyan {
   background: $bgcyan;
   color: $white;
 }
+.bgcyan-cloud {
+  background: $bgcyan-cloud;
+  color: $white;
+}
+.bgturquoise-cloud {
+  background: $bgturquoise-cloud;
+  color: $white;
+}
+.bgcloudcol1 {
+  background: $bgcloudcol1;
+  color: $white;
+}
+.bgcloudcol2 {
+  background: $bgcloudcol2;
+  color: $white;
+}
+.bgcloudcol3 {
+  background: $bgcloudcol3;
+  color: $white;
+}
+
+.bgcloud1 {
+  background: $bgcloud1;
+  color: $white;
+}
+.bgcloud2 {
+  background: $bgcloud2;
+  color: $white;
+}
+.bgcloud3 {
+  background: $bgcloud3;
+  color: $white;
+}
+.bgcloud4 {
+  background: $bgcloud4;
+  color: $white;
+}
+.bgcloud5 {
+  background: $bgcloud5;
+  color: $white;
+}
+.bgcloud6 {
+  background: $bgcloud6;
+  color: $white;
+}
 .bgcyany {
   background: $bgcyany;
+  color: $white;
+}
+.bgcyanA {
+  background: $bgcyanA;
+  color: $white;
+}
+.bgcyanB {
+  background: $bgcyanB;
   color: $white;
 }
 .bgcyan-light {
@@ -99,6 +183,14 @@ figure{
 }
 .bgorange {
   background: $bgorange;
+  color: $white;
+}
+.bgorange-low {
+  background: $bgorange-low;
+  color: $white;
+}
+.bgorange-cloud {
+  background: $bgorange-cloud;
   color: $white;
 }
 .bgwhite {
