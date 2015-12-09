@@ -14615,13 +14615,80 @@ figure {
   padding-bottom: 180px;
 }
 
+/* line 19, ../modulos/sass/layout/_contratar.scss */
+.bgdinero {
+  background: url(../img/contratar/dinero.png) no-repeat center left #6DA6BC;
+}
+
+/* line 25, ../modulos/sass/layout/_contratar.scss */
+.brdrwhat {
+  width: 66.53386%;
+  float: left;
+  margin-right: 0.39841%;
+  display: inline;
+  margin-left: 16.73307%;
+  border: 4px solid #FFFFFF;
+  padding: 20px;
+}
+
+/* line 32, ../modulos/sass/layout/_contratar.scss */
+.Stats {
+  margin-top: 10px;
+  clear: both;
+}
+/* line 34, ../modulos/sass/layout/_contratar.scss */
+.Stats:first-child {
+  /*.Stats-caption {
+    margin-left: 107px;
+  }*/
+}
+/* line 40, ../modulos/sass/layout/_contratar.scss */
+.Stats:last-child .Stats-img {
+  float: right;
+}
+/* line 43, ../modulos/sass/layout/_contratar.scss */
+.Stats:last-child .Stats-caption {
+  border-radius: 54px 0px 0px 54px;
+  margin-left: 0px;
+  margin-right: 122px;
+  height: 108px;
+}
+/* line 50, ../modulos/sass/layout/_contratar.scss */
+.Stats-img {
+  float: left;
+  margin-top: -2px;
+}
+/* line 55, ../modulos/sass/layout/_contratar.scss */
+.Stats-caption {
+  border-radius: 0px 52px 52px 0px;
+  margin-top: 2px;
+  background: #FFFFFF;
+  position: relative;
+  color: #06396D;
+  height: 105px;
+  margin-left: 122px;
+}
+/* line 63, ../modulos/sass/layout/_contratar.scss */
+.Stats-caption p {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-width: 250px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 @media screen and (max-width: 605px) {
-  /* line 20, ../modulos/sass/layout/_contratar.scss */
+  /* line 78, ../modulos/sass/layout/_contratar.scss */
   .hide-md {
     display: none;
   }
 
-  /* line 23, ../modulos/sass/layout/_contratar.scss */
+  /* line 81, ../modulos/sass/layout/_contratar.scss */
   .full-md {
     width: 83.26693%;
     float: left;

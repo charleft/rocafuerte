@@ -16,6 +16,64 @@
   padding-bottom: 180px;
 }
 
+.bgdinero {
+  background: url(../img/contratar/dinero.png) no-repeat center left $bgcyan;
+  //background-size: cover;
+  //padding-bottom: 80px;
+}
+
+.brdrwhat {
+  @include span-columns(8);
+  @include push(2);
+  border: 4px solid $white;
+  padding: 20px;
+}
+
+.Stats {
+  margin-top: 10px;
+  &:first-child {
+    /*.Stats-caption {
+      margin-left: 107px;
+    }*/
+  }
+  &:last-child {
+    .Stats-img {
+      float: right;
+    }
+    .Stats-caption {
+      border-radius: 54px 0px 0px 54px;
+      margin-left: 0px;
+      margin-right: 122px;
+      height: 108px;
+    }
+  }
+  &-img {
+    float: left;
+    margin-top: -2px;
+  }
+  clear: both;
+  &-caption {
+    border-radius: 0px 52px 52px 0px;
+    margin-top: 2px;
+    background: $white;
+    position: relative;
+    color: $bgblue;
+    height: 105px;
+    margin-left: 122px; 
+    p {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      min-width: 250px;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+  }
+}
 @media screen and (max-width:605px) {
   .hide-md {
     display: none;
