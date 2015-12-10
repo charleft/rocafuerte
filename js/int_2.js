@@ -2,7 +2,8 @@
 $(document).ready(function() {
 	var sid = $("#Slider");
 	var pal = $("#A").height();
-	sid.height(pal);
+	if ( (pal < $("#B").height()) || (pal < $("#C").height()) || (pal < $("#Evaluacion").height()) )
+		sid.height(pal);
  	$(".button-collapse").sideNav();
  	$('.parallax').parallax();
  	$('.slider').slider({full_width: true});
@@ -62,9 +63,12 @@ var tres = $('#tres');
 var cuatro = $('#cuatro');
 var faltura = $("#A").height();
 var sid = $("#Slider");
+var current = $("#A");
+
 uno.on('click',function(){
 	var altura = $("#A").height();
-	sid.height(altura);
+	current = $("#A");
+	//sid.height(altura);
 	ci.css({left:0,height:altura});
 	$('#uno').addClass('blue')
 			.addClass('active');
@@ -75,7 +79,9 @@ uno.on('click',function(){
 
 dos.on('click',function(){
 	var altura = $("#B").height();
-	sid.height(altura);
+	current = $("#B");
+	sid.css('height','auto');
+	//sid.height(altura);
 	ci.css({left:'-'+100+'%',height:altura});
 	//ci.css('left','-'+100+'%');
 	$('#dos').addClass('blue')
@@ -87,7 +93,9 @@ dos.on('click',function(){
 
 tres.on('click',function(){
 	var altura = $("#C").height();
-	sid.height(altura);
+	current = $("#C");
+	//sid.height(altura);
+	sid.css('height','auto');
 	ci.css({left:'-'+200+'%',height:altura});
 	//ci.css('left','-'+200+'%');
 	$('#tres').addClass('blue')

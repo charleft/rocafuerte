@@ -2,7 +2,8 @@
 $(document).ready(function() {
 	var sid = $("#Slider");
 	var pal = $("#A").height();
-	sid.height(pal);
+	if ( (pal < $("#B").height()) /*|| (pal < $("#C").height())*/ || (pal < $("#Evaluacion").height()) )
+		sid.height(pal);
  	$(".button-collapse").sideNav();
  	$('.parallax').parallax();
  	$('.slider').slider({full_width: true});
@@ -61,9 +62,15 @@ var dos = $('#dos');
 //var tres = $('#tres');
 var faltura = $("#A").height();
 var sid = $("#Slider");
+var current = $("#A");
+
+$(window).on('resize', function() {
+	ci.css('height',current.height());
+});
+
 uno.on('click',function(){
 	var altura = $("#A").height();
-	sid.height(altura);
+	//sid.height(altura);
 	ci.css({left:0,height:altura});
 	//ci.css('left',0);
 	$('#uno').addClass('blue')
@@ -75,10 +82,13 @@ uno.on('click',function(){
 dos.on('click',function(){
 	if($("#Evaluacion")) {
 		var altura = $("#Evaluacion").height();
+		current = $("#Evaluacion");
 	} else {
 		var altura = $("#B").height();
+		current = $("#B");
 	}
-	sid.height(altura);
+	//sid.height(altura);
+	sid.css('height','auto');
 	ci.css({left:'-'+100+'%',height:altura});
 	//ci.css('left','-'+100+'%');
 	$('#dos').addClass('blue')

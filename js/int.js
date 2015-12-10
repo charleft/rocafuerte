@@ -2,7 +2,8 @@
 $(document).ready(function() {
 	var sid = $("#Slider");
 	var pal = $("#A").height();
-	sid.height(pal);
+	if ( (pal < $("#B").height()) || (pal < $("#C").height()) || (pal < $("#Evaluacion").height()) )
+		sid.height(pal);
  	$(".button-collapse").sideNav();
  	$('.parallax').parallax();
  	$('.slider').slider({full_width: true});
@@ -62,9 +63,16 @@ var tres = $('#tres');
 var cuatro = $('#cuatro');
 var faltura = $("#A").height();
 var sid = $("#Slider");
+var current = $("#A");
+
+$(window).on('resize', function() {
+	ci.css('height',current.height());
+});
+
 uno.on('click',function(){
 	var altura = $("#A").height();
-	sid.height(altura);
+	current = $("#A");
+	//sid.height(altura);
 	ci.css({left:0,height:altura});
 	//ci.css('left',0);
 	$('#uno').addClass('blue')
@@ -76,7 +84,8 @@ uno.on('click',function(){
 
 dos.on('click',function(){
 	var altura = $("#B").height();
-	sid.height(altura);
+	current = $("#B");
+	sid.css('height','auto');
 	ci.css({left:'-'+100+'%',height:altura});
 	//ci.css('left','-'+100+'%');
 	$('#dos').addClass('blue')
@@ -88,13 +97,16 @@ dos.on('click',function(){
 
 tres.on('click',function(){
 	if( $("#C").length ) {
-		var altura = $("#C").height();		
+		var altura = $("#C").height();	
+		current = $("#C");	
 	}
 	else {
 		var altura = $("#Evaluacion").height();
+		current = $("#Evaluacion");
 	}
 	//var altura = $("#C").height();
-	sid.height(altura);
+	//sid.height(altura);
+	sid.css('height','auto');
 	ci.css({left:'-'+200+'%',height:altura});
 	//ci.css('left','-'+200+'%');
 	$('#tres').addClass('blue')
@@ -106,10 +118,13 @@ tres.on('click',function(){
 cuatro.on('click',function(){
 	if($("#Evaluacion")) {
 		var altura = $("#Evaluacion").height();
+		current = $("#Evaluacion");
 	} else {
 		var altura = $("#D").height();
+		current = $("#D");
 	}
-	sid.height(altura);
+	//sid.height(altura);
+	sid.css('height','auto');
 	ci.css({left:'-'+300+'%',height:altura});
 	//ci.css('left','-'+300+'%');
 	$('#cuatro').addClass('blue')

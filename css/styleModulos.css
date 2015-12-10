@@ -104,6 +104,7 @@ p{
 	transition: all .3s;
 	left: 0;
   height: inherit;
+  overflow: inherit;
 }
 .contenido{
 	/*background-color: rgba(0,0,0, .1);*/
