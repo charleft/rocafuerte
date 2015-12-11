@@ -90,6 +90,45 @@
     }
   }
 }
+
+@media screen and (max-width: 645px) {
+  .Stats {
+    margin-bottom: 40px;
+    &:last-child {
+      .Stats-caption {
+        border-radius: 52px 52px 0px 0px;
+        margin-top: 0px;
+        margin-bottom: -26px;
+        height: auto;
+        p {
+          margin-top: 15px;
+          margin-bottom: 35px;
+        }
+      }
+      .Stats-img {
+        background: url(../img/contratar/estudios-bottom.jpg) no-repeat;
+        height: image-height("../img/contratar/estadistica-top.jpg");
+      }
+    }
+    &-caption {
+      border-radius: 0px 0px 52px 52px;
+      display: block;
+      margin-top: -25px;
+      p {
+        margin-top: 35px;
+      }
+    }
+    &-img {
+      background: url(../img/contratar/estadistica-top.jpg) no-repeat;
+      height: image-height("../img/contratar/estadistica-top.jpg");
+      display: block;
+      margin: 0 auto;
+      clear: both;
+      position : relative;
+    }
+  }
+}
+
 @media screen and (max-width:605px) {
   .hide-md {
     display: none;

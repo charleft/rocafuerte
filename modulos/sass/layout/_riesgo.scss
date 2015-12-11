@@ -235,11 +235,12 @@
     }
   }
   &-title {
-    font-size: 1em;
+    font-size: 1.2em;
     margin-bottom: 0;
   }
   &-text {
-    font-size: .533333333em;
+    font-size: 1em;
+    line-height: 1.2em;
     font-weight: bold;
     margin-top: 0;
   }
@@ -299,6 +300,16 @@
     }
   }
 }
+@media screen and (max-width: 715px) {
+  .Layout-int {
+    .Layout-half {
+      @include span-columns(12);
+      &:last-child {
+        margin-top: 10px;
+      }
+    }
+  }
+}
 @media screen and (min-width: 605px) {
   .Meteor {
     margin-top: 80px;
@@ -327,7 +338,7 @@
           left: 0;
           top: 100%;
         }
-        &::after{
+        /*&::after{
           content: " ";
           background : $bgyellow-low;
           display: inline-block;
@@ -340,13 +351,13 @@
           @include transform( skewX(40deg) );
           @include apply-origin(bottom left, false);
           z-index: 1;
-        }
+        }*/
       }
       &:nth-child(2) {
         @include span-columns(4 omega);
         position: relative;
         z-index: 1;
-        &::before{
+        /*&::before{
           content: " ";
           background : $bgturquoise-low;
           display: inline-block;
@@ -359,7 +370,7 @@
           @include transform( skewX(40deg) );
           @include apply-origin(bottom right, false);
           z-index: -1;
-        }
+        }*/
         &::after{
           content: " ";
           background : url(../img/riesgos/greenbck.png) no-repeat top right;
@@ -385,7 +396,7 @@
           left: 0;
           top: 100%;
         }
-        &::after{
+        /*&::after{
           content: " ";
           background : $bgcyan-light;
           display: inline-block;
@@ -398,7 +409,7 @@
           @include transform( skewX(40deg) );
           @include apply-origin(bottom left, false);
           z-index: -1;
-        }
+        }*/
       }
       &:nth-child(4) {
         @include span-columns(6 omega);
@@ -414,7 +425,7 @@
           right: 0;
           top: 100%;
         }
-        &::before{
+        /*&::before{
           content: " ";
           background : $bgcyan;
           display: inline-block;
@@ -427,7 +438,7 @@
           @include transform( skewX(40deg) );
           @include apply-origin(bottom right, false);
           z-index: -1;
-        }
+        }*/
       }
       &:nth-child(5) { 
         @include span-columns(10);
@@ -488,15 +499,6 @@
   }
 }
 @media screen and (max-width: 605px) {
-  
-  .Layout-int {
-    .Layout-half {
-      @include span-columns(12);
-      &:last-child {
-        margin-top: 10px;
-      }
-    }
-  }
   .Dialog {
     &-text {
       @include prefix(4.5);
@@ -515,12 +517,20 @@
       @include push(5);
     }
   }*/
+  .TitleList {
+    @include span-columns(10);
+  }
   .Number {
     opacity: .5;
+    position: absolute;
+    left: -60px;
     & + * {
       position: relative;
       z-index: 10;
     }
+  }
+  .up {
+    margin-top: 0px;
   }
   .Licito {
     overflow: hidden;

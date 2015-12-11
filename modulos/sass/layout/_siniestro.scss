@@ -24,14 +24,35 @@
       //margin-right: 15px;
       //margin-left: -115px;
       float: left;
-      margin-right: 10px; 
+      margin-right: 10px;
+      display: inline-block; 
     }
-    
+    p {
+      margin-left: 60px;
+    }
+    &:nth-child(even) .ConsiList-num {
+      color: $bgblue;
+      background: lighten($bgblue, 20%);
+    }
     clear: left;
     padding-top: 10px;
     //margin-left: 115px;
     
   }
+  &-num { 
+    width: 50px;
+    height: 50px;
+    font-style: normal;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: $bgorange;
+    background: lighten($bgorange, 20%);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 25px 25px 0px 25px;
+  }
+
 }
 
 .Deber {
@@ -41,14 +62,14 @@
     &:nth-child(2),
     &:nth-child(3) {
       .Deber-fig {
-        background: #6d94c9;
+        background: $bgturquoise-frob;
       }
     }
   }
   &-fig {
     text-align: center;
     @include pad(1, 1);
-    background: #88c1ab;
+    background: $bgcyan-mega;
     color: $white;
   }
   &-img {
