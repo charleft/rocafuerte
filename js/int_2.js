@@ -64,13 +64,31 @@ var cuatro = $('#cuatro');
 var faltura = $("#A").height();
 var sid = $("#Slider");
 var current = $("#A");
-
+var toCaract = $("#to-caracteristicas");
+var toMiden = $("#to-miden");
+var toModelos = $("#to-modelos");
+var toComprenden = $("#to-comprenden");
+var toEstrategias = $("#to-estrategias");
 $(window).on('resize', function() {
 	if (current[0] == $("#A")[0])
 		sid.css('height','auto');
 	ci.css('height',current.height());
 });
-
+toCaract.on('click', function(e){
+	dos.trigger('click');
+});
+toMiden.on('click', function(e){
+	tres.trigger('click');
+});
+toModelos.on('click', function(e){
+	tres.trigger('click');
+});
+toComprenden.on('click', function(e){
+	tres.trigger('click');
+});
+toEstrategias.on('click', function(e){
+	tres.trigger('click');
+});
 uno.on('click',function(){
 	var altura = $("#A").height();
 	current = $("#A");

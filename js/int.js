@@ -64,13 +64,15 @@ var cuatro = $('#cuatro');
 var faltura = $("#A").height();
 var sid = $("#Slider");
 var current = $("#A");
-
+var toScence = $("#to-escenciales");
 $(window).on('resize', function() {
 	if (current[0] == $("#A")[0])
 		sid.css('height','auto');
 	ci.css('height',current.height());
 });
-
+toScence.on('click', function(e){
+	dos.trigger('click');
+});
 uno.on('click',function(){
 	var altura = $("#A").height();
 	current = $("#A");
