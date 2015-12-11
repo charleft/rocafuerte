@@ -13367,13 +13367,14 @@ figure {
 /* line 247, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList i {
   background: #FFFFFF;
-  padding: 0 15px;
+  padding: 3px 15px 0px;
   display: inline-block;
   line-height: .6em;
   font-style: normal;
+  font-size: 1.5em;
 }
 
-/* line 256, ../modulos/sass/layout/_riesgo.scss */
+/* line 257, ../modulos/sass/layout/_riesgo.scss */
 .Map img {
   max-width: 100%;
   display: block;
@@ -13415,7 +13416,7 @@ figure {
   }
 }*/
 @media screen and (min-width: 880px) {
-  /* line 298, ../modulos/sass/layout/_riesgo.scss */
+  /* line 299, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-text {
     width: 49.8008%;
     float: left;
@@ -13424,35 +13425,35 @@ figure {
   }
 }
 @media screen and (max-width: 715px) {
-  /* line 305, ../modulos/sass/layout/_riesgo.scss */
+  /* line 306, ../modulos/sass/layout/_riesgo.scss */
   .Layout-int .Layout-half {
     width: 100%;
     float: left;
     margin-right: 0.39841%;
     display: inline;
   }
-  /* line 307, ../modulos/sass/layout/_riesgo.scss */
+  /* line 308, ../modulos/sass/layout/_riesgo.scss */
   .Layout-int .Layout-half:last-child {
     margin-top: 10px;
   }
 }
 @media screen and (min-width: 605px) {
-  /* line 314, ../modulos/sass/layout/_riesgo.scss */
+  /* line 315, ../modulos/sass/layout/_riesgo.scss */
   .Meteor {
     margin-top: 80px;
   }
 
-  /* line 317, ../modulos/sass/layout/_riesgo.scss */
+  /* line 318, ../modulos/sass/layout/_riesgo.scss */
   .Resumen {
     overflow: hidden;
   }
-  /* line 319, ../modulos/sass/layout/_riesgo.scss */
+  /* line 320, ../modulos/sass/layout/_riesgo.scss */
   .Resumen p {
     padding-left: 12.749%;
     padding-right: 12.749%;
   }
 
-  /* line 323, ../modulos/sass/layout/_riesgo.scss */
+  /* line 324, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList {
     /*&-text {
       &::after {
@@ -13460,11 +13461,11 @@ figure {
       }
     } */
   }
-  /* line 324, ../modulos/sass/layout/_riesgo.scss */
+  /* line 325, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item {
     margin-bottom: 25px;
   }
-  /* line 326, ../modulos/sass/layout/_riesgo.scss */
+  /* line 327, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:first-child {
     width: 49.8008%;
     float: left;
@@ -13488,7 +13489,7 @@ figure {
       z-index: 1;
     }*/
   }
-  /* line 331, ../modulos/sass/layout/_riesgo.scss */
+  /* line 332, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:first-child::before {
     content: " ";
     background: url(../img/riesgos/yellowbck.png) no-repeat top left;
@@ -13499,7 +13500,7 @@ figure {
     left: 0;
     top: 100%;
   }
-  /* line 356, ../modulos/sass/layout/_riesgo.scss */
+  /* line 357, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(2) {
     width: 33.06773%;
     float: right;
@@ -13523,7 +13524,7 @@ figure {
       z-index: -1;
     }*/
   }
-  /* line 374, ../modulos/sass/layout/_riesgo.scss */
+  /* line 375, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(2)::after {
     content: " ";
     background: url(../img/riesgos/greenbck.png) no-repeat top right;
@@ -13534,7 +13535,7 @@ figure {
     right: 0;
     top: 100%;
   }
-  /* line 385, ../modulos/sass/layout/_riesgo.scss */
+  /* line 386, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(3) {
     width: 33.06773%;
     float: left;
@@ -13557,7 +13558,7 @@ figure {
       z-index: -1;
     }*/
   }
-  /* line 389, ../modulos/sass/layout/_riesgo.scss */
+  /* line 390, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(3)::before {
     content: " ";
     background: url(../img/riesgos/cyanbk.png) no-repeat top left;
@@ -13568,7 +13569,7 @@ figure {
     left: 0;
     top: 100%;
   }
-  /* line 414, ../modulos/sass/layout/_riesgo.scss */
+  /* line 415, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(4) {
     width: 49.8008%;
     float: right;
@@ -13592,7 +13593,7 @@ figure {
       z-index: -1;
     }*/
   }
-  /* line 418, ../modulos/sass/layout/_riesgo.scss */
+  /* line 419, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(4)::after {
     content: " ";
     background: url(../img/riesgos/bluebk.png) no-repeat top right;
@@ -13603,7 +13604,7 @@ figure {
     right: 0;
     top: 100%;
   }
-  /* line 443, ../modulos/sass/layout/_riesgo.scss */
+  /* line 444, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(5) {
     width: 83.26693%;
     float: left;
@@ -13613,7 +13614,7 @@ figure {
     text-align: center;
     position: relative;
   }
-  /* line 448, ../modulos/sass/layout/_riesgo.scss */
+  /* line 449, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(5)::before {
     content: " ";
     background: url(../img/riesgos/redlft.png) no-repeat top left;
@@ -13623,7 +13624,7 @@ figure {
     left: 0;
     top: 100%;
   }
-  /* line 458, ../modulos/sass/layout/_riesgo.scss */
+  /* line 459, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(5)::after {
     content: " ";
     background: url(../img/riesgos/redrght.png) no-repeat top right;
@@ -13634,18 +13635,18 @@ figure {
     top: 100%;
   }
 
-  /* line 479, ../modulos/sass/layout/_riesgo.scss */
+  /* line 480, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-item:nth-child(even) .Estrategia-number {
     margin-left: 66.93227%;
     text-align: right;
   }
-  /* line 483, ../modulos/sass/layout/_riesgo.scss */
+  /* line 484, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-item:nth-child(even) .Estrategia-text {
     margin-left: 8.36653%;
     height: 115px;
     margin-top: -140px;
   }
-  /* line 489, ../modulos/sass/layout/_riesgo.scss */
+  /* line 490, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-number {
     width: 24.7012%;
     float: left;
@@ -13655,7 +13656,7 @@ figure {
     padding-left: 3.98406%;
     padding-right: 3.98406%;
   }
-  /* line 494, ../modulos/sass/layout/_riesgo.scss */
+  /* line 495, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-text {
     width: 66.53386%;
     float: left;
@@ -13666,7 +13667,7 @@ figure {
   }
 }
 @media screen and (max-width: 605px) {
-  /* line 503, ../modulos/sass/layout/_riesgo.scss */
+  /* line 504, ../modulos/sass/layout/_riesgo.scss */
   .Dialog-text {
     padding-left: 37.84861%;
   }
@@ -13684,7 +13685,7 @@ figure {
       @include push(5);
     }
   }*/
-  /* line 520, ../modulos/sass/layout/_riesgo.scss */
+  /* line 521, ../modulos/sass/layout/_riesgo.scss */
   .TitleList {
     width: 83.26693%;
     float: left;
@@ -13692,46 +13693,46 @@ figure {
     display: inline;
   }
 
-  /* line 523, ../modulos/sass/layout/_riesgo.scss */
+  /* line 524, ../modulos/sass/layout/_riesgo.scss */
   .Number {
     opacity: .5;
     position: absolute;
     left: -60px;
   }
-  /* line 527, ../modulos/sass/layout/_riesgo.scss */
+  /* line 528, ../modulos/sass/layout/_riesgo.scss */
   .Number + * {
     position: relative;
     z-index: 10;
   }
 
-  /* line 532, ../modulos/sass/layout/_riesgo.scss */
+  /* line 533, ../modulos/sass/layout/_riesgo.scss */
   .up {
     margin-top: 0px;
   }
 
-  /* line 535, ../modulos/sass/layout/_riesgo.scss */
+  /* line 536, ../modulos/sass/layout/_riesgo.scss */
   .Licito {
     overflow: hidden;
   }
 }
 @media screen and (max-width: 470px) {
-  /* line 540, ../modulos/sass/layout/_riesgo.scss */
+  /* line 541, ../modulos/sass/layout/_riesgo.scss */
   .Dialog {
     width: 100%;
     float: left;
     margin-right: 0.39841%;
     display: inline;
   }
-  /* line 542, ../modulos/sass/layout/_riesgo.scss */
+  /* line 543, ../modulos/sass/layout/_riesgo.scss */
   .Dialog-text {
     padding-left: 33.46614%;
   }
 
-  /* line 546, ../modulos/sass/layout/_riesgo.scss */
+  /* line 547, ../modulos/sass/layout/_riesgo.scss */
   .Loud {
     background: none;
   }
-  /* line 548, ../modulos/sass/layout/_riesgo.scss */
+  /* line 549, ../modulos/sass/layout/_riesgo.scss */
   .Loud-text {
     width: 100%;
     float: left;
@@ -13751,7 +13752,7 @@ figure {
       @include push(5);
     }
   }*/
-  /* line 565, ../modulos/sass/layout/_riesgo.scss */
+  /* line 566, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia {
     margin-top: 50px;
   }
@@ -14517,22 +14518,31 @@ figure {
   }
 }
 @media screen and (max-width: 510px) {
-  /* line 577, ../modulos/sass/layout/_conocer.scss */
+  /* line 576, ../modulos/sass/layout/_conocer.scss */
+  .NubesCol {
+    width: 83.26693%;
+    float: left;
+    margin-right: 0.39841%;
+    display: inline;
+    margin-left: 8.36653%;
+  }
+
+  /* line 581, ../modulos/sass/layout/_conocer.scss */
   .Zigzag1, .Zigzag2, .Zigzag3, .Zigzag4, .Zigzag5 {
     width: 100%;
   }
-  /* line 579, ../modulos/sass/layout/_conocer.scss */
+  /* line 583, ../modulos/sass/layout/_conocer.scss */
   .Zigzag1 p:first-child, .Zigzag1 p:last-child, .Zigzag2 p:first-child, .Zigzag2 p:last-child, .Zigzag3 p:first-child, .Zigzag3 p:last-child, .Zigzag4 p:first-child, .Zigzag4 p:last-child, .Zigzag5 p:first-child, .Zigzag5 p:last-child {
     width: 50%;
     padding-left: 10%;
     padding-bottom: 10%;
   }
-  /* line 586, ../modulos/sass/layout/_conocer.scss */
+  /* line 590, ../modulos/sass/layout/_conocer.scss */
   .Zigzag-img {
     display: none;
   }
 
-  /* line 590, ../modulos/sass/layout/_conocer.scss */
+  /* line 594, ../modulos/sass/layout/_conocer.scss */
   .LazoText {
     width: 83.26693%;
     float: left;
@@ -14772,37 +14782,55 @@ figure {
 
 @media screen and (max-width: 645px) {
   /* line 95, ../modulos/sass/layout/_contratar.scss */
+  .pushhlf.nopush-md {
+    margin-left: 0%;
+  }
+
+  /* line 101, ../modulos/sass/layout/_contratar.scss */
+  .bgdinero, .bgasegurado {
+    background-image: none;
+  }
+
+  /* line 104, ../modulos/sass/layout/_contratar.scss */
+  .Picture {
+    display: none;
+    /*&-right {
+      clear: both;
+    }*/
+  }
+
+  /* line 112, ../modulos/sass/layout/_contratar.scss */
   .Stats {
     margin-bottom: 40px;
   }
-  /* line 98, ../modulos/sass/layout/_contratar.scss */
+  /* line 115, ../modulos/sass/layout/_contratar.scss */
   .Stats:last-child .Stats-caption {
     border-radius: 52px 52px 0px 0px;
     margin-top: 0px;
     margin-bottom: -26px;
     height: auto;
   }
-  /* line 103, ../modulos/sass/layout/_contratar.scss */
+  /* line 120, ../modulos/sass/layout/_contratar.scss */
   .Stats:last-child .Stats-caption p {
     margin-top: 15px;
     margin-bottom: 35px;
   }
-  /* line 108, ../modulos/sass/layout/_contratar.scss */
+  /* line 125, ../modulos/sass/layout/_contratar.scss */
   .Stats:last-child .Stats-img {
     background: url(../img/contratar/estudios-bottom.jpg) no-repeat;
     height: 125px;
   }
-  /* line 113, ../modulos/sass/layout/_contratar.scss */
+  /* line 130, ../modulos/sass/layout/_contratar.scss */
   .Stats-caption {
     border-radius: 0px 0px 52px 52px;
     display: block;
     margin-top: -25px;
   }
-  /* line 117, ../modulos/sass/layout/_contratar.scss */
+  /* line 134, ../modulos/sass/layout/_contratar.scss */
   .Stats-caption p {
     margin-top: 35px;
   }
-  /* line 121, ../modulos/sass/layout/_contratar.scss */
+  /* line 138, ../modulos/sass/layout/_contratar.scss */
   .Stats-img {
     background: url(../img/contratar/estadistica-top.jpg) no-repeat;
     height: 125px;
@@ -14813,18 +14841,23 @@ figure {
   }
 }
 @media screen and (max-width: 605px) {
-  /* line 133, ../modulos/sass/layout/_contratar.scss */
+  /* line 150, ../modulos/sass/layout/_contratar.scss */
   .hide-md {
     display: none;
   }
 
-  /* line 136, ../modulos/sass/layout/_contratar.scss */
+  /* line 153, ../modulos/sass/layout/_contratar.scss */
   .full-md {
     width: 83.26693%;
     float: left;
     margin-right: 0.39841%;
     display: inline;
     margin-left: 8.36653%;
+  }
+
+  /* line 157, ../modulos/sass/layout/_contratar.scss */
+  .bgbabilonios {
+    padding-left: 8.36653%;
   }
 }
 /* line 3, ../modulos/sass/modules/_riesgo.scss */

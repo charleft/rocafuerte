@@ -92,6 +92,23 @@
 }
 
 @media screen and (max-width: 645px) {
+  .pushhlf.nopush-md {
+    @include push(0);
+    & + .Picture {
+      //display: none;
+    }
+  }
+  .bgdinero, .bgasegurado {
+    background-image: none;
+  }
+  .Picture {
+    display: none;
+    //@include span-columns(12);
+    //text-align: center;
+    /*&-right {
+      clear: both;
+    }*/
+  }
   .Stats {
     margin-bottom: 40px;
     &:last-child {
@@ -136,5 +153,8 @@
   .full-md {
     @include span-columns(10);
     @include push(1);
+  }
+  .bgbabilonios {
+    @include prefix(1);
   }
 }

@@ -573,6 +573,10 @@
   }
 }
 @media screen and (max-width: 510px) {
+  .NubesCol { 
+    @include span-columns(10);
+    @include push(1);
+  }
   .Zigzag {
     &1, &2, &3, &4, &5 {
       width: 100%;
