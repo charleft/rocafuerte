@@ -65,6 +65,12 @@ var faltura = $("#A").height();
 var sid = $("#Slider");
 var current = $("#A");
 
+$(window).on('resize', function() {
+	if (current[0] == $("#A")[0])
+		sid.css('height','auto');
+	ci.css('height',current.height());
+});
+
 uno.on('click',function(){
 	var altura = $("#A").height();
 	current = $("#A");
