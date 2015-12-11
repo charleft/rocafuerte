@@ -30,47 +30,63 @@
 }
 
 .Stats {
-  margin-top: 10px;
-  &:first-child {
+  margin: 10px auto;
+  display: table;
+  max-width: 420px;
+  width: 80%;
+  height: 110px;
+  & > * {
+    display: table-cell;
+    height: inherit;
+    width: 100%;
+  }
+  &-img {
     /*.Stats-caption {
       margin-left: 107px;
     }*/
+    width: 124px;
+    background: url(../img/contratar/estadistica-lft.jpg) no-repeat left top;
   }
   &:last-child {
     .Stats-img {
-      float: right;
+      background: url(../img/contratar/estudios-rght.jpg) no-repeat left top;   
+      //float: right;
     }
     .Stats-caption {
       border-radius: 54px 0px 0px 54px;
       margin-left: 0px;
-      margin-right: 122px;
-      height: 108px;
+      //margin-right: 124px;
+      //height: 108px;
     }
   }
   &-img {
-    float: left;
-    margin-top: -2px;
+    //float: left;
+    //margin-top: -2px;
   }
-  clear: both;
+  //clear: both;
   &-caption {
     border-radius: 0px 52px 52px 0px;
-    margin-top: 2px;
+    //margin-top: 2px;
     background: $white;
-    position: relative;
+    //position: relative;
     color: $bgblue;
-    height: 105px;
+    //height: 105px;
+    float: right;
     margin-left: 122px; 
     p {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      min-width: 250px;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
+      //position: absolute;
+      //top: 0;
+      //bottom: 0;
+      //left: 0;
+      //right: 0;
+      //min-width: 250px;
+      //width: 80%;
+      //margin-left: auto;
+      //margin-right: auto;
       text-align: center;
+      width: 86%;
+      line-height: 1.3em;
+      margin: 15px auto;;
     }
   }
 }

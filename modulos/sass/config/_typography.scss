@@ -148,7 +148,7 @@ p {
   }
   &-para {
     color: $white;
-    font-size: .3em;
+    font-size: .4em;
     font-weight: bold;
   }
 }
@@ -193,6 +193,14 @@ p {
     span {
       display: block;
       font-size: .608695652em;
+    }
+  }
+}
+
+@media screen and (max-width:605px) {
+  .TitleVW {
+    &-97 {
+      font-size: 3.388888889em;
     }
   }
 }

@@ -45,32 +45,53 @@
   }
 }
 .Classroom {
-  padding: 70px 0px 65px;
+  padding: 70px 0px 165px;
   .Teacher {
-    @include span-columns(5);
-    @include push(4);
+    //@include span-columns(5);
+    //@include push(4);
     //@include pull(5);
     //@include prefix(5);
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    background: url(../img/canvas.png) no-repeat 70% top;
-    height: image-height("../img/canvas.png");
+    left: 10%;
+    background: url(../img/canvas.png) no-repeat left top;
+    height: 200px;//image-height("../img/canvas.png");
+    width: image-width("../img/canvas.png");
     font-size: 9px;
     z-index: 10;
+    &::after {
+      content: "";
+      background: url(../img/canvas.png) no-repeat left bottom;
+      height: 120px;
+      width: 100%;
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
     &-pic {
       position: absolute;
-      bottom: 0%;
-      margin-left: -40px;
+      bottom: -58%;
+      right: 90%;
+      //margin-left: -150px;
     }
 
   }
   .Canvas-text {
-    @include span-columns(6);
-    @include push(4);
-    padding-top: 30px;  
+    //@include span-columns(6);
+    //@include push(4);
+    //padding-top: 30px;  
+    padding: 0 25px;  
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.3em;
+    line-height: 1.3em;
     color: $black-blue;
+    text-align: justify;
   }
+}
+.tblcanvas {
+
 }
 .Number {
   @include span-columns(1);
@@ -166,14 +187,18 @@
     @include prefix(1);
     @include suffix(1);
     min-height: 115px;
-    font-size: 11px;
-    line-height: 12px;
+    font-size: .9em;
+    line-height: 1.2em;
     font-weight: bold;
   }
   &-title {
     font-family: $basefont;
     font-size: 14px;
     font-weight: bold;
+    margin-bottom: 4px;
+  }
+  &-para {
+    margin-top: 10px;
   }
   &-number {
     @include background-image(linear-gradient(to right, #cbcbcb, #ffffff));
@@ -234,7 +259,7 @@
   }
 }
 /* Media Queries */
-@media screen and (min-width: 1350px) { 
+/*@media screen and (min-width: 1350px) { 
   
 }
 @media screen and (min-width: 1250px) { 
@@ -266,7 +291,7 @@
       }
     }
   }
-}
+}*/
 @media screen and (min-width: 880px) {
   .Estrategia {
     &-text {
@@ -477,7 +502,7 @@
       @include prefix(4.5);
     }
   }
-  .Classroom {
+  /*.Classroom {
     .Teacher {
       @include span-columns(10);
       @include push(1);
@@ -489,7 +514,7 @@
       @include span-columns(5);
       @include push(5);
     }
-  }
+  }*/
   .Number {
     opacity: .5;
     & + * {
@@ -516,7 +541,7 @@
 
     }
   }
-  .Classroom {
+  /*.Classroom {
     .Teacher {
       &-pic {
         margin-left: -60px;
@@ -526,12 +551,12 @@
       @include span-columns(5);
       @include push(5);
     }
-  }
+  }*/
   .Estrategia {
     margin-top: 50px;
   }
 }
-@media screen and (max-width:380px) {
+/*@media screen and (max-width:380px) {
   .Classroom {
     .Teacher {
       &-pic {
@@ -543,4 +568,4 @@
       @include push(4);
     }
   }
-}
+}*/

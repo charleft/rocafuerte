@@ -1,8 +1,18 @@
 html {
   overflow-x: hidden;
 }
+.hideout {
+  overflow: hidden;
+}
 .black {
   color: $black;
+}
+.betable {
+  display: table!important;
+  & > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
 }
 figure{
   margin: 0px;
@@ -118,6 +128,10 @@ figure{
 }
 .bgcyan {
   background: $bgcyan;
+  color: $white;
+}
+.bgcyan-stats {
+  background: $bgcyan-stats;
   color: $white;
 }
 .bgcyan-cloud {

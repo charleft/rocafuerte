@@ -12358,7 +12358,7 @@ p {
 /* line 149, ../modulos/sass/config/_typography.scss */
 .TitleList-para {
   color: #FFFFFF;
-  font-size: .3em;
+  font-size: .4em;
   font-weight: bold;
 }
 
@@ -12416,6 +12416,12 @@ p {
   font-size: .608695652em;
 }
 
+@media screen and (max-width: 605px) {
+  /* line 202, ../modulos/sass/config/_typography.scss */
+  .TitleVW-97 {
+    font-size: 3.388888889em;
+  }
+}
 /* line 72, sprites/restricciones/*.png */
 .restricciones-sprite, .restricciones-idea, .restricciones-list, .restricciones-man, .restricciones-ok {
   background-image: url('../img/sprites/restricciones-s0c10b50f6b.png');
@@ -12575,84 +12581,104 @@ p {
 }
 
 /* line 1, ../modulos/sass/config/_utils.scss */
+html {
+  overflow-x: hidden;
+}
+
+/* line 4, ../modulos/sass/config/_utils.scss */
+.hideout {
+  overflow: hidden;
+}
+
+/* line 7, ../modulos/sass/config/_utils.scss */
 .black {
   color: #000000;
 }
 
-/* line 4, ../modulos/sass/config/_utils.scss */
+/* line 10, ../modulos/sass/config/_utils.scss */
+.betable {
+  display: table !important;
+}
+/* line 12, ../modulos/sass/config/_utils.scss */
+.betable > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 17, ../modulos/sass/config/_utils.scss */
 figure {
   margin: 0px;
 }
 
-/* line 7, ../modulos/sass/config/_utils.scss */
+/* line 20, ../modulos/sass/config/_utils.scss */
 .hauto {
   height: auto !important;
 }
 
-/* line 10, ../modulos/sass/config/_utils.scss */
+/* line 23, ../modulos/sass/config/_utils.scss */
 .nocntr, .nocntr span {
   text-align: left;
 }
 
-/* line 13, ../modulos/sass/config/_utils.scss */
+/* line 26, ../modulos/sass/config/_utils.scss */
 .nopos {
   position: static !important;
 }
 
-/* line 16, ../modulos/sass/config/_utils.scss */
+/* line 29, ../modulos/sass/config/_utils.scss */
 .posrel {
   position: relative;
 }
 
-/* line 19, ../modulos/sass/config/_utils.scss */
+/* line 32, ../modulos/sass/config/_utils.scss */
 .pushlft {
   margin-left: 8.36653%;
 }
 
-/* line 22, ../modulos/sass/config/_utils.scss */
+/* line 35, ../modulos/sass/config/_utils.scss */
 .pushhlf {
   margin-left: 41.83267%;
 }
 
-/* line 25, ../modulos/sass/config/_utils.scss */
+/* line 38, ../modulos/sass/config/_utils.scss */
 .hide-text, .Restricciones-item i, .QuestionList-item i, .ConsiList-item i {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
 }
 
-/* line 30, ../modulos/sass/config/_utils.scss */
+/* line 43, ../modulos/sass/config/_utils.scss */
 .fix-height, .QuestionList-item a {
   overflow: hidden;
 }
 
-/* line 33, ../modulos/sass/config/_utils.scss */
+/* line 46, ../modulos/sass/config/_utils.scss */
 .nomrg-vert, .TextHead, .QuestionList {
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
-/* line 37, ../modulos/sass/config/_utils.scss */
+/* line 50, ../modulos/sass/config/_utils.scss */
 .mrgtop {
   margin-top: 80px;
 }
 
-/* line 40, ../modulos/sass/config/_utils.scss */
+/* line 53, ../modulos/sass/config/_utils.scss */
 .mrgbttm {
   margin-bottom: 180px;
 }
 
-/* line 43, ../modulos/sass/config/_utils.scss */
+/* line 56, ../modulos/sass/config/_utils.scss */
 .padtop {
   padding-top: 60px;
 }
 
-/* line 46, ../modulos/sass/config/_utils.scss */
+/* line 59, ../modulos/sass/config/_utils.scss */
 .pads {
   padding: 70px 30px;
 }
 
-/* line 49, ../modulos/sass/config/_utils.scss */
+/* line 62, ../modulos/sass/config/_utils.scss */
 .padds {
   width: 100%;
   float: left;
@@ -12662,24 +12688,24 @@ figure {
   padding-right: 8.36653%;
 }
 
-/* line 53, ../modulos/sass/config/_utils.scss */
+/* line 66, ../modulos/sass/config/_utils.scss */
 .omega {
   float: right;
 }
 
-/* line 56, ../modulos/sass/config/_utils.scss */
+/* line 69, ../modulos/sass/config/_utils.scss */
 .cyantext {
   color: #71C5D0;
 }
 
-/* line 59, ../modulos/sass/config/_utils.scss */
+/* line 72, ../modulos/sass/config/_utils.scss */
 .pic-center, .Foco img {
   margin: 0 auto;
   display: block;
   float: none !important;
 }
 
-/* line 64, ../modulos/sass/config/_utils.scss */
+/* line 77, ../modulos/sass/config/_utils.scss */
 .fullhr {
   width: 83.26693%;
   float: left;
@@ -12690,244 +12716,250 @@ figure {
   margin-bottom: 50px;
 }
 
-/* line 70, ../modulos/sass/config/_utils.scss */
+/* line 83, ../modulos/sass/config/_utils.scss */
 .up {
   margin-top: -60px;
 }
-/* line 72, ../modulos/sass/config/_utils.scss */
+/* line 85, ../modulos/sass/config/_utils.scss */
 .up .Content-para {
   margin-top: 80px;
 }
 
 /* COLORS*/
-/* line 78, ../modulos/sass/config/_utils.scss */
+/* line 91, ../modulos/sass/config/_utils.scss */
 .cyan-bright {
   color: #5187C6 !important;
 }
 
-/* line 81, ../modulos/sass/config/_utils.scss */
+/* line 94, ../modulos/sass/config/_utils.scss */
 .red-low {
   color: #C7544A !important;
 }
 
-/* line 84, ../modulos/sass/config/_utils.scss */
+/* line 97, ../modulos/sass/config/_utils.scss */
 .yellow-low {
   color: #D1AF59 !important;
 }
 
 /* BACKGROUNDS */
-/* line 88, ../modulos/sass/config/_utils.scss */
+/* line 101, ../modulos/sass/config/_utils.scss */
 .bgblue {
   background: #06396D;
   color: #FFFFFF;
 }
 
-/* line 92, ../modulos/sass/config/_utils.scss */
+/* line 105, ../modulos/sass/config/_utils.scss */
 .bgcyan-other {
   background: #648CB0;
   color: #FFFFFF;
 }
 
-/* line 96, ../modulos/sass/config/_utils.scss */
+/* line 109, ../modulos/sass/config/_utils.scss */
 .bgcyan-water {
   background: #98D1FC;
   color: #FFFFFF;
 }
 
-/* line 100, ../modulos/sass/config/_utils.scss */
+/* line 113, ../modulos/sass/config/_utils.scss */
 .bgcyan-lighty {
   background: #71C5D0;
   color: #FFFFFF;
 }
 
-/* line 104, ../modulos/sass/config/_utils.scss */
+/* line 117, ../modulos/sass/config/_utils.scss */
 .bgblue-low {
   background: #4D5F8A;
   color: #FFFFFF;
 }
 
-/* line 108, ../modulos/sass/config/_utils.scss */
+/* line 121, ../modulos/sass/config/_utils.scss */
 .bgblue-ghost {
   background: rgba(0, 0, 76, 0.68);
   color: #FFFFFF;
 }
 
-/* line 112, ../modulos/sass/config/_utils.scss */
+/* line 125, ../modulos/sass/config/_utils.scss */
 .bgblue-cloud {
   background: #4D5069;
   color: #FFFFFF;
 }
 
-/* line 116, ../modulos/sass/config/_utils.scss */
+/* line 129, ../modulos/sass/config/_utils.scss */
 .bgcyan {
   background: #6DA6BC;
   color: #FFFFFF;
 }
 
-/* line 120, ../modulos/sass/config/_utils.scss */
+/* line 133, ../modulos/sass/config/_utils.scss */
+.bgcyan-stats {
+  background: #109a9c;
+  color: #FFFFFF;
+}
+
+/* line 137, ../modulos/sass/config/_utils.scss */
 .bgcyan-cloud {
   background: #7AABC4;
   color: #FFFFFF;
 }
 
-/* line 124, ../modulos/sass/config/_utils.scss */
+/* line 141, ../modulos/sass/config/_utils.scss */
 .bgturquoise-cloud {
   background: #5DA39A;
   color: #FFFFFF;
 }
 
-/* line 128, ../modulos/sass/config/_utils.scss */
+/* line 145, ../modulos/sass/config/_utils.scss */
 .bgcloudcol1 {
   background: #4a4f6a;
   color: #FFFFFF;
 }
 
-/* line 132, ../modulos/sass/config/_utils.scss */
+/* line 149, ../modulos/sass/config/_utils.scss */
 .bgcloudcol2 {
   background: #0ba59b;
   color: #FFFFFF;
 }
 
-/* line 136, ../modulos/sass/config/_utils.scss */
+/* line 153, ../modulos/sass/config/_utils.scss */
 .bgcloudcol3 {
   background: #f9ae40;
   color: #FFFFFF;
 }
 
-/* line 141, ../modulos/sass/config/_utils.scss */
+/* line 158, ../modulos/sass/config/_utils.scss */
 .bgcloud1 {
   background: #4a4f6a;
   color: #FFFFFF;
 }
 
-/* line 145, ../modulos/sass/config/_utils.scss */
+/* line 162, ../modulos/sass/config/_utils.scss */
 .bgcloud2 {
   background: #ff9452;
   color: #FFFFFF;
 }
 
-/* line 149, ../modulos/sass/config/_utils.scss */
+/* line 166, ../modulos/sass/config/_utils.scss */
 .bgcloud3 {
   background: #5eadc6;
   color: #FFFFFF;
 }
 
-/* line 153, ../modulos/sass/config/_utils.scss */
+/* line 170, ../modulos/sass/config/_utils.scss */
 .bgcloud4 {
   background: #0ba59b;
   color: #FFFFFF;
 }
 
-/* line 157, ../modulos/sass/config/_utils.scss */
+/* line 174, ../modulos/sass/config/_utils.scss */
 .bgcloud5 {
   background: #f9ae40;
   color: #FFFFFF;
 }
 
-/* line 161, ../modulos/sass/config/_utils.scss */
+/* line 178, ../modulos/sass/config/_utils.scss */
 .bgcloud6 {
   background: #f3bb71;
   color: #FFFFFF;
 }
 
-/* line 165, ../modulos/sass/config/_utils.scss */
+/* line 182, ../modulos/sass/config/_utils.scss */
 .bgcyany {
   background: #7AADD3;
   color: #FFFFFF;
 }
 
-/* line 169, ../modulos/sass/config/_utils.scss */
+/* line 186, ../modulos/sass/config/_utils.scss */
 .bgcyanA {
   background: #8AC4DB;
   color: #FFFFFF;
 }
 
-/* line 173, ../modulos/sass/config/_utils.scss */
+/* line 190, ../modulos/sass/config/_utils.scss */
 .bgcyanB {
   background: #7AABC4;
   color: #FFFFFF;
 }
 
-/* line 177, ../modulos/sass/config/_utils.scss */
+/* line 194, ../modulos/sass/config/_utils.scss */
 .bgcyan-light {
   background: #7FB9D3;
   color: #FFFFFF;
 }
 
-/* line 181, ../modulos/sass/config/_utils.scss */
+/* line 198, ../modulos/sass/config/_utils.scss */
 .bgcyan-bright {
   background: #5187C6;
   color: #FFFFFF;
 }
 
-/* line 185, ../modulos/sass/config/_utils.scss */
+/* line 202, ../modulos/sass/config/_utils.scss */
 .bgcyan-strong {
   background: #589999;
   color: #FFFFFF;
 }
 
-/* line 189, ../modulos/sass/config/_utils.scss */
+/* line 206, ../modulos/sass/config/_utils.scss */
 .bgturquoise {
   background: #589999;
   color: #FFFFFF;
 }
 
-/* line 193, ../modulos/sass/config/_utils.scss */
+/* line 210, ../modulos/sass/config/_utils.scss */
 .bgturquoise-low {
   background: #70BA9E;
   color: #FFFFFF;
 }
 
-/* line 197, ../modulos/sass/config/_utils.scss */
+/* line 214, ../modulos/sass/config/_utils.scss */
 .bgred-low {
   background: #C7544A;
   color: #FFFFFF;
 }
 
-/* line 201, ../modulos/sass/config/_utils.scss */
+/* line 218, ../modulos/sass/config/_utils.scss */
 .bgred {
   background: #C7512E;
   color: #FFFFFF;
 }
 
-/* line 205, ../modulos/sass/config/_utils.scss */
+/* line 222, ../modulos/sass/config/_utils.scss */
 .bgyellow-low {
   background: #D1AF59;
   color: #FFFFFF;
 }
 
-/* line 209, ../modulos/sass/config/_utils.scss */
+/* line 226, ../modulos/sass/config/_utils.scss */
 .bgorange {
   background: #E58F25;
   color: #FFFFFF;
 }
 
-/* line 213, ../modulos/sass/config/_utils.scss */
+/* line 230, ../modulos/sass/config/_utils.scss */
 .bgorange-low {
   background: #E4BA75;
   color: #FFFFFF;
 }
 
-/* line 217, ../modulos/sass/config/_utils.scss */
+/* line 234, ../modulos/sass/config/_utils.scss */
 .bgorange-cloud {
   background: #EA9357;
   color: #FFFFFF;
 }
 
-/* line 221, ../modulos/sass/config/_utils.scss */
+/* line 238, ../modulos/sass/config/_utils.scss */
 .bgwhite {
   background: #F1F2F3;
   color: #06396D;
 }
 
-/* line 226, ../modulos/sass/config/_utils.scss */
+/* line 243, ../modulos/sass/config/_utils.scss */
 .bggray-dark {
   background: #4E4E4E;
   color: #FFFFFF;
 }
 
 @media screen and (max-width: 605px) {
-  /* line 232, ../modulos/sass/config/_utils.scss */
+  /* line 249, ../modulos/sass/config/_utils.scss */
   .pads {
     padding: 20px 10px;
   }
@@ -13019,41 +13051,48 @@ figure {
 
 /* line 47, ../modulos/sass/layout/_riesgo.scss */
 .Classroom {
-  padding: 70px 0px 65px;
+  padding: 70px 0px 165px;
 }
 /* line 49, ../modulos/sass/layout/_riesgo.scss */
 .Classroom .Teacher {
-  width: 41.43426%;
-  float: left;
-  margin-right: 0.39841%;
-  display: inline;
-  margin-left: 33.46614%;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  background: url(../img/canvas.png) no-repeat 70% top;
-  height: 319px;
+  left: 10%;
+  background: url(../img/canvas.png) no-repeat left top;
+  height: 200px;
+  width: 215px;
   font-size: 9px;
   z-index: 10;
 }
-/* line 59, ../modulos/sass/layout/_riesgo.scss */
+/* line 63, ../modulos/sass/layout/_riesgo.scss */
+.Classroom .Teacher::after {
+  content: "";
+  background: url(../img/canvas.png) no-repeat left bottom;
+  height: 120px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+/* line 73, ../modulos/sass/layout/_riesgo.scss */
 .Classroom .Teacher-pic {
   position: absolute;
-  bottom: 0%;
-  margin-left: -40px;
+  bottom: -58%;
+  right: 90%;
 }
-/* line 66, ../modulos/sass/layout/_riesgo.scss */
+/* line 81, ../modulos/sass/layout/_riesgo.scss */
 .Classroom .Canvas-text {
-  width: 49.8008%;
-  float: left;
-  margin-right: 0.39841%;
-  display: inline;
-  margin-left: 33.46614%;
-  padding-top: 30px;
+  padding: 0 25px;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.3em;
+  line-height: 1.3em;
   color: #293347;
+  text-align: justify;
 }
 
-/* line 75, ../modulos/sass/layout/_riesgo.scss */
+/* line 96, ../modulos/sass/layout/_riesgo.scss */
 .Number {
   width: 7.96813%;
   float: left;
@@ -13063,7 +13102,7 @@ figure {
   height: 240px;
 }
 
-/* line 80, ../modulos/sass/layout/_riesgo.scss */
+/* line 101, ../modulos/sass/layout/_riesgo.scss */
 .TitleList {
   width: 49.8008%;
   float: left;
@@ -13071,7 +13110,7 @@ figure {
   display: inline;
   padding-left: 8.36653%;
 }
-/* line 83, ../modulos/sass/layout/_riesgo.scss */
+/* line 104, ../modulos/sass/layout/_riesgo.scss */
 .TitleList.no-pic {
   width: 66.53386%;
   float: left;
@@ -13079,7 +13118,7 @@ figure {
   display: inline;
 }
 
-/* line 87, ../modulos/sass/layout/_riesgo.scss */
+/* line 108, ../modulos/sass/layout/_riesgo.scss */
 .Fullwide {
   width: 100%;
   float: left;
@@ -13087,7 +13126,7 @@ figure {
   display: inline;
 }
 
-/* line 90, ../modulos/sass/layout/_riesgo.scss */
+/* line 111, ../modulos/sass/layout/_riesgo.scss */
 .Figure {
   margin: 0;
   width: 33.06773%;
@@ -13096,7 +13135,7 @@ figure {
   display: inline;
   margin-left: 8.36653%;
 }
-/* line 94, ../modulos/sass/layout/_riesgo.scss */
+/* line 115, ../modulos/sass/layout/_riesgo.scss */
 .Figure--right {
   margin: 0;
   width: 33.06773%;
@@ -13105,12 +13144,12 @@ figure {
   *margin-left: -3.75px;
   display: inline;
 }
-/* line 97, ../modulos/sass/layout/_riesgo.scss */
+/* line 118, ../modulos/sass/layout/_riesgo.scss */
 .Figure--right-pic {
   float: right;
 }
 
-/* line 103, ../modulos/sass/layout/_riesgo.scss */
+/* line 124, ../modulos/sass/layout/_riesgo.scss */
 .Ocurrencia {
   width: 49.8008%;
   float: right;
@@ -13119,7 +13158,7 @@ figure {
   display: inline;
   padding-right: 8.36653%;
 }
-/* line 106, ../modulos/sass/layout/_riesgo.scss */
+/* line 127, ../modulos/sass/layout/_riesgo.scss */
 .Ocurrencia--left {
   width: 49.8008%;
   float: left;
@@ -13128,7 +13167,7 @@ figure {
   padding-left: 8.36653%;
 }
 
-/* line 112, ../modulos/sass/layout/_riesgo.scss */
+/* line 133, ../modulos/sass/layout/_riesgo.scss */
 .Concreto {
   width: 74.9004%;
   float: left;
@@ -13136,7 +13175,7 @@ figure {
   display: inline;
 }
 
-/* line 115, ../modulos/sass/layout/_riesgo.scss */
+/* line 136, ../modulos/sass/layout/_riesgo.scss */
 .Licito {
   width: 66.53386%;
   float: left;
@@ -13144,7 +13183,7 @@ figure {
   display: inline;
 }
 
-/* line 118, ../modulos/sass/layout/_riesgo.scss */
+/* line 139, ../modulos/sass/layout/_riesgo.scss */
 .Idea {
   width: 58.16733%;
   float: left;
@@ -13152,7 +13191,7 @@ figure {
   display: inline;
 }
 
-/* line 122, ../modulos/sass/layout/_riesgo.scss */
+/* line 143, ../modulos/sass/layout/_riesgo.scss */
 .Economico {
   width: 41.43426%;
   float: left;
@@ -13160,7 +13199,7 @@ figure {
   display: inline;
 }
 
-/* line 125, ../modulos/sass/layout/_riesgo.scss */
+/* line 146, ../modulos/sass/layout/_riesgo.scss */
 .Dinero {
   width: 33.06773%;
   float: right;
@@ -13170,7 +13209,7 @@ figure {
   padding-right: 8.36653%;
 }
 
-/* line 129, ../modulos/sass/layout/_riesgo.scss */
+/* line 150, ../modulos/sass/layout/_riesgo.scss */
 .Foco {
   width: 24.7012%;
   float: right;
@@ -13180,53 +13219,53 @@ figure {
   padding-right: 8.36653%;
 }
 
-/* line 136, ../modulos/sass/layout/_riesgo.scss */
+/* line 157, ../modulos/sass/layout/_riesgo.scss */
 .Banderines {
   width: 337px;
 }
 
-/* line 139, ../modulos/sass/layout/_riesgo.scss */
+/* line 160, ../modulos/sass/layout/_riesgo.scss */
 .Resumen {
   color: #000000;
 }
-/* line 141, ../modulos/sass/layout/_riesgo.scss */
+/* line 162, ../modulos/sass/layout/_riesgo.scss */
 .Resumen hr {
   border: 1px solid #FFFFFF;
   margin-left: -10%;
   width: 80%;
 }
 
-/* line 147, ../modulos/sass/layout/_riesgo.scss */
+/* line 168, ../modulos/sass/layout/_riesgo.scss */
 .Estrategia {
   width: 100%;
   float: left;
   margin-right: 0.39841%;
   display: inline;
 }
-/* line 149, ../modulos/sass/layout/_riesgo.scss */
+/* line 170, ../modulos/sass/layout/_riesgo.scss */
 .Estrategia-item {
   width: 100%;
   float: left;
   margin-right: 0.39841%;
   display: inline;
 }
-/* line 151, ../modulos/sass/layout/_riesgo.scss */
+/* line 172, ../modulos/sass/layout/_riesgo.scss */
 .Estrategia-item:first-child .Estrategia-number {
   color: #C7544A;
 }
-/* line 154, ../modulos/sass/layout/_riesgo.scss */
+/* line 175, ../modulos/sass/layout/_riesgo.scss */
 .Estrategia-item:nth-child(2) .Estrategia-number {
   color: #D1AF59;
 }
-/* line 157, ../modulos/sass/layout/_riesgo.scss */
+/* line 178, ../modulos/sass/layout/_riesgo.scss */
 .Estrategia-item:nth-child(3) .Estrategia-number {
   color: #589999;
 }
-/* line 160, ../modulos/sass/layout/_riesgo.scss */
+/* line 181, ../modulos/sass/layout/_riesgo.scss */
 .Estrategia-item:last-child .Estrategia-number {
   color: #5187C6;
 }
-/* line 164, ../modulos/sass/layout/_riesgo.scss */
+/* line 185, ../modulos/sass/layout/_riesgo.scss */
 .Estrategia-text {
   width: 100%;
   float: left;
@@ -13235,17 +13274,22 @@ figure {
   padding-left: 8.36653%;
   padding-right: 8.36653%;
   min-height: 115px;
-  font-size: 11px;
-  line-height: 12px;
+  font-size: .9em;
+  line-height: 1.2em;
   font-weight: bold;
 }
-/* line 173, ../modulos/sass/layout/_riesgo.scss */
+/* line 194, ../modulos/sass/layout/_riesgo.scss */
 .Estrategia-title {
   font-family: OpenSans-Regular;
   font-size: 14px;
   font-weight: bold;
+  margin-bottom: 4px;
 }
-/* line 178, ../modulos/sass/layout/_riesgo.scss */
+/* line 200, ../modulos/sass/layout/_riesgo.scss */
+.Estrategia-para {
+  margin-top: 10px;
+}
+/* line 203, ../modulos/sass/layout/_riesgo.scss */
 .Estrategia-number {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NiY2JjYiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -13259,14 +13303,14 @@ figure {
   font-size: 120px;
 }
 
-/* line 188, ../modulos/sass/layout/_riesgo.scss */
+/* line 213, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList {
   width: 100%;
   float: left;
   margin-right: 0.39841%;
   display: inline;
 }
-/* line 190, ../modulos/sass/layout/_riesgo.scss */
+/* line 215, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList-item {
   width: 100%;
   float: left;
@@ -13278,38 +13322,38 @@ figure {
   font-weight: bold;
   min-height: 86px;
 }
-/* line 196, ../modulos/sass/layout/_riesgo.scss */
+/* line 221, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList-item:first-child i {
   color: #D1AF59;
 }
-/* line 199, ../modulos/sass/layout/_riesgo.scss */
+/* line 224, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList-item:nth-child(2) i {
   color: #70BA9E;
 }
-/* line 202, ../modulos/sass/layout/_riesgo.scss */
+/* line 227, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList-item:nth-child(3) i {
   color: #7FB9D3;
 }
-/* line 205, ../modulos/sass/layout/_riesgo.scss */
+/* line 230, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList-item:nth-child(4) i {
   color: #6DA6BC;
 }
-/* line 208, ../modulos/sass/layout/_riesgo.scss */
+/* line 233, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList-item:last-child i {
   color: #C7544A;
 }
-/* line 212, ../modulos/sass/layout/_riesgo.scss */
+/* line 237, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList-title {
   font-size: 1em;
   margin-bottom: 0;
 }
-/* line 216, ../modulos/sass/layout/_riesgo.scss */
+/* line 241, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList-text {
   font-size: .533333333em;
   font-weight: bold;
   margin-top: 0;
 }
-/* line 221, ../modulos/sass/layout/_riesgo.scss */
+/* line 246, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList i {
   background: #FFFFFF;
   padding: 0 15px;
@@ -13318,7 +13362,7 @@ figure {
   font-style: normal;
 }
 
-/* line 230, ../modulos/sass/layout/_riesgo.scss */
+/* line 255, ../modulos/sass/layout/_riesgo.scss */
 .Map img {
   max-width: 100%;
   display: block;
@@ -13326,26 +13370,41 @@ figure {
 }
 
 /* Media Queries */
-@media screen and (max-width: 1150px) {
-  /* line 246, ../modulos/sass/layout/_riesgo.scss */
-  .Classroom .Teacher-pic {
-    margin-left: -150px;
+/*@media screen and (min-width: 1350px) { 
+  
+}
+@media screen and (min-width: 1250px) { 
+  
+}
+@media screen and (max-width: 1150px) { 
+  .Classroom {
+    .Teacher {
+      &-pic {
+        margin-left: -150px;
+      }
+    }
   }
 }
 @media screen and (max-width: 975px) {
-  /* line 255, ../modulos/sass/layout/_riesgo.scss */
-  .Classroom .Teacher-pic {
-    margin-left: -120px;
+  .Classroom {
+    .Teacher {
+      &-pic {
+        margin-left: -120px;
+      }
+    }
   }
 }
 @media screen and (max-width: 880px) {
-  /* line 264, ../modulos/sass/layout/_riesgo.scss */
-  .Classroom .Teacher-pic {
-    margin-left: -100px;
+  .Classroom {
+    .Teacher {
+      &-pic {
+        margin-left: -100px;
+      }
+    }
   }
-}
+}*/
 @media screen and (min-width: 880px) {
-  /* line 272, ../modulos/sass/layout/_riesgo.scss */
+  /* line 297, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-text {
     width: 49.8008%;
     float: left;
@@ -13354,22 +13413,22 @@ figure {
   }
 }
 @media screen and (min-width: 605px) {
-  /* line 278, ../modulos/sass/layout/_riesgo.scss */
+  /* line 303, ../modulos/sass/layout/_riesgo.scss */
   .Meteor {
     margin-top: 80px;
   }
 
-  /* line 281, ../modulos/sass/layout/_riesgo.scss */
+  /* line 306, ../modulos/sass/layout/_riesgo.scss */
   .Resumen {
     overflow: hidden;
   }
-  /* line 283, ../modulos/sass/layout/_riesgo.scss */
+  /* line 308, ../modulos/sass/layout/_riesgo.scss */
   .Resumen p {
     padding-left: 12.749%;
     padding-right: 12.749%;
   }
 
-  /* line 287, ../modulos/sass/layout/_riesgo.scss */
+  /* line 312, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList {
     /*&-text {
       &::after {
@@ -13377,11 +13436,11 @@ figure {
       }
     } */
   }
-  /* line 288, ../modulos/sass/layout/_riesgo.scss */
+  /* line 313, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item {
     margin-bottom: 25px;
   }
-  /* line 290, ../modulos/sass/layout/_riesgo.scss */
+  /* line 315, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:first-child {
     width: 49.8008%;
     float: left;
@@ -13391,7 +13450,7 @@ figure {
     position: relative;
     z-index: 10;
   }
-  /* line 295, ../modulos/sass/layout/_riesgo.scss */
+  /* line 320, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:first-child::before {
     content: " ";
     background: url(../img/riesgos/yellowbck.png) no-repeat top left;
@@ -13402,7 +13461,7 @@ figure {
     left: 0;
     top: 100%;
   }
-  /* line 305, ../modulos/sass/layout/_riesgo.scss */
+  /* line 330, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:first-child::after {
     content: " ";
     background: #D1AF59;
@@ -13423,7 +13482,7 @@ figure {
     transform-origin: bottom left;
     z-index: 1;
   }
-  /* line 320, ../modulos/sass/layout/_riesgo.scss */
+  /* line 345, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(2) {
     width: 33.06773%;
     float: right;
@@ -13433,7 +13492,7 @@ figure {
     position: relative;
     z-index: 1;
   }
-  /* line 324, ../modulos/sass/layout/_riesgo.scss */
+  /* line 349, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(2)::before {
     content: " ";
     background: #70BA9E;
@@ -13454,7 +13513,7 @@ figure {
     transform-origin: bottom right;
     z-index: -1;
   }
-  /* line 338, ../modulos/sass/layout/_riesgo.scss */
+  /* line 363, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(2)::after {
     content: " ";
     background: url(../img/riesgos/greenbck.png) no-repeat top right;
@@ -13465,7 +13524,7 @@ figure {
     right: 0;
     top: 100%;
   }
-  /* line 349, ../modulos/sass/layout/_riesgo.scss */
+  /* line 374, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(3) {
     width: 33.06773%;
     float: left;
@@ -13474,7 +13533,7 @@ figure {
     position: relative;
     z-index: 1;
   }
-  /* line 353, ../modulos/sass/layout/_riesgo.scss */
+  /* line 378, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(3)::before {
     content: " ";
     background: url(../img/riesgos/cyanbk.png) no-repeat top left;
@@ -13485,7 +13544,7 @@ figure {
     left: 0;
     top: 100%;
   }
-  /* line 363, ../modulos/sass/layout/_riesgo.scss */
+  /* line 388, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(3)::after {
     content: " ";
     background: #7FB9D3;
@@ -13506,7 +13565,7 @@ figure {
     transform-origin: bottom left;
     z-index: -1;
   }
-  /* line 378, ../modulos/sass/layout/_riesgo.scss */
+  /* line 403, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(4) {
     width: 49.8008%;
     float: right;
@@ -13516,7 +13575,7 @@ figure {
     position: relative;
     z-index: 1;
   }
-  /* line 382, ../modulos/sass/layout/_riesgo.scss */
+  /* line 407, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(4)::after {
     content: " ";
     background: url(../img/riesgos/bluebk.png) no-repeat top right;
@@ -13527,7 +13586,7 @@ figure {
     right: 0;
     top: 100%;
   }
-  /* line 392, ../modulos/sass/layout/_riesgo.scss */
+  /* line 417, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(4)::before {
     content: " ";
     background: #6DA6BC;
@@ -13548,7 +13607,7 @@ figure {
     transform-origin: bottom right;
     z-index: -1;
   }
-  /* line 407, ../modulos/sass/layout/_riesgo.scss */
+  /* line 432, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(5) {
     width: 83.26693%;
     float: left;
@@ -13558,7 +13617,7 @@ figure {
     text-align: center;
     position: relative;
   }
-  /* line 412, ../modulos/sass/layout/_riesgo.scss */
+  /* line 437, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(5)::before {
     content: " ";
     background: url(../img/riesgos/redlft.png) no-repeat top left;
@@ -13568,7 +13627,7 @@ figure {
     left: 0;
     top: 100%;
   }
-  /* line 422, ../modulos/sass/layout/_riesgo.scss */
+  /* line 447, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(5)::after {
     content: " ";
     background: url(../img/riesgos/redrght.png) no-repeat top right;
@@ -13579,18 +13638,18 @@ figure {
     top: 100%;
   }
 
-  /* line 443, ../modulos/sass/layout/_riesgo.scss */
+  /* line 468, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-item:nth-child(even) .Estrategia-number {
     margin-left: 66.93227%;
     text-align: right;
   }
-  /* line 447, ../modulos/sass/layout/_riesgo.scss */
+  /* line 472, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-item:nth-child(even) .Estrategia-text {
     margin-left: 8.36653%;
     height: 115px;
     margin-top: -140px;
   }
-  /* line 453, ../modulos/sass/layout/_riesgo.scss */
+  /* line 478, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-number {
     width: 24.7012%;
     float: left;
@@ -13600,7 +13659,7 @@ figure {
     padding-left: 3.98406%;
     padding-right: 3.98406%;
   }
-  /* line 458, ../modulos/sass/layout/_riesgo.scss */
+  /* line 483, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-text {
     width: 66.53386%;
     float: left;
@@ -13611,77 +13670,69 @@ figure {
   }
 }
 @media screen and (max-width: 605px) {
-  /* line 468, ../modulos/sass/layout/_riesgo.scss */
+  /* line 493, ../modulos/sass/layout/_riesgo.scss */
   .Layout-int .Layout-half {
     width: 100%;
     float: left;
     margin-right: 0.39841%;
     display: inline;
   }
-  /* line 470, ../modulos/sass/layout/_riesgo.scss */
+  /* line 495, ../modulos/sass/layout/_riesgo.scss */
   .Layout-int .Layout-half:last-child {
     margin-top: 10px;
   }
 
-  /* line 476, ../modulos/sass/layout/_riesgo.scss */
+  /* line 501, ../modulos/sass/layout/_riesgo.scss */
   .Dialog-text {
     padding-left: 37.84861%;
   }
 
-  /* line 481, ../modulos/sass/layout/_riesgo.scss */
-  .Classroom .Teacher {
-    width: 83.26693%;
-    float: left;
-    margin-right: 0.39841%;
-    display: inline;
-    margin-left: 8.36653%;
-  }
-  /* line 484, ../modulos/sass/layout/_riesgo.scss */
-  .Classroom .Teacher-pic {
-    margin-left: -20px;
-  }
-  /* line 488, ../modulos/sass/layout/_riesgo.scss */
-  .Classroom .Canvas-text {
-    width: 41.43426%;
-    float: left;
-    margin-right: 0.39841%;
-    display: inline;
-    margin-left: 41.83267%;
-  }
-
-  /* line 493, ../modulos/sass/layout/_riesgo.scss */
+  /*.Classroom {
+    .Teacher {
+      @include span-columns(10);
+      @include push(1);
+      &-pic {
+        margin-left: -20px;
+      }
+    }
+    .Canvas-text {
+      @include span-columns(5);
+      @include push(5);
+    }
+  }*/
+  /* line 518, ../modulos/sass/layout/_riesgo.scss */
   .Number {
     opacity: .5;
   }
-  /* line 495, ../modulos/sass/layout/_riesgo.scss */
+  /* line 520, ../modulos/sass/layout/_riesgo.scss */
   .Number + * {
     position: relative;
     z-index: 10;
   }
 
-  /* line 500, ../modulos/sass/layout/_riesgo.scss */
+  /* line 525, ../modulos/sass/layout/_riesgo.scss */
   .Licito {
     overflow: hidden;
   }
 }
 @media screen and (max-width: 470px) {
-  /* line 505, ../modulos/sass/layout/_riesgo.scss */
+  /* line 530, ../modulos/sass/layout/_riesgo.scss */
   .Dialog {
     width: 100%;
     float: left;
     margin-right: 0.39841%;
     display: inline;
   }
-  /* line 507, ../modulos/sass/layout/_riesgo.scss */
+  /* line 532, ../modulos/sass/layout/_riesgo.scss */
   .Dialog-text {
     padding-left: 33.46614%;
   }
 
-  /* line 511, ../modulos/sass/layout/_riesgo.scss */
+  /* line 536, ../modulos/sass/layout/_riesgo.scss */
   .Loud {
     background: none;
   }
-  /* line 513, ../modulos/sass/layout/_riesgo.scss */
+  /* line 538, ../modulos/sass/layout/_riesgo.scss */
   .Loud-text {
     width: 100%;
     float: left;
@@ -13690,38 +13741,35 @@ figure {
     padding-left: 8.36653%;
   }
 
-  /* line 521, ../modulos/sass/layout/_riesgo.scss */
-  .Classroom .Teacher-pic {
-    margin-left: -60px;
-  }
-  /* line 525, ../modulos/sass/layout/_riesgo.scss */
-  .Classroom .Canvas-text {
-    width: 41.43426%;
-    float: left;
-    margin-right: 0.39841%;
-    display: inline;
-    margin-left: 41.83267%;
-  }
-
-  /* line 530, ../modulos/sass/layout/_riesgo.scss */
+  /*.Classroom {
+    .Teacher {
+      &-pic {
+        margin-left: -60px;
+      }
+    }
+    .Canvas-text {
+      @include span-columns(5);
+      @include push(5);
+    }
+  }*/
+  /* line 555, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia {
     margin-top: 50px;
   }
 }
-@media screen and (max-width: 380px) {
-  /* line 537, ../modulos/sass/layout/_riesgo.scss */
-  .Classroom .Teacher-pic {
-    margin-left: -125px;
+/*@media screen and (max-width:380px) {
+  .Classroom {
+    .Teacher {
+      &-pic {
+        margin-left: -125px;
+      }
+    }
+    .Canvas-text {
+      @include span-columns(6);
+      @include push(4);
+    }
   }
-  /* line 541, ../modulos/sass/layout/_riesgo.scss */
-  .Classroom .Canvas-text {
-    width: 49.8008%;
-    float: left;
-    margin-right: 0.39841%;
-    display: inline;
-    margin-left: 33.46614%;
-  }
-}
+}*/
 /* line 1, ../modulos/sass/layout/_conocer.scss */
 .Headtext {
   width: 80%;
@@ -14457,20 +14505,42 @@ figure {
     left: 10%;
   }
 }
+@media screen and (min-width: 1300px) {
+  /* line 563, ../modulos/sass/layout/_conocer.scss */
+  .Zigzag-img {
+    width: 50%;
+    left: 27%;
+  }
+}
+@media screen and (min-width: 1040px) {
+  /* line 570, ../modulos/sass/layout/_conocer.scss */
+  .Zigzag3 p:first-child {
+    padding-left: 50%;
+  }
+}
 @media screen and (max-width: 510px) {
-  /* line 564, ../modulos/sass/layout/_conocer.scss */
+  /* line 577, ../modulos/sass/layout/_conocer.scss */
   .Zigzag1, .Zigzag2, .Zigzag3, .Zigzag4, .Zigzag5 {
     width: 100%;
   }
-  /* line 566, ../modulos/sass/layout/_conocer.scss */
+  /* line 579, ../modulos/sass/layout/_conocer.scss */
   .Zigzag1 p:first-child, .Zigzag1 p:last-child, .Zigzag2 p:first-child, .Zigzag2 p:last-child, .Zigzag3 p:first-child, .Zigzag3 p:last-child, .Zigzag4 p:first-child, .Zigzag4 p:last-child, .Zigzag5 p:first-child, .Zigzag5 p:last-child {
     width: 50%;
     padding-left: 10%;
     padding-bottom: 10%;
   }
-  /* line 573, ../modulos/sass/layout/_conocer.scss */
+  /* line 586, ../modulos/sass/layout/_conocer.scss */
   .Zigzag-img {
     display: none;
+  }
+
+  /* line 590, ../modulos/sass/layout/_conocer.scss */
+  .LazoText {
+    width: 83.26693%;
+    float: left;
+    margin-right: 0.39841%;
+    display: inline;
+    margin-left: 8.36653%;
   }
 }
 /* line 1, ../modulos/sass/layout/_siniestro.scss */
@@ -14633,62 +14703,58 @@ figure {
 
 /* line 32, ../modulos/sass/layout/_contratar.scss */
 .Stats {
-  margin-top: 10px;
-  clear: both;
+  margin: 10px auto;
+  display: table;
+  max-width: 420px;
+  width: 80%;
+  height: 110px;
 }
-/* line 34, ../modulos/sass/layout/_contratar.scss */
-.Stats:first-child {
+/* line 38, ../modulos/sass/layout/_contratar.scss */
+.Stats > * {
+  display: table-cell;
+  height: inherit;
+  width: 100%;
+}
+/* line 43, ../modulos/sass/layout/_contratar.scss */
+.Stats-img {
   /*.Stats-caption {
     margin-left: 107px;
   }*/
+  width: 124px;
+  background: url(../img/contratar/estadistica-lft.jpg) no-repeat left top;
 }
-/* line 40, ../modulos/sass/layout/_contratar.scss */
+/* line 51, ../modulos/sass/layout/_contratar.scss */
 .Stats:last-child .Stats-img {
-  float: right;
+  background: url(../img/contratar/estudios-rght.jpg) no-repeat left top;
 }
-/* line 43, ../modulos/sass/layout/_contratar.scss */
+/* line 55, ../modulos/sass/layout/_contratar.scss */
 .Stats:last-child .Stats-caption {
   border-radius: 54px 0px 0px 54px;
   margin-left: 0px;
-  margin-right: 122px;
-  height: 108px;
 }
-/* line 50, ../modulos/sass/layout/_contratar.scss */
-.Stats-img {
-  float: left;
-  margin-top: -2px;
-}
-/* line 55, ../modulos/sass/layout/_contratar.scss */
+/* line 67, ../modulos/sass/layout/_contratar.scss */
 .Stats-caption {
   border-radius: 0px 52px 52px 0px;
-  margin-top: 2px;
   background: #FFFFFF;
-  position: relative;
   color: #06396D;
-  height: 105px;
+  float: right;
   margin-left: 122px;
 }
-/* line 63, ../modulos/sass/layout/_contratar.scss */
+/* line 76, ../modulos/sass/layout/_contratar.scss */
 .Stats-caption p {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  min-width: 250px;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
+  width: 86%;
+  line-height: 1.3em;
+  margin: 15px auto;
 }
 
 @media screen and (max-width: 605px) {
-  /* line 78, ../modulos/sass/layout/_contratar.scss */
+  /* line 94, ../modulos/sass/layout/_contratar.scss */
   .hide-md {
     display: none;
   }
 
-  /* line 81, ../modulos/sass/layout/_contratar.scss */
+  /* line 97, ../modulos/sass/layout/_contratar.scss */
   .full-md {
     width: 83.26693%;
     float: left;
