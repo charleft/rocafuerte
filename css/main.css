@@ -12974,10 +12974,9 @@ figure {
     padding: 20px 10px;
   }
 
-  /* line 252, ../modulos/sass/config/_utils.scss */
-  #Paginador .pagination {
+  /*#Paginador .pagination {
     margin-left: 20%;
-  }
+  }*/
 }
 /* line 1, ../modulos/sass/layout/_riesgo.scss */
 .Layout {
