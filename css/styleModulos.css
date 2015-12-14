@@ -17,7 +17,7 @@ p{
 #Evaluacion label, #Evaluacion p {
 	color: #0277bd;
 }
-#Hero{
+/*#Hero{
 	background: url("../img/BG1.jpg") 50% 50% no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -31,7 +31,68 @@ p{
 #Hero h1{
 	font-size: 5em;
 	padding-top: 125px;
+}*/
+#Hero1{
+  background: url("../img/Mod 1 por que contratar un seguro.jpg") 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    height: 400px;
+    padding: 1px 0;
+    position: relative;
+    z-index: 1;
 }
+#Hero1 h1{
+  font-size: 5em;
+  padding-top: 125px;
+}
+#Hero2{
+  background: url("../img/Mod 2 cosas que debes conocer al contratar un seguro.jpg") 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    height: 400px;
+    padding: 1px 0;
+    position: relative;
+    z-index: 1;
+}
+#Hero2 h1{
+  font-size: 5em;
+  padding-top: 125px;
+}
+#Hero3{
+  background: url("../img/Mod 3 que se debe hacer en caso de siniestro.jpg") 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    height: 400px;
+    padding: 1px 0;
+    position: relative;
+    z-index: 1;
+}
+#Hero3 h1{
+  font-size: 5em;
+  padding-top: 125px;
+}
+#Hero4{
+  background: url("../img/Mod 4 estrategia de administracion de riesgos.jpg") 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    height: 400px;
+    padding: 1px 0;
+    position: relative;
+    z-index: 1;
+}
+#Hero4 h1{
+  font-size: 5em;
+  padding-top: 125px;
+}
+
 #Paginador{
 	/*position: fixed;*/
 	clear: both;

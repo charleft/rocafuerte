@@ -279,6 +279,26 @@ strong {font-weight: bold; font-size: 1.5em;}
 @media (min-width: 1200px){
 
 }
+@media screen and (max-width: 1300px){
+	#Simulador1 {
+		height: auto;
+	}
+	#Simulador1 img{ 
+		margin-left: 35px;
+	}
+	#Simulador1 .op2 {
+		display: block;
+		clear: both;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media screen and (max-width: 900px){
+	#Simulador1 .op2 {
+		width: 80%;
+		max-width: 450px;
+	}
+}
 @media (max-width: 979px){
 	.op{margin-top: 5%;}
 }
@@ -294,4 +314,12 @@ strong {font-weight: bold; font-size: 1.5em;}
 	/*#Modulos{height: 1375px;}*/
 	/*.op{margin-top: 5%; outline: 3px solid rgba(19,74,159, .8);}*//*AGREGAR 2*/
 	.separador{ width: 22em;}
+	#Simulador1 .op2 {
+		width: 90%;
+	}
+}
+@media screen and (max-width: 460px) {
+	#Simulador1 h1 {
+		font-size: 20vw;
+	}
 }
