@@ -45,6 +45,9 @@ function mover(){
 }
 next.on('click',function(){
 	if (i<n-1){
+		current = current.next();
+		sid.css('height','auto');
+		ci.height(current.height());
 		i++;
 		mover();
 	}
@@ -52,6 +55,9 @@ next.on('click',function(){
 
 prev.on('click', function(){
 	if (i>0){
+		current = current.prev();
+		sid.css('height','auto');
+		ci.height(current.height());
 		i--;
 		mover();
 	}
@@ -90,6 +96,7 @@ toEstrategias.on('click', function(e){
 	tres.trigger('click');
 });
 uno.on('click',function(){
+	i = 0;
 	var altura = $("#A").height();
 	current = $("#A");
 	//sid.height(altura);
@@ -102,6 +109,7 @@ uno.on('click',function(){
 });
 
 dos.on('click',function(){
+	i = 1;
 	var altura = $("#B").height();
 	current = $("#B");
 	sid.css('height','auto');
@@ -116,6 +124,7 @@ dos.on('click',function(){
 });
 
 tres.on('click',function(){
+	i = 2;
 	var altura = $("#C").height();
 	current = $("#C");
 	//sid.height(altura);
@@ -130,6 +139,7 @@ tres.on('click',function(){
 });
 
 cuatro.on('click',function(){
+	i = 3;
 	if($("#Evaluacion")) {
 		var altura = $("#Evaluacion").height();
 	} else {

@@ -149,6 +149,9 @@
   @include prefix(1);
   position: absolute;
   bottom: 20%;
+  &.lft {
+    left: 0;
+  }
   &-right {
     float: right;
   }

@@ -12973,6 +12973,11 @@ figure {
   .pads {
     padding: 20px 10px;
   }
+
+  /* line 252, ../modulos/sass/config/_utils.scss */
+  #Paginador .pagination {
+    margin-left: 20%;
+  }
 }
 /* line 1, ../modulos/sass/layout/_riesgo.scss */
 .Layout {
@@ -13313,14 +13318,20 @@ figure {
   font-size: 120px;
 }
 
-/* line 213, ../modulos/sass/layout/_riesgo.scss */
+@-moz-document url-prefix() {
+  /* line 214, ../modulos/sass/layout/_riesgo.scss */
+  .Estrategia-text {
+    height: 115px;
+  }
+}
+/* line 219, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList {
   width: 100%;
   float: left;
   margin-right: 0.39841%;
   display: inline;
 }
-/* line 215, ../modulos/sass/layout/_riesgo.scss */
+/* line 221, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList-item {
   width: 100%;
   float: left;
@@ -13332,39 +13343,39 @@ figure {
   font-weight: bold;
   min-height: 86px;
 }
-/* line 221, ../modulos/sass/layout/_riesgo.scss */
+/* line 227, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList-item:first-child i {
   color: #D1AF59;
 }
-/* line 224, ../modulos/sass/layout/_riesgo.scss */
+/* line 230, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList-item:nth-child(2) i {
   color: #70BA9E;
 }
-/* line 227, ../modulos/sass/layout/_riesgo.scss */
+/* line 233, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList-item:nth-child(3) i {
   color: #7FB9D3;
 }
-/* line 230, ../modulos/sass/layout/_riesgo.scss */
+/* line 236, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList-item:nth-child(4) i {
   color: #6DA6BC;
 }
-/* line 233, ../modulos/sass/layout/_riesgo.scss */
+/* line 239, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList-item:last-child i {
   color: #C7544A;
 }
-/* line 237, ../modulos/sass/layout/_riesgo.scss */
+/* line 243, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList-title {
   font-size: 1.2em;
   margin-bottom: 0;
 }
-/* line 241, ../modulos/sass/layout/_riesgo.scss */
+/* line 247, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList-text {
   font-size: 1em;
   line-height: 1.2em;
   font-weight: bold;
   margin-top: 0;
 }
-/* line 247, ../modulos/sass/layout/_riesgo.scss */
+/* line 253, ../modulos/sass/layout/_riesgo.scss */
 .EtapasList i {
   background: #FFFFFF;
   padding: 3px 15px 0px;
@@ -13374,7 +13385,7 @@ figure {
   font-size: 1.5em;
 }
 
-/* line 257, ../modulos/sass/layout/_riesgo.scss */
+/* line 263, ../modulos/sass/layout/_riesgo.scss */
 .Map img {
   max-width: 100%;
   display: block;
@@ -13416,7 +13427,7 @@ figure {
   }
 }*/
 @media screen and (min-width: 880px) {
-  /* line 299, ../modulos/sass/layout/_riesgo.scss */
+  /* line 305, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-text {
     width: 49.8008%;
     float: left;
@@ -13425,35 +13436,35 @@ figure {
   }
 }
 @media screen and (max-width: 715px) {
-  /* line 306, ../modulos/sass/layout/_riesgo.scss */
+  /* line 312, ../modulos/sass/layout/_riesgo.scss */
   .Layout-int .Layout-half {
     width: 100%;
     float: left;
     margin-right: 0.39841%;
     display: inline;
   }
-  /* line 308, ../modulos/sass/layout/_riesgo.scss */
+  /* line 314, ../modulos/sass/layout/_riesgo.scss */
   .Layout-int .Layout-half:last-child {
     margin-top: 10px;
   }
 }
 @media screen and (min-width: 605px) {
-  /* line 315, ../modulos/sass/layout/_riesgo.scss */
+  /* line 321, ../modulos/sass/layout/_riesgo.scss */
   .Meteor {
     margin-top: 80px;
   }
 
-  /* line 318, ../modulos/sass/layout/_riesgo.scss */
+  /* line 324, ../modulos/sass/layout/_riesgo.scss */
   .Resumen {
     overflow: hidden;
   }
-  /* line 320, ../modulos/sass/layout/_riesgo.scss */
+  /* line 326, ../modulos/sass/layout/_riesgo.scss */
   .Resumen p {
     padding-left: 12.749%;
     padding-right: 12.749%;
   }
 
-  /* line 324, ../modulos/sass/layout/_riesgo.scss */
+  /* line 330, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList {
     /*&-text {
       &::after {
@@ -13461,11 +13472,11 @@ figure {
       }
     } */
   }
-  /* line 325, ../modulos/sass/layout/_riesgo.scss */
+  /* line 331, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item {
     margin-bottom: 25px;
   }
-  /* line 327, ../modulos/sass/layout/_riesgo.scss */
+  /* line 333, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:first-child {
     width: 49.8008%;
     float: left;
@@ -13489,7 +13500,7 @@ figure {
       z-index: 1;
     }*/
   }
-  /* line 332, ../modulos/sass/layout/_riesgo.scss */
+  /* line 338, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:first-child::before {
     content: " ";
     background: url(../img/riesgos/yellowbck.png) no-repeat top left;
@@ -13500,7 +13511,7 @@ figure {
     left: 0;
     top: 100%;
   }
-  /* line 357, ../modulos/sass/layout/_riesgo.scss */
+  /* line 363, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(2) {
     width: 33.06773%;
     float: right;
@@ -13524,7 +13535,7 @@ figure {
       z-index: -1;
     }*/
   }
-  /* line 375, ../modulos/sass/layout/_riesgo.scss */
+  /* line 381, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(2)::after {
     content: " ";
     background: url(../img/riesgos/greenbck.png) no-repeat top right;
@@ -13535,7 +13546,7 @@ figure {
     right: 0;
     top: 100%;
   }
-  /* line 386, ../modulos/sass/layout/_riesgo.scss */
+  /* line 392, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(3) {
     width: 33.06773%;
     float: left;
@@ -13558,7 +13569,7 @@ figure {
       z-index: -1;
     }*/
   }
-  /* line 390, ../modulos/sass/layout/_riesgo.scss */
+  /* line 396, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(3)::before {
     content: " ";
     background: url(../img/riesgos/cyanbk.png) no-repeat top left;
@@ -13569,7 +13580,7 @@ figure {
     left: 0;
     top: 100%;
   }
-  /* line 415, ../modulos/sass/layout/_riesgo.scss */
+  /* line 421, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(4) {
     width: 49.8008%;
     float: right;
@@ -13593,7 +13604,7 @@ figure {
       z-index: -1;
     }*/
   }
-  /* line 419, ../modulos/sass/layout/_riesgo.scss */
+  /* line 425, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(4)::after {
     content: " ";
     background: url(../img/riesgos/bluebk.png) no-repeat top right;
@@ -13604,7 +13615,7 @@ figure {
     right: 0;
     top: 100%;
   }
-  /* line 444, ../modulos/sass/layout/_riesgo.scss */
+  /* line 450, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(5) {
     width: 83.26693%;
     float: left;
@@ -13614,7 +13625,7 @@ figure {
     text-align: center;
     position: relative;
   }
-  /* line 449, ../modulos/sass/layout/_riesgo.scss */
+  /* line 455, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(5)::before {
     content: " ";
     background: url(../img/riesgos/redlft.png) no-repeat top left;
@@ -13624,7 +13635,7 @@ figure {
     left: 0;
     top: 100%;
   }
-  /* line 459, ../modulos/sass/layout/_riesgo.scss */
+  /* line 465, ../modulos/sass/layout/_riesgo.scss */
   .EtapasList-item:nth-child(5)::after {
     content: " ";
     background: url(../img/riesgos/redrght.png) no-repeat top right;
@@ -13635,18 +13646,18 @@ figure {
     top: 100%;
   }
 
-  /* line 480, ../modulos/sass/layout/_riesgo.scss */
+  /* line 486, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-item:nth-child(even) .Estrategia-number {
     margin-left: 66.93227%;
     text-align: right;
   }
-  /* line 484, ../modulos/sass/layout/_riesgo.scss */
+  /* line 490, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-item:nth-child(even) .Estrategia-text {
     margin-left: 8.36653%;
     height: 115px;
     margin-top: -140px;
   }
-  /* line 490, ../modulos/sass/layout/_riesgo.scss */
+  /* line 496, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-number {
     width: 24.7012%;
     float: left;
@@ -13656,7 +13667,7 @@ figure {
     padding-left: 3.98406%;
     padding-right: 3.98406%;
   }
-  /* line 495, ../modulos/sass/layout/_riesgo.scss */
+  /* line 501, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia-text {
     width: 66.53386%;
     float: left;
@@ -13667,7 +13678,7 @@ figure {
   }
 }
 @media screen and (max-width: 605px) {
-  /* line 504, ../modulos/sass/layout/_riesgo.scss */
+  /* line 510, ../modulos/sass/layout/_riesgo.scss */
   .Dialog-text {
     padding-left: 37.84861%;
   }
@@ -13685,54 +13696,61 @@ figure {
       @include push(5);
     }
   }*/
-  /* line 521, ../modulos/sass/layout/_riesgo.scss */
+  /* line 527, ../modulos/sass/layout/_riesgo.scss */
   .TitleList {
     width: 83.26693%;
     float: left;
     margin-right: 0.39841%;
     display: inline;
+    position: relative;
+    z-index: 10;
   }
 
-  /* line 524, ../modulos/sass/layout/_riesgo.scss */
+  /* line 532, ../modulos/sass/layout/_riesgo.scss */
+  .Picture {
+    opacity: .5;
+  }
+
+  /* line 535, ../modulos/sass/layout/_riesgo.scss */
   .Number {
     opacity: .5;
     position: absolute;
     left: -60px;
   }
-  /* line 528, ../modulos/sass/layout/_riesgo.scss */
+  /* line 539, ../modulos/sass/layout/_riesgo.scss */
   .Number + * {
     position: relative;
     z-index: 10;
   }
 
-  /* line 533, ../modulos/sass/layout/_riesgo.scss */
+  /* line 544, ../modulos/sass/layout/_riesgo.scss */
   .up {
     margin-top: 0px;
   }
 
-  /* line 536, ../modulos/sass/layout/_riesgo.scss */
+  /* line 547, ../modulos/sass/layout/_riesgo.scss */
   .Licito {
     overflow: hidden;
   }
 }
 @media screen and (max-width: 470px) {
-  /* line 541, ../modulos/sass/layout/_riesgo.scss */
+  /* line 552, ../modulos/sass/layout/_riesgo.scss */
   .Dialog {
     width: 100%;
     float: left;
     margin-right: 0.39841%;
     display: inline;
   }
-  /* line 543, ../modulos/sass/layout/_riesgo.scss */
+  /* line 554, ../modulos/sass/layout/_riesgo.scss */
   .Dialog-text {
     padding-left: 33.46614%;
   }
 
-  /* line 547, ../modulos/sass/layout/_riesgo.scss */
+  /* line 558, ../modulos/sass/layout/_riesgo.scss */
   .Loud {
     background: none;
   }
-  /* line 549, ../modulos/sass/layout/_riesgo.scss */
+  /* line 560, ../modulos/sass/layout/_riesgo.scss */
   .Loud-text {
     width: 100%;
     float: left;
@@ -13752,7 +13770,7 @@ figure {
       @include push(5);
     }
   }*/
-  /* line 566, ../modulos/sass/layout/_riesgo.scss */
+  /* line 577, ../modulos/sass/layout/_riesgo.scss */
   .Estrategia {
     margin-top: 50px;
   }
@@ -13961,47 +13979,51 @@ figure {
   bottom: 20%;
 }
 /* line 152, ../modulos/sass/layout/_conocer.scss */
+.Picture.lft {
+  left: 0;
+}
+/* line 155, ../modulos/sass/layout/_conocer.scss */
 .Picture-right {
   float: right;
 }
 
-/* line 156, ../modulos/sass/layout/_conocer.scss */
+/* line 159, ../modulos/sass/layout/_conocer.scss */
 .TipoSeg {
   padding-left: 8.36653%;
   padding-right: 8.36653%;
 }
-/* line 158, ../modulos/sass/layout/_conocer.scss */
+/* line 161, ../modulos/sass/layout/_conocer.scss */
 .TipoSeg-item {
   width: 41.43426%;
   float: left;
   margin-right: 0.39841%;
   display: inline;
 }
-/* line 160, ../modulos/sass/layout/_conocer.scss */
+/* line 163, ../modulos/sass/layout/_conocer.scss */
 .TipoSeg-item:last-child {
   float: right;
   margin-right: 0;
   *margin-left: -3.75px;
   display: inline;
 }
-/* line 164, ../modulos/sass/layout/_conocer.scss */
+/* line 167, ../modulos/sass/layout/_conocer.scss */
 .TipoSeg-fig {
   text-align: center;
   background: #087EBF;
 }
-/* line 168, ../modulos/sass/layout/_conocer.scss */
+/* line 171, ../modulos/sass/layout/_conocer.scss */
 .TipoSeg-caption {
   text-align: justify;
   padding: 20px 10px;
   background: #0B99D8;
 }
-/* line 173, ../modulos/sass/layout/_conocer.scss */
+/* line 176, ../modulos/sass/layout/_conocer.scss */
 .TipoSeg-img {
   padding: 20px 10px;
   height: 239px;
 }
 
-/* line 178, ../modulos/sass/layout/_conocer.scss */
+/* line 181, ../modulos/sass/layout/_conocer.scss */
 .NubesCol {
   width: 58.16733%;
   float: left;
@@ -14011,7 +14033,7 @@ figure {
   font-size: 30px;
   line-height: .9em;
 }
-/* line 183, ../modulos/sass/layout/_conocer.scss */
+/* line 186, ../modulos/sass/layout/_conocer.scss */
 .NubesCol p {
   padding-left: 8.36653%;
   padding-right: 8.36653%;
@@ -14022,7 +14044,7 @@ figure {
   position: relative;
   margin-bottom: 60px;
 }
-/* line 192, ../modulos/sass/layout/_conocer.scss */
+/* line 195, ../modulos/sass/layout/_conocer.scss */
 .NubesCol p:first-child::after {
   content: "";
   background: url(../img/conocer/nubecol1.png) no-repeat;
@@ -14033,7 +14055,7 @@ figure {
   top: 100%;
   left: 0;
 }
-/* line 202, ../modulos/sass/layout/_conocer.scss */
+/* line 205, ../modulos/sass/layout/_conocer.scss */
 .NubesCol p:nth-child(2)::after {
   content: "";
   background: url(../img/conocer/nubecol2.png) no-repeat right top;
@@ -14044,7 +14066,7 @@ figure {
   top: 100%;
   right: 0;
 }
-/* line 212, ../modulos/sass/layout/_conocer.scss */
+/* line 215, ../modulos/sass/layout/_conocer.scss */
 .NubesCol p:last-child::after {
   content: "";
   background: url(../img/conocer/nubecol3.png) no-repeat;
@@ -14055,13 +14077,13 @@ figure {
   top: 100%;
   left: 0;
 }
-/* line 223, ../modulos/sass/layout/_conocer.scss */
+/* line 226, ../modulos/sass/layout/_conocer.scss */
 .NubesCol p:nth-child(even) {
   text-align: left;
   border-radius: 30px 30px 0px 30px;
 }
 
-/* line 229, ../modulos/sass/layout/_conocer.scss */
+/* line 232, ../modulos/sass/layout/_conocer.scss */
 .NubesSides {
   width: 83.26693%;
   float: left;
@@ -14071,7 +14093,7 @@ figure {
   font-size: 30px;
   line-height: .9em;
 }
-/* line 234, ../modulos/sass/layout/_conocer.scss */
+/* line 237, ../modulos/sass/layout/_conocer.scss */
 .NubesSides p {
   border-radius: 30px 30px 0px 30px;
   margin-bottom: 60px;
@@ -14084,11 +14106,11 @@ figure {
   display: inline;
   position: relative;
 }
-/* line 242, ../modulos/sass/layout/_conocer.scss */
+/* line 245, ../modulos/sass/layout/_conocer.scss */
 .NubesSides p:nth-child(2) {
   margin-top: 120px;
 }
-/* line 245, ../modulos/sass/layout/_conocer.scss */
+/* line 248, ../modulos/sass/layout/_conocer.scss */
 .NubesSides p:first-child::after {
   content: "";
   background: url(../img/conocer/nube1.png) no-repeat top right;
@@ -14099,7 +14121,7 @@ figure {
   top: 100%;
   right: 0;
 }
-/* line 255, ../modulos/sass/layout/_conocer.scss */
+/* line 258, ../modulos/sass/layout/_conocer.scss */
 .NubesSides p:nth-child(2)::after {
   content: "";
   background: url(../img/conocer/nube2.png) no-repeat;
@@ -14110,7 +14132,7 @@ figure {
   top: 100%;
   left: 0;
 }
-/* line 265, ../modulos/sass/layout/_conocer.scss */
+/* line 268, ../modulos/sass/layout/_conocer.scss */
 .NubesSides p:nth-child(3)::after {
   content: "";
   background: url(../img/conocer/nube3.png) no-repeat top right;
@@ -14121,7 +14143,7 @@ figure {
   top: 100%;
   right: 0;
 }
-/* line 275, ../modulos/sass/layout/_conocer.scss */
+/* line 278, ../modulos/sass/layout/_conocer.scss */
 .NubesSides p:nth-child(4)::after {
   content: "";
   background: url(../img/conocer/nube4.png) no-repeat;
@@ -14132,7 +14154,7 @@ figure {
   top: 100%;
   left: 0;
 }
-/* line 285, ../modulos/sass/layout/_conocer.scss */
+/* line 288, ../modulos/sass/layout/_conocer.scss */
 .NubesSides p:nth-child(5)::after {
   content: "";
   background: url(../img/conocer/nube5.png) no-repeat top right;
@@ -14143,7 +14165,7 @@ figure {
   top: 100%;
   right: 0;
 }
-/* line 295, ../modulos/sass/layout/_conocer.scss */
+/* line 298, ../modulos/sass/layout/_conocer.scss */
 .NubesSides p:last-child::after {
   content: "";
   background: url(../img/conocer/nube6.png) no-repeat;
@@ -14154,7 +14176,7 @@ figure {
   top: 100%;
   left: 0;
 }
-/* line 305, ../modulos/sass/layout/_conocer.scss */
+/* line 308, ../modulos/sass/layout/_conocer.scss */
 .NubesSides p:nth-child(even) {
   float: right;
   margin-right: 0;
@@ -14164,28 +14186,28 @@ figure {
   border-radius: 30px 30px 30px 0px;
 }
 
-/* line 313, ../modulos/sass/layout/_conocer.scss */
+/* line 316, ../modulos/sass/layout/_conocer.scss */
 .bgasegurador {
   background-image: url(../img/conocer/asegurador.png);
   background-repeat: no-repeat;
   background-position: 90% 100%;
 }
 
-/* line 319, ../modulos/sass/layout/_conocer.scss */
+/* line 322, ../modulos/sass/layout/_conocer.scss */
 .bgasegurado {
   background-image: url(../img/conocer/solicitante.png);
   background-repeat: no-repeat;
   background-position: 20% 100%;
 }
 
-/* line 325, ../modulos/sass/layout/_conocer.scss */
+/* line 328, ../modulos/sass/layout/_conocer.scss */
 .bginteres {
   background-image: url(../img/conocer/interes.png);
   background-repeat: no-repeat;
   background-position: 80% 100%;
 }
 
-/* line 332, ../modulos/sass/layout/_conocer.scss */
+/* line 335, ../modulos/sass/layout/_conocer.scss */
 .Promo-item {
   width: 33.06773%;
   float: left;
@@ -14209,30 +14231,30 @@ figure {
   margin-left: 66.93227%;
   clear: none;
 }
-/* line 336, ../modulos/sass/layout/_conocer.scss */
+/* line 339, ../modulos/sass/layout/_conocer.scss */
 .Promo-fig {
   text-align: center;
 }
-/* line 339, ../modulos/sass/layout/_conocer.scss */
+/* line 342, ../modulos/sass/layout/_conocer.scss */
 .Promo-img {
   height: 55px;
   margin-bottom: 10px;
 }
-/* line 343, ../modulos/sass/layout/_conocer.scss */
+/* line 346, ../modulos/sass/layout/_conocer.scss */
 .Promo-caption {
   text-align: justify;
 }
-/* line 345, ../modulos/sass/layout/_conocer.scss */
+/* line 348, ../modulos/sass/layout/_conocer.scss */
 .Promo-caption strong {
   font-size: 1.2em;
   color: #06396D;
 }
 
-/* line 351, ../modulos/sass/layout/_conocer.scss */
+/* line 354, ../modulos/sass/layout/_conocer.scss */
 .Zigzag {
   position: relative;
 }
-/* line 353, ../modulos/sass/layout/_conocer.scss */
+/* line 356, ../modulos/sass/layout/_conocer.scss */
 .Zigzag-img {
   position: absolute;
   left: 20%;
@@ -14240,12 +14262,12 @@ figure {
   width: 60%;
 }
 
-/* line 360, ../modulos/sass/layout/_conocer.scss */
+/* line 363, ../modulos/sass/layout/_conocer.scss */
 .Zigzag1, .Zigzag2, .Zigzag3, .Zigzag4, .Zigzag5 {
   display: table-row;
   margin-bottom: 15px;
 }
-/* line 364, ../modulos/sass/layout/_conocer.scss */
+/* line 367, ../modulos/sass/layout/_conocer.scss */
 .Zigzag1 p, .Zigzag2 p, .Zigzag3 p, .Zigzag4 p, .Zigzag5 p {
   display: table-cell;
   width: 50%;
@@ -14256,19 +14278,19 @@ figure {
   text-align: center;
 }
 
-/* line 376, ../modulos/sass/layout/_conocer.scss */
+/* line 379, ../modulos/sass/layout/_conocer.scss */
 .Zigzag3 p:first-child, .Zigzag4 p:first-child {
   width: 70%;
   padding-left: 40%;
   padding-right: 5%;
   text-align: right;
 }
-/* line 382, ../modulos/sass/layout/_conocer.scss */
+/* line 385, ../modulos/sass/layout/_conocer.scss */
 .Zigzag3 p:last-child, .Zigzag4 p:last-child {
   width: 30%;
 }
 
-/* line 387, ../modulos/sass/layout/_conocer.scss */
+/* line 390, ../modulos/sass/layout/_conocer.scss */
 .Zigzag4 {
   width: 70%;
   float: right;
@@ -14276,18 +14298,18 @@ figure {
   *margin-left: -3.75px;
   display: inline;
 }
-/* line 390, ../modulos/sass/layout/_conocer.scss */
+/* line 393, ../modulos/sass/layout/_conocer.scss */
 .Zigzag4 p:first-child {
   padding-left: 30%;
   width: 60%;
   text-align: center;
 }
-/* line 396, ../modulos/sass/layout/_conocer.scss */
+/* line 399, ../modulos/sass/layout/_conocer.scss */
 .Zigzag4 p:last-child {
   width: 40%;
 }
 
-/* line 400, ../modulos/sass/layout/_conocer.scss */
+/* line 403, ../modulos/sass/layout/_conocer.scss */
 .Zigzag5 {
   width: 70%;
   float: right;
@@ -14295,13 +14317,13 @@ figure {
   *margin-left: -3.75px;
   display: inline;
 }
-/* line 403, ../modulos/sass/layout/_conocer.scss */
+/* line 406, ../modulos/sass/layout/_conocer.scss */
 .Zigzag5 > p {
   width: 100%;
   padding-left: 50%;
 }
 
-/* line 408, ../modulos/sass/layout/_conocer.scss */
+/* line 411, ../modulos/sass/layout/_conocer.scss */
 .LazoText {
   width: 49.8008%;
   float: left;
@@ -14313,7 +14335,7 @@ figure {
   position: relative;
   z-index: 3;
 }
-/* line 415, ../modulos/sass/layout/_conocer.scss */
+/* line 418, ../modulos/sass/layout/_conocer.scss */
 .LazoText::before {
   position: absolute;
   z-index: -1;
@@ -14325,7 +14347,7 @@ figure {
   height: 50px;
   width: 80px;
 }
-/* line 426, ../modulos/sass/layout/_conocer.scss */
+/* line 429, ../modulos/sass/layout/_conocer.scss */
 .LazoText::after {
   position: absolute;
   z-index: -1;
@@ -14338,11 +14360,11 @@ figure {
   width: 80px;
 }
 
-/* line 439, ../modulos/sass/layout/_conocer.scss */
+/* line 442, ../modulos/sass/layout/_conocer.scss */
 .Tabla {
   position: relative;
 }
-/* line 441, ../modulos/sass/layout/_conocer.scss */
+/* line 444, ../modulos/sass/layout/_conocer.scss */
 .Tabla-asegurador {
   position: absolute;
   bottom: 0;
@@ -14351,28 +14373,28 @@ figure {
 }
 
 @media screen and (max-width: 830px) {
-  /* line 450, ../modulos/sass/layout/_conocer.scss */
+  /* line 453, ../modulos/sass/layout/_conocer.scss */
   .TipoPics-int {
     width: 41.43426%;
     float: left;
     margin-right: 0.39841%;
     display: inline;
   }
-  /* line 453, ../modulos/sass/layout/_conocer.scss */
+  /* line 456, ../modulos/sass/layout/_conocer.scss */
   .TipoPics-int:first-child {
     display: none;
   }
-  /* line 456, ../modulos/sass/layout/_conocer.scss */
+  /* line 459, ../modulos/sass/layout/_conocer.scss */
   .TipoPics-int:nth-child(2) {
     margin-left: 8.36653%;
   }
 
-  /* line 460, ../modulos/sass/layout/_conocer.scss */
+  /* line 463, ../modulos/sass/layout/_conocer.scss */
   .Caracts {
     overflow: hidden;
   }
 
-  /* line 464, ../modulos/sass/layout/_conocer.scss */
+  /* line 467, ../modulos/sass/layout/_conocer.scss */
   .CaractsList-item {
     width: 83.26693%;
     float: left;
@@ -14380,13 +14402,13 @@ figure {
     display: inline;
     margin-top: 0px;
   }
-  /* line 467, ../modulos/sass/layout/_conocer.scss */
+  /* line 470, ../modulos/sass/layout/_conocer.scss */
   .CaractsList-item:nth-child(even) {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 8.36653%;
   }
-  /* line 471, ../modulos/sass/layout/_conocer.scss */
+  /* line 474, ../modulos/sass/layout/_conocer.scss */
   .CaractsList-item:nth-child(even) .CaractsList-content {
     width: 83.26693%;
     float: left;
@@ -14395,59 +14417,59 @@ figure {
   }
 }
 @media screen and (max-width: 710px) {
-  /* line 480, ../modulos/sass/layout/_conocer.scss */
+  /* line 483, ../modulos/sass/layout/_conocer.scss */
   .NubesSides p {
     width: 91.63347%;
     float: left;
     margin-right: 0.39841%;
     display: inline;
   }
-  /* line 483, ../modulos/sass/layout/_conocer.scss */
+  /* line 486, ../modulos/sass/layout/_conocer.scss */
   .NubesSides p:nth-child(2) {
     margin-top: 0;
   }
 
-  /* line 489, ../modulos/sass/layout/_conocer.scss */
+  /* line 492, ../modulos/sass/layout/_conocer.scss */
   .Zigzag-img {
     left: 15%;
   }
 }
 @media screen and (max-width: 605px) {
-  /* line 496, ../modulos/sass/layout/_conocer.scss */
+  /* line 499, ../modulos/sass/layout/_conocer.scss */
   .TipoPics {
     padding-top: 40px;
   }
 }
 @media screen and (max-width: 580px) {
-  /* line 501, ../modulos/sass/layout/_conocer.scss */
+  /* line 504, ../modulos/sass/layout/_conocer.scss */
   .Flag {
     display: block;
     width: inherit;
   }
-  /* line 504, ../modulos/sass/layout/_conocer.scss */
+  /* line 507, ../modulos/sass/layout/_conocer.scss */
   .Flag-item {
     display: block;
     width: 100%;
     height: 120px;
     position: relative;
   }
-  /* line 509, ../modulos/sass/layout/_conocer.scss */
+  /* line 512, ../modulos/sass/layout/_conocer.scss */
   .Flag-item a {
     position: absolute;
     vertical-align: middle;
     width: inherit;
     top: 45%;
   }
-  /* line 515, ../modulos/sass/layout/_conocer.scss */
+  /* line 518, ../modulos/sass/layout/_conocer.scss */
   .Flag-item a:last-child {
     top: 35%;
   }
-  /* line 519, ../modulos/sass/layout/_conocer.scss */
+  /* line 522, ../modulos/sass/layout/_conocer.scss */
   .Flag-item::after {
     display: none;
   }
 
-  /* line 525, ../modulos/sass/layout/_conocer.scss */
+  /* line 528, ../modulos/sass/layout/_conocer.scss */
   .TipoSeg-item {
     width: 100%;
     float: left;
@@ -14455,19 +14477,19 @@ figure {
     display: inline;
   }
 
-  /* line 530, ../modulos/sass/layout/_conocer.scss */
+  /* line 533, ../modulos/sass/layout/_conocer.scss */
   .TipoPics-int {
     width: 83.26693%;
     float: left;
     margin-right: 0.39841%;
     display: inline;
   }
-  /* line 533, ../modulos/sass/layout/_conocer.scss */
+  /* line 536, ../modulos/sass/layout/_conocer.scss */
   .TipoPics-int:last-child {
     display: none;
   }
 
-  /* line 538, ../modulos/sass/layout/_conocer.scss */
+  /* line 541, ../modulos/sass/layout/_conocer.scss */
   .Seguro-int {
     width: 83.26693%;
     float: left;
@@ -14475,12 +14497,12 @@ figure {
     display: inline;
     margin-left: 8.36653%;
   }
-  /* line 541, ../modulos/sass/layout/_conocer.scss */
+  /* line 544, ../modulos/sass/layout/_conocer.scss */
   .Seguro-int:last-child {
     display: none;
   }
 
-  /* line 547, ../modulos/sass/layout/_conocer.scss */
+  /* line 550, ../modulos/sass/layout/_conocer.scss */
   .Promo-item {
     width: 100%;
     float: left;
@@ -14493,32 +14515,32 @@ figure {
     margin-left: 0%;
     clear: left;
   }
-  /* line 550, ../modulos/sass/layout/_conocer.scss */
+  /* line 553, ../modulos/sass/layout/_conocer.scss */
   .Promo-fig {
     width: 80%;
     margin: 0 auto;
   }
 
-  /* line 556, ../modulos/sass/layout/_conocer.scss */
+  /* line 559, ../modulos/sass/layout/_conocer.scss */
   .Zigzag-img {
     left: 10%;
   }
 }
 @media screen and (min-width: 1300px) {
-  /* line 563, ../modulos/sass/layout/_conocer.scss */
+  /* line 566, ../modulos/sass/layout/_conocer.scss */
   .Zigzag-img {
     width: 50%;
     left: 27%;
   }
 }
 @media screen and (min-width: 1040px) {
-  /* line 570, ../modulos/sass/layout/_conocer.scss */
+  /* line 573, ../modulos/sass/layout/_conocer.scss */
   .Zigzag3 p:first-child {
     padding-left: 50%;
   }
 }
 @media screen and (max-width: 510px) {
-  /* line 576, ../modulos/sass/layout/_conocer.scss */
+  /* line 579, ../modulos/sass/layout/_conocer.scss */
   .NubesCol {
     width: 83.26693%;
     float: left;
@@ -14527,22 +14549,22 @@ figure {
     margin-left: 8.36653%;
   }
 
-  /* line 581, ../modulos/sass/layout/_conocer.scss */
+  /* line 584, ../modulos/sass/layout/_conocer.scss */
   .Zigzag1, .Zigzag2, .Zigzag3, .Zigzag4, .Zigzag5 {
     width: 100%;
   }
-  /* line 583, ../modulos/sass/layout/_conocer.scss */
+  /* line 586, ../modulos/sass/layout/_conocer.scss */
   .Zigzag1 p:first-child, .Zigzag1 p:last-child, .Zigzag2 p:first-child, .Zigzag2 p:last-child, .Zigzag3 p:first-child, .Zigzag3 p:last-child, .Zigzag4 p:first-child, .Zigzag4 p:last-child, .Zigzag5 p:first-child, .Zigzag5 p:last-child {
     width: 50%;
     padding-left: 10%;
     padding-bottom: 10%;
   }
-  /* line 590, ../modulos/sass/layout/_conocer.scss */
+  /* line 593, ../modulos/sass/layout/_conocer.scss */
   .Zigzag-img {
     display: none;
   }
 
-  /* line 594, ../modulos/sass/layout/_conocer.scss */
+  /* line 597, ../modulos/sass/layout/_conocer.scss */
   .LazoText {
     width: 83.26693%;
     float: left;
@@ -14793,44 +14815,44 @@ figure {
 
   /* line 104, ../modulos/sass/layout/_contratar.scss */
   .Picture {
-    display: none;
+    right: 10%;
     /*&-right {
       clear: both;
     }*/
   }
 
-  /* line 112, ../modulos/sass/layout/_contratar.scss */
+  /* line 116, ../modulos/sass/layout/_contratar.scss */
   .Stats {
     margin-bottom: 40px;
   }
-  /* line 115, ../modulos/sass/layout/_contratar.scss */
+  /* line 119, ../modulos/sass/layout/_contratar.scss */
   .Stats:last-child .Stats-caption {
     border-radius: 52px 52px 0px 0px;
     margin-top: 0px;
     margin-bottom: -26px;
     height: auto;
   }
-  /* line 120, ../modulos/sass/layout/_contratar.scss */
+  /* line 124, ../modulos/sass/layout/_contratar.scss */
   .Stats:last-child .Stats-caption p {
     margin-top: 15px;
     margin-bottom: 35px;
   }
-  /* line 125, ../modulos/sass/layout/_contratar.scss */
+  /* line 129, ../modulos/sass/layout/_contratar.scss */
   .Stats:last-child .Stats-img {
     background: url(../img/contratar/estudios-bottom.jpg) no-repeat;
     height: 125px;
   }
-  /* line 130, ../modulos/sass/layout/_contratar.scss */
+  /* line 134, ../modulos/sass/layout/_contratar.scss */
   .Stats-caption {
     border-radius: 0px 0px 52px 52px;
     display: block;
     margin-top: -25px;
   }
-  /* line 134, ../modulos/sass/layout/_contratar.scss */
+  /* line 138, ../modulos/sass/layout/_contratar.scss */
   .Stats-caption p {
     margin-top: 35px;
   }
-  /* line 138, ../modulos/sass/layout/_contratar.scss */
+  /* line 142, ../modulos/sass/layout/_contratar.scss */
   .Stats-img {
     background: url(../img/contratar/estadistica-top.jpg) no-repeat;
     height: 125px;
@@ -14841,12 +14863,12 @@ figure {
   }
 }
 @media screen and (max-width: 605px) {
-  /* line 150, ../modulos/sass/layout/_contratar.scss */
+  /* line 154, ../modulos/sass/layout/_contratar.scss */
   .hide-md {
     display: none;
   }
 
-  /* line 153, ../modulos/sass/layout/_contratar.scss */
+  /* line 157, ../modulos/sass/layout/_contratar.scss */
   .full-md {
     width: 83.26693%;
     float: left;
@@ -14855,7 +14877,7 @@ figure {
     margin-left: 8.36653%;
   }
 
-  /* line 157, ../modulos/sass/layout/_contratar.scss */
+  /* line 161, ../modulos/sass/layout/_contratar.scss */
   .bgbabilonios {
     padding-left: 8.36653%;
   }

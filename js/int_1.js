@@ -44,16 +44,26 @@ function mover(){
 	
 }
 next.on('click',function(){
+	console.log(i);
 	if (i<n-1){
+		current = current.next();
+		sid.css('height','auto');
+		ci.height(current.height());
 		i++;
 		mover();
+		console.log(i);
 	}
 });
 
 prev.on('click', function(){
+	console.log(i);
 	if (i>0){
+		current = current.prev();
+		sid.css('height','auto');
+		ci.height(current.height());
 		i--;
 		mover();
+		console.log(i);
 	}
 });
 
@@ -71,6 +81,7 @@ $(window).on('resize', function() {
 });
 
 uno.on('click',function(){
+	i = 0;
 	var altura = $("#A").height();
 	//sid.height(altura);
 	ci.css({left:0,height:altura});
@@ -82,6 +93,7 @@ uno.on('click',function(){
 });
 
 dos.on('click',function(){
+	i = 1;
 	if($("#Evaluacion")) {
 		var altura = $("#Evaluacion").height();
 		current = $("#Evaluacion");

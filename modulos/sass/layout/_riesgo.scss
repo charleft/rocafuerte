@@ -210,6 +210,12 @@
   }
 }
 
+@-moz-document url-prefix() {
+  .Estrategia-text {
+    height: 115px;
+  }
+}
+
 .EtapasList {
   @include span-columns(12);
   &-item {
@@ -520,6 +526,11 @@
   }*/
   .TitleList {
     @include span-columns(10);
+    position: relative;
+    z-index: 10;
+  }
+  .Picture {
+    opacity: .5;
   }
   .Number {
     opacity: .5;

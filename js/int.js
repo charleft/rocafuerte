@@ -44,16 +44,26 @@ function mover(){
 	
 }
 next.on('click',function(){
+	//console.log(i);
 	if (i<n-1){
 		i++;
 		mover();
+		current = current.next();
+		sid.css('height','auto');
+		ci.height(current.height());
+		//console.log(i);
 	}
 });
 
 prev.on('click', function(){
+	//console.log(i);
 	if (i>0){
 		i--;
 		mover();
+		current = current.prev();
+		sid.css('height','auto');
+		ci.height(current.height());
+		//console.log(i);
 	}
 });
 
@@ -74,6 +84,8 @@ toScence.on('click', function(e){
 	dos.trigger('click');
 });
 uno.on('click',function(){
+	i = 0;
+	//console.log(i);
 	var altura = $("#A").height();
 	current = $("#A");
 	//sid.height(altura);
@@ -87,6 +99,8 @@ uno.on('click',function(){
 });
 
 dos.on('click',function(){
+	i = 1;
+	//console.log(i);
 	var altura = $("#B").height();
 	current = $("#B");
 	sid.css('height','auto');
@@ -100,6 +114,8 @@ dos.on('click',function(){
 });
 
 tres.on('click',function(){
+	i = 2;
+	//console.log(i);
 	if( $("#C").length ) {
 		var altura = $("#C").height();	
 		current = $("#C");	
@@ -120,6 +136,8 @@ tres.on('click',function(){
 	$('#cuatro').removeClass('blue active');
 });
 cuatro.on('click',function(){
+	i = 3;
+	//console.log(i);
 	if($("#Evaluacion")) {
 		var altura = $("#Evaluacion").height();
 		current = $("#Evaluacion");

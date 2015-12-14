@@ -102,13 +102,17 @@
     background-image: none;
   }
   .Picture {
-    display: none;
+    right: 10%;
+    //display: none;
     //@include span-columns(12);
     //text-align: center;
     /*&-right {
       clear: both;
     }*/
   }
+  .TitleList {
+   
+   }
   .Stats {
     margin-bottom: 40px;
     &:last-child {
