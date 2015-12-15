@@ -139,6 +139,9 @@ strong {font-weight: bold; font-size: 1.5em;}
 	background: -webkit-linear-gradient(#010000 0%, #989797 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: block;
+	line-height: 1em;
+
 }
 #Simulador1 ul{
 
@@ -241,7 +244,7 @@ strong {font-weight: bold; font-size: 1.5em;}
 	background-color: #999999;
 	border-radius: 8px;
 	padding: 3%;
-	font-family: 'arial';
+	font-family: OpenSans-Regular, sans-serif;
 	margin-top: 1%;
 	font-weight: 1em;
 }
@@ -397,5 +400,33 @@ strong {font-weight: bold; font-size: 1.5em;}
 @media screen and (max-width: 460px) {
 	#Simulador1 h1 {
 		font-size: 20vw;
+	}
+	#Simulador1 .op2 {
+		float: none !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#Simulador1 li:first-child {
+		height: 110px;
+	}
+	#Simulador1 input {
+		margin-left: 60%;
+	}
+	#Simulador1 img {
+		margin-left: 145px;
+	}		
+	#Simulador1 label h5 { 
+		width: 50%;
+	}
+}
+@media screen and (max-width: 380px) {
+	#Simulador1 img {
+		margin-left: 120px;
+	}
+}
+
+@-moz-document url-prefix() {
+  #Simulador1 img {
+		margin-top: -98px;
 	}
 }
