@@ -124,28 +124,61 @@ strong {font-weight: bold; font-size: 1.5em;}
 #Simulador1 h1{
 	font-size: 7em;
 }
+#Simulador1 ul h4{
+	background: #b4b4b4;
+	color: #989797;
+	margin: 0;
+	padding: 20px 10px 5px;
+	/*-webkit-text-shadow: -1px 1px #ffffff;
+	-moz-text-shadow: -1px 1px #ffffff;
+	-ms-text-shadow: -1px 1px #ffffff;
+	-o-text-shadow: -1px 1px #ffffff;
+	text-shadow: -1px 1px #ffffff;*/
+}
+#Simulador1 h4 strong {
+	background: -webkit-linear-gradient(#010000 0%, #989797 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 #Simulador1 ul{
 
-	background-color: #e0e0e0;
+	background-color: #efefef;
 	border-radius: 9px;
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 }
 
 #Simulador1 ul a{
+ border-radius: 4px;
+ margin: 10px auto;
+ display: block;
+ width: 160px;
+ color: #80796c;
+ font-family: 'BebasNeue';
+ font-size: 25px;
+}
+#Simulador1 ul a:hover{
+ background: -webkit-linear-gradient(#ffffff 0%, #e6e0d3 100%);
+ background: linear-gradient(#ffffff 0%, #e6e0d3 100%);
+ box-shadow: 0px -1px rgba(0,0,0,.5);
+}
+#Simulador1 ul a:active{
+ background: -webkit-linear-gradient(#e1d9c8 0%, #ffffff 100%);
+ background: linear-gradient(#e1d9c8 0%, #ffffff 100%);
+ box-shadow: -1px -1px rgba(0,0,0,.5);
+}
 
- background:#e0e0e0; 
- border-radius: 10px;
-
+#Simulador1 .collection .collection-item {
+	background: none;
 }
 #Simulador1 li{
 	border-color: #e0e0e0;
-	border-radius: 9px;
-	border: 0.8px solid #bdbdbd;
-	padding: 0.1%;
+	/*border-radius: 9px;*/
+	border-bottom: 1px solid #D5D5D5;
+	/*padding: 0.1%;*/
 	margin-top: 1px;
 	font-size: 5em;
-	height: 65px;
+	height: 85px;
 	
 	}
 
@@ -158,45 +191,79 @@ strong {font-weight: bold; font-size: 1.5em;}
 	font-size: 0.2em;
 	margin-left: 70%;
 	margin-top: 0.5%;
+	background-color: #ffffff!important;
+	-webkit-box-shadow: 0px 2px #cccccc inset;
+	-moz-box-shadow: 0px 2px #cccccc inset;
+	-ms-box-shadow: 0px 2px #cccccc inset;
+	-o-box-shadow: 0px 2px #cccccc inset;
+	box-shadow: 0px 2px #cccccc inset;
+
 }
 
-#Simulador1 h5{
+#Simulador1 label h5{
 	font-size: 3em; 
 	padding-top: 0%;
 	margin-top: -45px;
+	color: #989797;
+	background: -webkit-linear-gradient(#010000 0%, #989797 30%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /*-webkit-text-shadow: -1px 1px #ffffff;
+	-moz-text-shadow: -1px 1px #ffffff;
+	-ms-text-shadow: -1px 1px #ffffff;
+	-o-text-shadow: -1px 1px #ffffff;
+	text-shadow: -1px 1px #ffffff;*/
 }
 
 #Simulador1 img{
 	margin-top: -75px;
 }
-
+#modalCalculo.modal {
+	background-color: #BEBEBE;
+	height: auto!important;
+	overflow: hidden;
+	max-height: none!important;
+}
 #modalCalculo div{
-	background-color: #e0e0e0;
 	font-size: 0.7em;
-	padding-top: -1%;
+	overflow: hidden;
+	/*padding-top: -1%;
 	margin-top:-3%;
-	margin-bottom: -0.1%;
+	margin-bottom: -0.1%;*/
 }
 #modalCalculo h4{
-	background-color: #f57c00 ;
+	/*background-color: #f57c00 ;*/
 	border-radius: 5px;
 	padding: 1%;
+	color: #efefef;
 }
 #modalCalculo h6{
-	background-color: #bdbdbd ;
+	background-color: #999999;
 	border-radius: 8px;
 	padding: 3%;
 	font-family: 'arial';
 	margin-top: 1%;
 	font-weight: 1em;
 }
+#modalCalculo #simuladorid h5{
+	display: inline-block;
+	width: 50%;
+
+}
+#modalCalculo span{
+	color: #5e5d5d;
+	font-size: 1.2em;
+}
+
 #modalCalculo footer{
 	margin-bottom:1%; 
 	padding: 1%;
 	padding-top: -5%;
 	background-size: 1%;
 }
-
+#modalCalculo .modal-footer {
+	background: none;
+}
 
 .imgForm{
 	/*outline: solid red 1px;*/
@@ -316,6 +383,15 @@ strong {font-weight: bold; font-size: 1.5em;}
 	.separador{ width: 22em;}
 	#Simulador1 .op2 {
 		width: 90%;
+	}
+}
+@media screen and (max-width: 530px) {
+	#modalCalculo #simuladorid h5 {
+		width: 100%;
+		margin-bottom: 0px;
+	}
+	#modalCalculo[style] {
+		top: 0%!important;
 	}
 }
 @media screen and (max-width: 460px) {
