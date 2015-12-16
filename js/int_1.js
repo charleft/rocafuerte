@@ -77,6 +77,8 @@ var current = $("#A");
 $(window).on('resize', function() {
 	if (current[0] == $("#A")[0])
 		sid.css('height','auto');
+	if (current[0] == $("#Evaluacion")[0])
+		sid.css('height','auto');
 	ci.css('height',current.height());
 });
 
@@ -199,9 +201,11 @@ function evaluar(){
 		tex = "FELICIDADES";
 	} else{
 		//alert("mal");
-		tex = "vuelve a intertar";
+		tex = "vuelve a intentar";
 	}
 	$('#Resultado').html('<h6 class="blue-text text-darken-3">TU RESULTADO ES</h6><h1 class="orange-text">'+ acu +'/5</h1><h5 class="blue-text text-darken-3">' + tex + '</h5>');
+	sid.height(current.height()+197);
+	ci.height(current.height()+197);
 }
 
 function cargaSendMail(){
