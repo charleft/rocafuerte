@@ -136,9 +136,14 @@ strong {font-weight: bold; font-size: 1.5em;}
 	text-shadow: -1px 1px #ffffff;*/
 }
 #Simulador1 h4 strong {
-	background: -webkit-linear-gradient(#010000 0%, #989797 100%);
+	/*background: -webkit-linear-gradient(#010000 0%, #989797 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;*/
+  -webkit-text-shadow: 0px -1px #ffffff;
+	-moz-text-shadow: 0px -1px #ffffff;
+	-ms-text-shadow: 0px -1px #ffffff;
+	-o-text-shadow: 0px -1px #ffffff;
+	text-shadow: 0px -1px #ffffff;
   display: block;
 	line-height: 1em;
 
@@ -208,14 +213,14 @@ strong {font-weight: bold; font-size: 1.5em;}
 	padding-top: 0%;
 	margin-top: -45px;
 	color: #989797;
-	background: -webkit-linear-gradient(#010000 0%, #989797 30%);
+	/*background: -webkit-linear-gradient(#010000 0%, #989797 30%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  /*-webkit-text-shadow: -1px 1px #ffffff;
+  -webkit-text-fill-color: transparent;*/
+  -webkit-text-shadow: -1px 1px #ffffff;
 	-moz-text-shadow: -1px 1px #ffffff;
 	-ms-text-shadow: -1px 1px #ffffff;
 	-o-text-shadow: -1px 1px #ffffff;
-	text-shadow: -1px 1px #ffffff;*/
+	text-shadow: -1px 1px #ffffff;
 }
 
 #Simulador1 img{
@@ -362,6 +367,11 @@ strong {font-weight: bold; font-size: 1.5em;}
 		margin-left: auto;
 		margin-right: auto;
 	}
+}
+@media screen and (min-width:990px){
+	#Simulador1 img {
+		margin-left: 100px;
+	}		
 }
 @media screen and (max-width: 900px){
 	#Simulador1 .op2 {
