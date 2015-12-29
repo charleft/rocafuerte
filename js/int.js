@@ -2,11 +2,11 @@
 $(document).ready(function() {
 	var sid = $("#Slider");
 	var pal = $("#A").height();
-	if ( (pal < $("#B").height()) || (pal < $("#C").height()) || (pal < $("#Evaluacion").height()) )
-		sid.height(pal);
  	$(".button-collapse").sideNav();
  	$('.parallax').parallax();
  	$('.slider').slider({full_width: true});
+	if ( (pal < $("#B").height()) || (pal < $("#C").height()) || (pal < $("#Evaluacion").height()) )
+		/*console.log(pal)*/sid.height(pal);
  	$('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({

@@ -138,12 +138,12 @@ strong {font-weight: bold; font-size: 1.5em;}
 #Simulador1 h4 strong {
 	/*background: -webkit-linear-gradient(#010000 0%, #989797 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
+  -webkit-text-fill-color: transparent;
   -webkit-text-shadow: 0px -1px #ffffff;
 	-moz-text-shadow: 0px -1px #ffffff;
 	-ms-text-shadow: 0px -1px #ffffff;
 	-o-text-shadow: 0px -1px #ffffff;
-	text-shadow: 0px -1px #ffffff;
+	text-shadow: 0px -1px #ffffff;*/
   display: block;
 	line-height: 1em;
 
@@ -240,7 +240,7 @@ strong {font-weight: bold; font-size: 1.5em;}
 	margin-bottom: -0.1%;*/
 }
 #modalCalculo h4{
-	/*background-color: #f57c00 ;*/
+	background-color: #f57c00 ;
 	border-radius: 5px;
 	padding: 1%;
 	color: #efefef;
@@ -271,6 +271,8 @@ strong {font-weight: bold; font-size: 1.5em;}
 }
 #modalCalculo .modal-footer {
 	background: none;
+	font-family: 'BebasNeue';
+	/*font-size: 25px;*/
 }
 
 .imgForm{
